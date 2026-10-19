@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta name="ai-daily-build" content="2026-10-19|1792416532">
+<meta name="ai-daily-build" content="2026-10-19|1792418025">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI 每日行业简报 · 2026年10月19日 · 周一</title>
@@ -280,21 +280,6 @@
     secEls.forEach(function(s){io.observe(s)});
   }
 
-  // ===== 自动防缓存刷新 =====
-  var META='ai-daily-build',cur='2026-10-19 21:28 +08:00';
-  function check(){
-    if(location.hash) return;
-    if(!/^https?:$/.test(location.protocol)) return;
-    fetch(location.href.split('#')[0]+'?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){
-      var div=document.createElement('div');div.innerHTML=t.slice(0,6000);
-      var el=div.querySelector('meta[name="'+META+'"]');
-      var v=el?el.getAttribute('content'):'';
-      if(v&&v!==cur) location.replace(location.pathname+location.search+'?v='+encodeURIComponent(v));
-    }).catch(function(){});
-  }
-  setTimeout(check,1500);
-  document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')check();});
-})();
 </script>
 </body>
 </html>
