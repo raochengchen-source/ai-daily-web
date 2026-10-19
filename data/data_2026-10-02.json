@@ -1,0 +1,406 @@
+{
+  "date": "2026-10-02",
+  "weekday": "周五",
+  "totalCount": 21,
+  "categories": [
+    {
+      "key": "all",
+      "label": "全部",
+      "count": 21
+    },
+    {
+      "key": "biz",
+      "label": "商业",
+      "count": 3
+    },
+    {
+      "key": "infra",
+      "label": "基础设施",
+      "count": 3
+    },
+    {
+      "key": "model",
+      "label": "大模型",
+      "count": 5
+    },
+    {
+      "key": "tool",
+      "label": "工具",
+      "count": 2
+    },
+    {
+      "key": "research",
+      "label": "研究",
+      "count": 1
+    },
+    {
+      "key": "industry",
+      "label": "行业",
+      "count": 2
+    },
+    {
+      "key": "opinion",
+      "label": "观点",
+      "count": 5
+    }
+  ],
+  "top3": [
+    {
+      "cat": "商业",
+      "catKey": "biz",
+      "time": "15:23",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "heat": 96,
+      "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管",
+      "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
+      "reason": "商业方向的新动态,值得关注。",
+      "tags": [
+        "Bloomberg",
+        "Anthropic",
+        "IPO"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2105921530211508488",
+      "rank": 1
+    },
+    {
+      "cat": "基础设施",
+      "catKey": "infra",
+      "time": "08:44",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "heat": 95,
+      "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+      "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；散热依赖热管与红外辐射器而非风扇。",
+      "reason": "基础设施方向的新动态,值得关注。",
+      "tags": [
+        "Google",
+        "SpaceX",
+        "Falcon"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+      "rank": 2
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "08:17",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "heat": 94,
+      "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+      "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Artificial",
+        "Analysis",
+        "Claude"
+      ],
+      "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+      "rank": 3
+    }
+  ],
+  "items": [
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "08:06",
+      "source": "IT之家（RSS）",
+      "heat": 93,
+      "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+      "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "Hugging",
+        "Face"
+      ],
+      "url": "https://www.ithome.com/1/009/204.htm",
+      "rank": 4
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "08:00",
+      "source": "OpenRouter：Announcements（RSS）",
+      "heat": 92,
+      "title": "OpenRouter 解析 LangChain 与 CrewAI 编排和 OpenRouter 原生路由的差异",
+      "summary": "OpenRouter 发文将多模型编排分为工作流编排、模型路由和提供商路由三层，指出 LangGraph 和 CrewAI 负责工作流编排，OpenRouter 负责模型与提供商路由，二者不互相替代。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "OpenRouter",
+        "LangChain",
+        "CrewAI"
+      ],
+      "url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
+      "rank": 5
+    },
+    {
+      "cat": "基础设施",
+      "catKey": "infra",
+      "time": "07:44",
+      "source": "NVIDIA Blog（RSS）",
+      "heat": 91,
+      "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast",
+      "summary": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwell GPU 上。",
+      "reason": "基础设施方向的新动态,值得关注。",
+      "tags": [
+        "NVIDIA",
+        "Blackwell",
+        "GPU"
+      ],
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "rank": 6
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "06:43",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "heat": 90,
+      "title": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型",
+      "summary": "Artificial Analysis 自行本地部署评测了阿里 9 月 20 日以开源权重发布的 Qwen-Image-2.1，该模型在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 上均排名第 18，为两个榜单上排名第一的开源权重模型，超过 Ideogram 4.0（Quality）和 HunyuanImage 3.0 Instruct。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Artificial",
+        "Analysis",
+        "Qwen-Image-2.1"
+      ],
+      "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+      "rank": 7
+    },
+    {
+      "cat": "商业",
+      "catKey": "biz",
+      "time": "05:18",
+      "source": "X：Krea AI (@krea_ai)",
+      "heat": 89,
+      "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成",
+      "summary": "Krea 宣布 FLUX 3 Image 已上线其平台。新能力包括多轮编辑且不改动其他像素、用 bounding box 排版图像、最高 4K 生成，以及组合最多 10 个参考图。",
+      "reason": "商业方向的新动态,值得关注。",
+      "tags": [
+        "FLUX",
+        "Image",
+        "Krea"
+      ],
+      "url": "https://x.com/krea_ai/status/2105769469880799716",
+      "rank": 8
+    },
+    {
+      "cat": "商业",
+      "catKey": "biz",
+      "time": "04:37",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "heat": 88,
+      "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑",
+      "summary": "Black Forest Labs 的 FLUX 3 Image 现已上线 OpenRouter，是支持文生图与多参考编辑的旗舰图像模型，原生可渲染至 4K。原文提到可精确多轮编辑不动其他像素、用 bounding box 布局、最多用 10 个参考图合成，商业权重已开放，开放权重版将在未来数周发布。",
+      "reason": "商业方向的新动态,值得关注。",
+      "tags": [
+        "FLUX",
+        "Image",
+        "OpenRouter"
+      ],
+      "url": "https://x.com/OpenRouter/status/2105759062835220852",
+      "rank": 9
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "04:35",
+      "source": "Suno：Blog（网页）",
+      "heat": 87,
+      "title": "Suno 推出 Speech beta：语音与背景音乐一体生成",
+      "summary": "Suno 推出 Speech beta，称其为首个能把语音与原创背景音乐作为一条完整曲目生成的音频模型。用户输入文字并描述想要的声音和音乐风格即可创作，beta 已向所有用户开放，官方提示仍存在口音漂移、停顿过重等问题并将持续改进。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Suno",
+        "Speech"
+      ],
+      "url": "https://suno.com/blog/introducing-speech-beta",
+      "rank": 10
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "02:57",
+      "source": "X：Arena (@arena)",
+      "heat": 86,
+      "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
+      "summary": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "MiMo-V2.6-Pro",
+        "MiMo-V2.6-Flash",
+        "Agent"
+      ],
+      "url": "https://x.com/arena/status/2105733983250301224",
+      "rank": 11
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "01:01",
+      "source": "LangChain：Blog（RSS）",
+      "heat": 85,
+      "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
+      "summary": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "LangChain",
+        "Agent",
+        "Harness"
+      ],
+      "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "rank": 12
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "00:51",
+      "source": "X：Arena (@arena)",
+      "heat": 84,
+      "title": "Claude Sonnet 5.5 (xHigh) 以 1786 分登 Code Arena: WebDev 第 3 名",
+      "summary": "Arena 宣布 Claude Sonnet 5.5（xHigh）进入 Code Arena: WebDev 榜单，以 1786 分排名第 3，距第 2 名 GPT-6 Astra 的 1788 分仅差 2 分。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Sonnet",
+        "High"
+      ],
+      "url": "https://x.com/arena/status/2105702037849841954",
+      "rank": 13
+    },
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "20:05",
+      "source": "The Decoder：AI News（RSS）",
+      "heat": 83,
+      "title": "OpenAI 称拦截蒸馏窃取攻击，但研究者称同样手法在 Azure 上仍可窃取 GPT-6 Astra 等模型的推理内容",
+      "summary": "OpenAI 称 7 月拦截了一起针对其模型推理链的蒸馏窃取活动，7 月 24 至 25 日出现来自超 4000 用户的 16000 次请求，关联账号超 15000 个，OpenAI 将其与 Moonshot AI 相关人员联系起来，并于 7 月 28 日关停。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "Azure",
+        "GPT-6"
+      ],
+      "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+      "rank": 14
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "20:00",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "heat": 82,
+      "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
+      "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Code",
+        "Token"
+      ],
+      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/",
+      "rank": 15
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "18:54",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "heat": 81,
+      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+      "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "Ethan",
+        "Mollick",
+        "Bitter"
+      ],
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "rank": 16
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "12:44",
+      "source": "X：Tibo (@thsottiaux)",
+      "heat": 80,
+      "title": "ChatGPT 现可直接构建并部署 MCP 服务器",
+      "summary": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "ChatGPT",
+        "MCP",
+        "Sites"
+      ],
+      "url": "https://x.com/thsottiaux/status/2105519215092584786",
+      "rank": 17
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "08:09",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "heat": 79,
+      "title": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
+      "summary": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Artificial",
+        "Analysis",
+        "GPT-6.1"
+      ],
+      "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
+      "rank": 18
+    },
+    {
+      "cat": "基础设施",
+      "catKey": "infra",
+      "time": "08:00",
+      "source": "Modal 官方工程博客（RSS）",
+      "heat": 78,
+      "title": "Modal 发布 VM Sandboxes、Modal Clusters 等多项 Runtime 产品更新",
+      "summary": "Modal 在其首届 Runtime 大会上发布多项产品更新。VM Sandboxes 为 Agent 提供完整 Linux 环境，已在 Linear、Legora。",
+      "reason": "基础设施方向的新动态,值得关注。",
+      "tags": [
+        "Modal",
+        "Sandboxes",
+        "Clusters"
+      ],
+      "url": "https://modal.com/blog/runtime-product-update-sandbox-endpoints",
+      "rank": 19
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "08:00",
+      "source": "OpenRouter：Announcements（RSS）",
+      "heat": 77,
+      "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
+      "summary": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "OpenRouter",
+        "Agent"
+      ],
+      "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
+      "rank": 20
+    },
+    {
+      "cat": "研究",
+      "catKey": "research",
+      "time": "08:00",
+      "source": "Epoch AI：研究、数据与评测",
+      "heat": 76,
+      "title": "Epoch AI 推出 ChatGPT usage explorer，基于5000名美国用户三年聊天记录",
+      "summary": "Epoch AI 与 YouGov 合作推出 ChatGPT usage explorer，发布5000名美国 YouGov 样本用户的 ChatGPT 聊天元数据，覆盖约66万对话、830万条消息，部分记录追溯至2022年11月发布后数周。",
+      "reason": "研究方向的新动态,值得关注。",
+      "tags": [
+        "Epoch",
+        "ChatGPT",
+        "YouGov"
+      ],
+      "url": "https://epoch.ai/latest/introducing-the-chatgpt-usage-explorer",
+      "rank": 21
+    }
+  ]
+}

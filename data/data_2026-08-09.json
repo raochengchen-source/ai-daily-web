@@ -1,0 +1,393 @@
+{
+  "date": "2026-08-09",
+  "weekday": "周日",
+  "totalCount": 21,
+  "categories": [
+    {
+      "key": "all",
+      "label": "全部",
+      "count": 21
+    },
+    {
+      "key": "model",
+      "label": "大模型",
+      "count": 2
+    },
+    {
+      "key": "tool",
+      "label": "工具",
+      "count": 10
+    },
+    {
+      "key": "research",
+      "label": "研究",
+      "count": 3
+    },
+    {
+      "key": "industry",
+      "label": "行业",
+      "count": 5
+    },
+    {
+      "key": "opinion",
+      "label": "观点",
+      "count": 1
+    }
+  ],
+  "top3": [
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "06:46",
+      "source": "IT之家（RSS）",
+      "heat": 96,
+      "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
+      "summary": "OpenAI 更新 ChatGPT 桌面应用，新增对 ChatGPT Voice 的支持，用户可直接通过语音对话控制 AI 智能体并让其在电脑上执行任务。该功能基于全新语音模型系列 ChatGPT-Live，支持 ChatGPT Work 和 Codex，在 macOS 上还可借助 Appshots 访问屏幕内容。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Voice"
+      ],
+      "url": "https://www.ithome.com/0/987/452.htm",
+      "rank": 1
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "00:27",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "heat": 95,
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Grok",
+        "Imagine",
+        "XFreeze"
+      ],
+      "url": "https://x.com/elonmusk/status/2086127247077843282",
+      "rank": 2
+    },
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "22:38",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "heat": 94,
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "Hugging",
+        "Face"
+      ],
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "rank": 3
+    }
+  ],
+  "items": [
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "21:38",
+      "source": "IT之家（RSS）",
+      "heat": 93,
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "Cloudflare",
+        "CEO"
+      ],
+      "url": "https://www.ithome.com/0/987/438.htm",
+      "rank": 4
+    },
+    {
+      "cat": "研究",
+      "catKey": "research",
+      "time": "19:05",
+      "source": "Ars Technica：AI（RSS）",
+      "heat": 92,
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+      "reason": "研究方向的新动态,值得关注。",
+      "tags": [
+        "DeepMind",
+        "WeatherNext",
+        "Google"
+      ],
+      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "rank": 5
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "16:25",
+      "source": "IT之家（RSS）",
+      "heat": 91,
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Mac",
+        "Apple",
+        "Siri"
+      ],
+      "url": "https://www.ithome.com/0/987/366.htm",
+      "rank": 6
+    },
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "07:08",
+      "source": "IT之家（RSS）",
+      "heat": 90,
+      "title": "OpenAI：因网络安全风险，延缓 Astra 模型发布",
+      "summary": "OpenAI 因内部与专家评估显示 Astra 在智能体编程和网络安全领域取得重大突破，依据《准备框架》将其列为旗下首个网络安全风险达\"关键\"级别的模型，决定延缓发布。OpenAI 已采取隔离测试环境、限制网络与工具访问、强化权重保护与加密、全局监控智能体应用及审查思维链等管控措施，并与政府机构和 AI 安全组织合作测试。CEO 萨姆·奥尔特曼表示 Astra 性能强劲，正全力推进公开发布。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "Astra",
+        "CEO"
+      ],
+      "url": "https://www.ithome.com/0/987/221.htm",
+      "rank": 7
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "03:55",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "heat": 89,
+      "title": "Claude Code 会话间可互发消息",
+      "summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Code"
+      ],
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "rank": 8
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "02:54",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "heat": 88,
+      "title": "Kitesurf：一款在 V8 隔离环境中运行的\"代理优先\"浏览器",
+      "summary": "Cloudflare 推出 Kitesurf，一款专为 AI 智能体设计的浏览器，完全运行在 Workers 上，基于 V8 隔离环境，现已在 Browser Run 中免费开放测试。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Kitesurf",
+        "Cloudflare",
+        "Workers"
+      ],
+      "url": "https://blog.cloudflare.com/kitesurf",
+      "rank": 9
+    },
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "02:52",
+      "source": "X：OpenAI (@OpenAI)",
+      "heat": 87,
+      "title": "OpenAI 将 Astra 列为首个\"关键\"网络安全模型",
+      "summary": "OpenAI 在评估其即将推出的模型 Astra 后，依据\"准备框架\"将其列为首个\"关键\"网络安全模型。OpenAI 表示已为此情景做好规划，并将实施额外控制措施以确保 Astra 后续开发的安全。该公司正努力让 Astra 广泛可用，并将其先进网络能力交到防御者手中。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "Astra"
+      ],
+      "url": "https://x.com/OpenAI/status/2085801349866729975",
+      "rank": 10
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "02:27",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "heat": 86,
+      "title": "Claude Code 八月起默认自动模式",
+      "summary": "自 8 月 14 日起，自动模式将成为 Claude Code 中 Pro、Max 和 Team 用户的默认权限模式。\n\n自动模式使用独立的分类器审查 shell 命令和操作。在测试中，它捕获了 89% 的危险命令。手动审批仅捕获了 14%。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Code",
+        "Pro"
+      ],
+      "url": "https://x.com/ClaudeDevs/status/2085794862608318627",
+      "rank": 11
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "01:24",
+      "source": "LangChain：Blog（RSS）",
+      "heat": 85,
+      "title": "LangChain 推出 Managed Deep Agents 公开测试版",
+      "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "LangChain",
+        "Managed",
+        "Deep"
+      ],
+      "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+      "rank": 12
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "22:14",
+      "source": "X：Suno (@suno)",
+      "heat": 84,
+      "title": "Suno移动端上线Voices功能",
+      "summary": "Voices 功能已在 Suno 移动应用 iOS 和 Android 版正式上线！📱✨\n\n现在你可以直接在手机上录制人声，并将其用于你的歌曲中。只需在创作界面点击\"+ Voice\"按钮，录制至少一分钟，然后让音乐流淌起来。（Pro 和 Premier 套餐可无限使用，免费套餐可体验有限版本！）\n\n打开应用，录制你的声音，并在评论区告诉我们你的使用体验！",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Suno",
+        "Voices",
+        "Android"
+      ],
+      "url": "https://x.com/suno/status/2085731234970227145",
+      "rank": 13
+    },
+    {
+      "cat": "研究",
+      "catKey": "research",
+      "time": "20:50",
+      "source": "The Decoder：AI News（RSS）",
+      "heat": 83,
+      "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌",
+      "summary": "斯坦福大学与 Arc Institute 团队用 AI 模型 Evo 从零设计完整病毒基因组，并在实验室构建出 16 种自然界不存在的功能性病毒。Evo 提出 70 万个候选基因组，团队仅筛选最有希望的 285 个序列合成并植入细菌，其中 16 个成功复制并杀死宿主。该研究已通过同行评审发表于《Science》，但 Evo 未接受人类病原体数据训练，且能否推广至其他病毒类群仍是未知数。",
+      "reason": "研究方向的新动态,值得关注。",
+      "tags": [
+        "Arc",
+        "Institute",
+        "Evo"
+      ],
+      "url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
+      "rank": 14
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "20:02",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "heat": 82,
+      "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
+      "summary": "蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Ling-3.0-flash",
+        "124B",
+        "MoE"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
+      "rank": 15
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "19:08",
+      "source": "X：Runway (@runwayml)",
+      "heat": 81,
+      "title": "Runway 上线 Seedance 2.5，支持 50 个角色参考",
+      "summary": "Seedance 2.5 现已登陆 Runway。每次生成最多可引用 50 个角色参考，构建充满角色的完整世界；可创作最长 30 秒、带完整音效与对白的片段，再按你的故事需求随意剪辑与延展。\n\n点击下方链接立即开始。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Runway",
+        "Seedance"
+      ],
+      "url": "https://x.com/runwayml/status/2085684483366523193",
+      "rank": 16
+    },
+    {
+      "cat": "研究",
+      "catKey": "research",
+      "time": "17:59",
+      "source": "公众号：小红书技术（dots.llm）",
+      "heat": 80,
+      "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
+      "summary": "小红书联合浙江大学、复旦大学提出 CULTURE-MT，这是首个面向中英社媒笔记翻译、兼顾文化符号传递与情感共鸣的评测基准，并首次提出「文化有效性」评估标准与自动评估模型 JUDGER（准确率 86.03%）。",
+      "reason": "研究方向的新动态,值得关注。",
+      "tags": [
+        "CULTURE-MT",
+        "ICML",
+        "JUDGER"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
+      "rank": 17
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "15:30",
+      "source": "X：Krea AI (@krea_ai)",
+      "heat": 79,
+      "title": "Krea 推出 Seedance 2.5 视频模型",
+      "summary": "推出 Seedance 2.5。\n\n30 秒连续视频、完整多镜头序列，以及最多 50 个参考。\n\n立即试用 👇",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Krea",
+        "Seedance"
+      ],
+      "url": "https://x.com/krea_ai/status/2085629541385736662",
+      "rank": 18
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "14:41",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "heat": 78,
+      "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+      "summary": "独立开发者叶小叔用面壁智能开源的 VoxCPM 克隆千万粉丝网红声音，搭建 STT → LLM → VoxCPM（TTS）三段式实时对话管道，TTS 首包延迟不到 1 秒，端到端体感 2 到 3 秒。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "VoxCPM",
+        "STT",
+        "LLM"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
+      "rank": 19
+    },
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "14:28",
+      "source": "IT之家（RSS）",
+      "heat": 77,
+      "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
+      "summary": "OpenAI 报告称全球超 10 亿用户使用 ChatGPT，使用方式从\"问答工具\"转向\"任务工具\"，工作场景中完成任务或创建内容的可能性是非工作场景的 2 倍以上。自 2026 年 4 月发布 ChatGPT Images 2.0 以来，多媒体相关消息占比升至 7.8%。35 岁及以上用户发送消息份额较 12 个月前增加 5 个百分点，法国和捷克增幅超 10 个百分点。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Images"
+      ],
+      "url": "https://www.ithome.com/0/986/957.htm",
+      "rank": 20
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "14:11",
+      "source": "IT之家（RSS）",
+      "heat": 76,
+      "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
+      "summary": "谷歌 DeepMind 联合多家机构推出 WeatherNext Cyclones 气旋预测模型，在路径、强度和风场结构预测精度上达到业界领先。该模型将有效预报时长从 2 天延长至 3 天，平均提前 24 小时，预测量级约相当于 10 年气象进展。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "WeatherNext",
+        "DeepMind",
+        "Cyclones"
+      ],
+      "url": "https://www.ithome.com/0/986/951.htm",
+      "rank": 21
+    }
+  ]
+}

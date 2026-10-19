@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta name="ai-daily-build" content="2026-10-19|1792413907">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 每日行业简报 · 2026年10月19日 · 周一</title>
+<meta name="ai-daily-build" content="2026-10-19 20:45 +08:00">
+<meta name="description" content="AI 每日行业简报：近3天最重要的 AI 动态、行业意义与跟踪观察点。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232456e6'/%3E%3Cpath d='M9 11.5h14M9 16h14M9 20.5h9' stroke='white' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Sans+SC:wght@400;500;600;700;900&display=swap">
+<style>
+  :root{
+    --navy:#0f172a; --bg:#f3f5fa; --card:#ffffff; --ink:#1a2433; --muted:#5b6675; --line:#e4e9f2;
+    --blue:#2456e6; --blue-bg:#edf2ff; --teal:#0e7a6d; --teal-bg:#e9f8f5;
+    --amber:#c2700a; --amber-bg:#fdf1e2; --violet:#6d28d9; --violet-bg:#f2edff;
+    --radius:16px; --shadow:0 1px 2px rgba(15,23,42,.04),0 10px 30px rgba(15,23,42,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:104px}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{
+    font-family:"Noto Sans SC",-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.85;font-size:16px;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:0 22px}
+
+  /* ===== 顶部深色栏：品牌 + 快捷导航 + 归档入口 ===== */
+  .topbar{position:sticky;top:0;z-index:60;background:var(--navy);color:#e6ebf5}
+  .topbar .row1{display:flex;align-items:center;gap:14px;height:56px}
+  .brand{display:flex;align-items:center;gap:9px;font-weight:900;font-size:15px;color:#fff;white-space:nowrap;letter-spacing:.01em}
+  .brand svg{flex:none;border-radius:7px}
+  .quick{margin-left:auto;display:flex;align-items:center;gap:2px}
+  .quick a{color:#b6c0d4;text-decoration:none;font-size:13px;padding:5px 10px;border-radius:8px;white-space:nowrap;transition:background .15s,color .15s}
+  .quick a:hover{background:rgba(255,255,255,.08);color:#fff}
+  .arch-btn{display:inline-flex;align-items:center;gap:7px;margin-left:8px;padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:background .15s,border-color .15s;white-space:nowrap}
+  .arch-btn:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.4)}
+  .arch-btn svg{flex:none}
+  .tabs{display:flex;gap:6px;padding:10px 0 12px;overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{display:inline-flex;align-items:center;gap:7px;padding:8px 15px;border-radius:999px;color:#c3cbe0;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);font-size:13.5px;font-weight:600;cursor:pointer;white-space:nowrap;transition:all .18s;text-decoration:none}
+  .tab:hover{color:#fff;background:rgba(255,255,255,.12)}
+  .tab.on{color:var(--navy);background:#fff;border-color:#fff;font-weight:700}
+  .tab .dot{width:7px;height:7px;border-radius:50%;flex:none}
+  .dot.blue{background:#5b83ff}.dot.teal{background:#2bb39f}.dot.amber{background:#e8a23d}.dot.violet{background:#a78bfa}
+
+  /* ===== 深色封面 Hero ===== */
+  .hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-120px;top:-120px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(60,92,255,.35),transparent 65%);pointer-events:none}
+  .hero .wrap{position:relative;padding-top:46px;padding-bottom:34px}
+  .kicker{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;color:#cdd7ff;background:rgba(60,92,255,.18);border:1px solid rgba(120,140,255,.35);border-radius:999px;padding:5px 13px;letter-spacing:.03em}
+  .hero h1{font-size:38px;font-weight:900;letter-spacing:-.01em;margin:16px 0 8px;line-height:1.28}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:8px 18px;color:#aab4cc;font-size:13.5px}
+  .hero .meta b{color:#fff;font-weight:600}
+  .hero .build{font-size:12px;color:#7682a0;margin-top:14px}
+  .hero .build svg{vertical-align:-2px;margin-right:5px}
+
+  /* ===== 区块通用 ===== */
+  main{padding-bottom:20px}
+  section{margin-top:48px;scroll-margin-top:110px}
+  .sec-head{display:flex;align-items:baseline;gap:11px;margin-bottom:18px}
+  .sec-head .no{font-size:12.5px;font-weight:800;color:var(--blue);letter-spacing:.08em;background:var(--blue-bg);padding:3px 9px;border-radius:7px}
+  .sec-head h2{font-size:23px;font-weight:900;letter-spacing:-.01em}
+  .sec-head .desc{font-size:13px;color:var(--muted);margin-left:auto}
+
+  /* ===== 核心结论 ===== */
+  .core{display:grid;gap:13px}
+  .core-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;display:flex;gap:17px;box-shadow:var(--shadow)}
+  .core-item .num{flex:none;width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,#2f5bff,#2456e6);color:#fff;font-weight:900;font-size:17px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(36,86,230,.28)}
+  .core-item p{font-size:15px;color:#243043}
+
+  /* ===== 重点速览（TOP3 宫格卡） ===== */
+  .top3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .t3{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 20px 18px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);text-decoration:none;color:inherit;position:relative;overflow:hidden;transition:transform .18s,box-shadow .18s,border-color .18s;scroll-margin-top:110px}
+  .t3:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(15,23,42,.12);border-color:var(--blue)}
+  .t3 .rk{position:absolute;top:13px;right:13px;width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#2f5bff,#2456e6);color:#fff;font-weight:900;font-size:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(36,86,230,.3)}
+  .t3:nth-child(2) .rk{background:linear-gradient(135deg,#0d9488,#0f766e);box-shadow:0 4px 10px rgba(13,148,136,.3)}
+  .t3:nth-child(3) .rk{background:linear-gradient(135deg,#d97706,#b45309);box-shadow:0 4px 10px rgba(217,119,6,.3)}
+  .t3 h3{font-size:15.5px;font-weight:800;line-height:1.55;padding-right:46px}
+  .t3 .sum{font-size:12.8px;color:#4B5C73;line-height:1.7;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+  .t3 .w{font-size:12.3px;color:#2c3a52;background:var(--blue-bg);border-left:3px solid var(--blue);border-radius:8px;padding:9px 12px;line-height:1.65}
+  .t3 .foot{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11.5px;color:var(--muted)}
+  .t3 .go{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:700;color:var(--blue)}
+  .t3 .go svg{transition:transform .18s}
+  .t3:hover .go svg{transform:translate(2px,-2px)}
+
+  /* ===== 分主题（宫格卡片） ===== */
+  .items{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .item{display:flex;flex-direction:column;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:17px 18px;box-shadow:var(--shadow);scroll-margin-top:110px;transition:transform .18s,box-shadow .18s,border-color .18s}
+  .item:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(15,23,42,.1)}
+  .item .head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11.5px;color:var(--muted)}
+  .item .chip{flex:none;font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px}
+  .chip.blue{background:var(--blue-bg);color:var(--blue)}
+  .chip.teal{background:var(--teal-bg);color:var(--teal)}
+  .chip.amber{background:var(--amber-bg);color:var(--amber)}
+  .chip.violet{background:var(--violet-bg);color:var(--violet)}
+  .item .head .dot{width:3px;height:3px;border-radius:50%;background:var(--line)}
+  .item h3{font-size:15px;font-weight:700;line-height:1.55}
+  .item h3 a{color:var(--ink);text-decoration:none;transition:color .15s}
+  .item h3 a:hover{color:var(--blue)}
+  .top-badge{display:inline-flex;align-items:center;gap:4px;flex:none;font-size:11px;font-weight:800;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea6f0a);border-radius:6px;padding:3px 8px;letter-spacing:.05em}
+  .item .head .heat{font-size:11px;font-weight:700;color:#B45309;background:#FEF3C7;border-radius:6px;padding:2px 7px;margin-left:auto}
+  .t3 .heat{font-size:11px;font-weight:700;color:#B45309;background:#FEF3C7;border-radius:6px;padding:2px 7px}
+  .item .tag{font-size:11px;color:#4B5C73;background:#F0F5FC;border-radius:4px;padding:1px 7px}
+  .item .head .src{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:46%}
+  .empty-note{padding:20px;background:var(--card);border:1px dashed var(--line);border-radius:14px;color:var(--muted);font-size:13.5px;text-align:center}
+  .go{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;font-weight:700;color:var(--blue)}
+  .item .sum{font-size:12.6px;color:#4B5C73;line-height:1.65;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+  .item .why{display:flex;gap:9px;background:var(--blue-bg);border-left:3px solid var(--blue);border-radius:8px;padding:9px 12px}
+  .item .why .lb{flex:none;font-size:11.5px;font-weight:800;color:var(--blue)}
+  .item .why p{font-size:12.4px;color:#2c3a52;line-height:1.65}
+  .item .why.teal{background:var(--teal-bg);border-left-color:var(--teal)}.item .why.teal .lb{color:var(--teal)}
+  .item .why.amber{background:var(--amber-bg);border-left-color:var(--amber)}.item .why.amber .lb{color:var(--amber)}
+  .item .why.violet{background:var(--violet-bg);border-left-color:var(--violet)}.item .why.violet .lb{color:var(--violet)}
+  .item .foot{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted)}
+  .item .foot a{color:var(--blue);text-decoration:none;font-weight:600}
+  .item .foot a:hover{text-decoration:underline}
+  @media (max-width:1100px){.items{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:760px){.top3,.items{grid-template-columns:1fr}}
+
+  /* ===== 观察点 ===== */
+  .obs{display:grid;gap:11px}
+  .obs li{list-style:none;background:var(--card);border:1px solid var(--line);border-radius:13px;padding:16px 18px;display:flex;gap:13px;font-size:14px;box-shadow:var(--shadow);line-height:1.8}
+  .obs .dot{flex:none;width:9px;height:9px;border-radius:50%;background:var(--amber);margin-top:9px;box-shadow:0 0 0 4px var(--amber-bg)}
+
+  /* ===== 数据说明 ===== */
+  .notes{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;font-size:13.5px;color:var(--muted);box-shadow:var(--shadow);line-height:1.85}
+  .notes b{color:var(--ink)}
+
+  footer{margin:52px 0 44px;text-align:center;color:var(--muted);font-size:12.5px;line-height:2.1}
+  footer a{color:var(--blue);text-decoration:none}
+
+  @media (max-width:640px){
+    .day-box{width:54px;height:54px}
+    .day-box .d{font-size:22px}
+    .day-summary{padding:14px 16px;gap:12px}
+    .day-detail{padding:6px 14px 16px}
+    .arch-actions{margin-left:0;margin-top:4px}
+  }
+
+  @media (max-width:640px){
+    body{font-size:15px}
+    .hero h1{font-size:29px}
+    .hero .wrap{padding-top:36px;padding-bottom:28px}
+    section{margin-top:40px}
+    .item{padding:18px}
+    .sec-head h2{font-size:20px}
+    .quick{display:none}
+    .topbar .row1{height:52px}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="row1">
+      <div class="brand">
+        <svg width="22" height="22" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#2456e6"/><path d="M9 11.5h14M9 16h14M9 20.5h9" stroke="white" stroke-width="2.6" stroke-linecap="round"/></svg>
+        AI 每日行业简报
+      </div>
+      <nav class="quick">
+        <a href="#core">核心结论</a>
+        <a href="#top3">重点速览</a>
+        <a href="#obs">观察点</a>
+        <a href="#notes">数据说明</a>
+      </nav>
+      <a class="arch-btn" href="archive.html" aria-label="查看历史归档">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18M5 5v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5M10 12h4"/></svg>
+        历史归档
+      </a>
+    </div>
+    <div class="tabs" id="tabs">
+      <a class="tab" href="#s-companies"><span class="dot blue"></span>公司与产品</a>
+      <a class="tab" href="#s-apps"><span class="dot teal"></span>应用与商业化</a>
+      <a class="tab" href="#s-policy"><span class="dot amber"></span>政策与监管</a>
+      <a class="tab" href="#s-research"><span class="dot violet"></span>研究与基础设施</a>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">近 3 天精选 · 21 条</span>
+    <h1>AI 每日行业简报</h1>
+    <div class="meta">
+      <span><b>2026年10月19日 · 周一</b></span>
+      <span>覆盖窗口 近 3 天（自动抓取精选）</span>
+      <span>来源：官方公告 / 权威媒体，均已交叉验证</span>
+    </div>
+    <div class="build">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      构建版本 2026-10-19 20:45 +08:00 · 页面自动检查更新，切换回本页如有新版本会自动刷新
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="core">
+    <div class="sec-head"><span class="no">01</span><h2>今日 / 近3天核心结论</h2><span class="desc">三条主线，快速对齐</span></div>
+    <div class="core">
+      <div class="core-item"><div class="num">1</div><p>DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首。Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: …</p></div>
+<div class="core-item"><div class="num">2</div><p>MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%。MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。</p></div>
+<div class="core-item"><div class="num">3</div><p>德国两家法院先后裁定 Google 须为其 AI Overview 内容负责：慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后…</p></div>
+
+    </div>
+  </section>
+
+  <section id="top3">
+    <div class="sec-head"><span class="no">02</span><h2>重点事件速览</h2><span class="desc">TOP 3 · 完整信息不重复展示</span></div>
+    <div class="top3">
+      <a class="t3" href="https://x.com/arena/status/2111894091168682086" target="_blank" rel="noopener"><span class="rk">TOP 01</span><h3>DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首</h3><p class="sum">Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。</p><div class="w"><span class="lb">值得跟进</span>大模型方向的新动态,值得关注。</div><span class="foot"><span>X：Arena (@arena) · 02:56</span><span class="heat">🔥 96</span></span><span class="go">打开来源 ↗</span></a>
+<a class="t3" href="https://www.minimax.io/blog/minimax-m31f" target="_blank" rel="noopener"><span class="rk">TOP 02</span><h3>MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%</h3><p class="sum">MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。</p><div class="w"><span class="lb">值得跟进</span>大模型方向的新动态,值得关注。</div><span class="foot"><span>MiniMax：Blog（网页） · 00:00</span><span class="heat">🔥 95</span></span><span class="go">打开来源 ↗</span></a>
+<a class="t3" href="https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/" target="_blank" rel="noopener"><span class="rk">TOP 03</span><h3>德国两家法院先后裁定 Google 须为其 AI Overview 内容负责</h3><p class="sum">慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。</p><div class="w"><span class="lb">值得跟进</span>行业方向的新动态,值得关注。</div><span class="foot"><span>The Decoder：AI News（RSS） · 18:52</span><span class="heat">🔥 94</span></span><span class="go">打开来源 ↗</span></a>
+
+    </div>
+  </section>
+
+  <section id="s-companies"><div class="sec-head"><span class="no">03</span><h2>公司与产品</h2><span class="desc">6 条</span></div><div class="items"><div class="item"><div class="head"><span class="chip blue">公司与产品</span><span class="dot"></span><span>18:29</span><span class="dot"></span><span class="src">X：Tencent WorkBuddy (@WorkBuddy_AI)</span><span class="heat">🔥 91</span></div><h3><a href="https://x.com/WorkBuddy_AI/status/2111404103402430558" target="_blank" rel="noopener">WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费</a></h3><p class="sum">WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。</p><div class="why blue"><span class="lb">值得跟进</span><p>工具方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#WorkBuddy</span><span class="tag">#Intl</span><span class="tag">#DeepSeek-V4.1-Fl</span></span><a href="https://x.com/WorkBuddy_AI/status/2111404103402430558" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip blue">公司与产品</span><span class="dot"></span><span>06:22</span><span class="dot"></span><span class="src">X：Arena (@arena)</span><span class="heat">🔥 88</span></div><h3><a href="https://x.com/arena/status/2111221323217412318" target="_blank" rel="noopener">Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一</a></h3><p class="sum">Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。</p><div class="why blue"><span class="lb">值得跟进</span><p>大模型方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Muse</span><span class="tag">#Spark</span><span class="tag">#Open</span></span><a href="https://x.com/arena/status/2111221323217412318" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip blue">公司与产品</span><span class="dot"></span><span>00:00</span><span class="dot"></span><span class="src">DeepSeek：API 更新日志</span><span class="heat">🔥 87</span></div><h3><a href="https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api" target="_blank" rel="noopener">DeepSeek 开放自研搜索 API</a></h3><p class="sum">DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。</p><div class="why blue"><span class="lb">值得跟进</span><p>工具方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#DeepSeek</span><span class="tag">#API</span><span class="tag">#SEO</span></span><a href="https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip blue">公司与产品</span><span class="dot"></span><span>00:00</span><span class="dot"></span><span class="src">DeepSeek：API 更新日志</span><span class="heat">🔥 86</span></div><h3><a href="https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新" target="_blank" rel="noopener">DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变</a></h3><p class="sum">DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。</p><div class="why blue"><span class="lb">值得跟进</span><p>大模型方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#DeepSeek-V4.1-Fl</span><span class="tag">#API</span><span class="tag">#DeepSeek</span></span><a href="https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip blue">公司与产品</span><span class="dot"></span><span>10:03</span><span class="dot"></span><span class="src">X：卡兹克 (@Khazix0918)</span><span class="heat">🔥 80</span></div><h3><a href="https://x.com/Khazix0918/status/2110914404393091205" target="_blank" rel="noopener">Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现</a></h3><p class="sum">可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。</p><div class="why blue"><span class="lb">值得跟进</span><p>工具方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Kling</span><span class="tag">#Flash</span><span class="tag">#HDR</span></span><a href="https://x.com/Khazix0918/status/2110914404393091205" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip blue">公司与产品</span><span class="dot"></span><span>08:18</span><span class="dot"></span><span class="src">公众号：数字生命卡兹克</span><span class="heat">🔥 78</span></div><h3><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687203&amp;idx=1&amp;sn=a58bc4411e8226b629f1b5c61509a198" target="_blank" rel="noopener">可灵 Kling 4.0 深夜上线，支持30秒一镜到底直出</a></h3><p class="sum">可灵AI正式上线视频模型 Kling 4.0，9月底曾向部分黑金年卡及Ultra年订用户开放4.0 Flash尝鲜版。作者实测后认为提升集中在三方面：最长30秒一镜到底直出，城市追逐、马戏团等复杂场景中人物与纸箱接触的物理形变等细节表现更好；大范围动态和复杂打斗的动作衔接、镜头临场感相较前代明显提升；视频首尾帧改为最多10帧的多帧参考，全能参考可替换运镜、场景和人物。</p><div class="why blue"><span class="lb">值得跟进</span><p>大模型方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Kling</span><span class="tag">#Ultra</span><span class="tag">#Flash</span></span><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687203&amp;idx=1&amp;sn=a58bc4411e8226b629f1b5c61509a198" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+</div></section>
+<section id="s-apps"><div class="sec-head"><span class="no">04</span><h2>应用与商业化</h2><span class="desc">5 条</span></div><div class="items"><div class="item"><div class="head"><span class="chip teal">应用与商业化</span><span class="dot"></span><span>22:00</span><span class="dot"></span><span class="src">a16z：News（RSS）</span><span class="heat">🔥 85</span></div><h3><a href="https://www.a16z.news/p/this-week-in-charts-agents-denied" target="_blank" rel="noopener">a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后</a></h3><p class="sum">a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。</p><div class="why teal"><span class="lb">值得跟进</span><p>行业方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Cloudflare</span><span class="tag">#NRF</span><span class="tag">#Similarweb</span></span><a href="https://www.a16z.news/p/this-week-in-charts-agents-denied" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip teal">应用与商业化</span><span class="dot"></span><span>16:23</span><span class="dot"></span><span class="src">IT之家·人工智能</span><span class="heat">🔥 83</span></div><h3><a href="https://www.ithome.com/1/013/983.htm" target="_blank" rel="noopener">商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见</a></h3><p class="sum">商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。</p><div class="why teal"><span class="lb">值得跟进</span><p>行业方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#行业</span></span><a href="https://www.ithome.com/1/013/983.htm" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip teal">应用与商业化</span><span class="dot"></span><span>15:00</span><span class="dot"></span><span class="src">Waymo：Blog（网页）</span><span class="heat">🔥 82</span></div><h3><a href="https://waymo.com/blog/2026/10/waymo-in-toronto" target="_blank" rel="noopener">Waymo 宣布进军多伦多，计划2028年迎接首批乘客</a></h3><p class="sum">Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。</p><div class="why teal"><span class="lb">值得跟进</span><p>行业方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Waymo</span><span class="tag">#Element</span><span class="tag">#Fleet</span></span><a href="https://waymo.com/blog/2026/10/waymo-in-toronto" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip teal">应用与商业化</span><span class="dot"></span><span>14:14</span><span class="dot"></span><span class="src">IT之家·人工智能</span><span class="heat">🔥 81</span></div><h3><a href="https://www.ithome.com/1/013/914.htm" target="_blank" rel="noopener">丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑</a></h3><p class="sum">据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。</p><div class="why teal"><span class="lb">值得跟进</span><p>行业方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#行业</span></span><a href="https://www.ithome.com/1/013/914.htm" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip teal">应用与商业化</span><span class="dot"></span><span>08:54</span><span class="dot"></span><span class="src">IT之家·人工智能</span><span class="heat">🔥 79</span></div><h3><a href="https://www.ithome.com/1/013/723.htm" target="_blank" rel="noopener">消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元</a></h3><p class="sum">路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。</p><div class="why teal"><span class="lb">值得跟进</span><p>商业方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Anthropic</span><span class="tag">#IPO</span></span><a href="https://www.ithome.com/1/013/723.htm" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+</div></section>
+<section id="s-policy"><div class="sec-head"><span class="no">05</span><h2>政策与监管</h2><span class="desc">0 条</span></div><div class="empty-note">近 3 天未检索到高置信新增动态。</div></section>
+<section id="s-research"><div class="sec-head"><span class="no">06</span><h2>研究与基础设施</h2><span class="desc">7 条</span></div><div class="items"><div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>10:04</span><span class="dot"></span><span class="src">X：卡兹克 (@Khazix0918)</span><span class="heat">🔥 93</span></div><h3><a href="https://x.com/Khazix0918/status/2111639562720329976" target="_blank" rel="noopener">卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由</a></h3><p class="sum">作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。</p><div class="why violet"><span class="lb">值得跟进</span><p>观点方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#ProArt</span><span class="tag">#RTX</span><span class="tag">#Spark</span></span><a href="https://x.com/Khazix0918/status/2111639562720329976" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>08:00</span><span class="dot"></span><span class="src">Browser Use</span><span class="heat">🔥 92</span></div><h3><a href="https://browser-use.com/posts/browser-agents" target="_blank" rel="noopener">Browser Use 讲解浏览器智能体的工作原理与使用时机</a></h3><p class="sum">Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。</p><div class="why violet"><span class="lb">值得跟进</span><p>观点方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Browser</span><span class="tag">#Use</span><span class="tag">#DOM</span></span><a href="https://browser-use.com/posts/browser-agents" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>18:19</span><span class="dot"></span><span class="src">公众号：数字生命卡兹克</span><span class="heat">🔥 90</span></div><h3><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687354&amp;idx=1&amp;sn=dea0d54dc3b71b361e36199db6cf4a86" target="_blank" rel="noopener">卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由</a></h3><p class="sum">数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。</p><div class="why violet"><span class="lb">值得跟进</span><p>基础设施方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#RTX</span><span class="tag">#Spark</span><span class="tag">#Token</span></span><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687354&amp;idx=1&amp;sn=dea0d54dc3b71b361e36199db6cf4a86" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>09:52</span><span class="dot"></span><span class="src">X：邵猛 (@shao__meng)</span><span class="heat">🔥 89</span></div><h3><a href="https://x.com/shao__meng/status/2111274173192638932" target="_blank" rel="noopener">Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审</a></h3><p class="sum">作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。</p><div class="why violet"><span class="lb">值得跟进</span><p>观点方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Anthropic</span><span class="tag">#Claude</span><span class="tag">#Code</span></span><a href="https://x.com/shao__meng/status/2111274173192638932" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>20:00</span><span class="dot"></span><span class="src">NVIDIA：Newsroom（RSS）</span><span class="heat">🔥 84</span></div><h3><a href="https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs" target="_blank" rel="noopener">NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI</a></h3><p class="sum">NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。</p><div class="why violet"><span class="lb">值得跟进</span><p>基础设施方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#NVIDIA</span><span class="tag">#RTX</span><span class="tag">#Spark</span></span><a href="https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>08:00</span><span class="dot"></span><span class="src">PromptArmor：Threat Intelligence</span><span class="heat">🔥 77</span></div><h3><a href="https://www.promptarmor.com/resources/open-weight-susceptibility" target="_blank" rel="noopener">PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%</a></h3><p class="sum">PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。</p><div class="why violet"><span class="lb">值得跟进</span><p>研究方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#PromptArmor</span><span class="tag">#DeepSeek</span><span class="tag">#Kimi</span></span><a href="https://www.promptarmor.com/resources/open-weight-susceptibility" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+<div class="item"><div class="head"><span class="chip violet">研究与基础设施</span><span class="dot"></span><span>08:00</span><span class="dot"></span><span class="src">Google Research：Blog（网页）</span><span class="heat">🔥 76</span></div><h3><a href="https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/" target="_blank" rel="noopener">Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计</a></h3><p class="sum">Google Research 发布三项研究，构建 AI 智能体自主湿实验室的基础模块。</p><div class="why violet"><span class="lb">值得跟进</span><p>研究方向的新动态,值得关注。</p></div><div class="foot"><span><span class="tag">#Google</span><span class="tag">#Research</span><span class="tag">#VERID</span></span><a href="https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/" target="_blank" rel="noopener">打开来源 ↗</a></div></div>
+</div></section>
+
+
+  
+  <section id="notes">
+    <div class="sec-head"><span class="no">08</span><h2>数据说明与不确定性</h2></div>
+    <div class="notes">
+      数据源：aihot.virxact.com 精选资讯（自动抓取）；本页由 GitHub Actions 每日自动构建，核心结论由当日 TOP3 自动提炼。构建于 2026-10-19 20:45。
+    </div>
+  </section>
+
+  <footer>
+    数据源：aihot.virxact.com 精选资讯 + 官方公告 / 权威媒体交叉验证 · 本期生成于 2026-10-19 20:45 +08:00<br>
+    本简报仅作信息聚合与行业参考，不构成投资建议。观点与判断为编者个人分析。
+  </footer>
+</main>
+
+<script>
+(function(){
+  var ab=document.getElementById('archBtn');
+  if(ab){ab.addEventListener('click',function(){var a=document.getElementById('archive');if(a&&a.scrollIntoView)a.scrollIntoView({behavior:'smooth'});});}
+
+  // ===== 分类 Tab 高亮 =====
+  var tabs=[].slice.call(document.querySelectorAll('.tab'));
+  var secs={};tabs.forEach(function(t){secs[t.getAttribute('href').slice(1)]=t;});
+  var secEls=[].slice.call(document.querySelectorAll('section[id]'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){
+        tabs.forEach(function(t){t.classList.remove('on')});
+        var t=secs[e.target.id];if(t)t.classList.add('on');
+      }});
+    },{rootMargin:'-20% 0px -65% 0px'});
+    secEls.forEach(function(s){io.observe(s)});
+  }
+
+  // ===== 自动防缓存刷新 =====
+  var META='ai-daily-build',cur='2026-10-19 20:45 +08:00';
+  function check(){
+    if(location.hash) return;
+    if(!/^https?:$/.test(location.protocol)) return;
+    fetch(location.href.split('#')[0]+'?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){
+      var div=document.createElement('div');div.innerHTML=t.slice(0,6000);
+      var el=div.querySelector('meta[name="'+META+'"]');
+      var v=el?el.getAttribute('content'):'';
+      if(v&&v!==cur) location.replace(location.pathname+location.search+'?v='+encodeURIComponent(v));
+    }).catch(function(){});
+  }
+  setTimeout(check,1500);
+  document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')check();});
+})();
+</script>
+</body>
+</html>

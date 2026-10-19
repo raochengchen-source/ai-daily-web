@@ -1,0 +1,403 @@
+{
+  "date": "2026-08-21",
+  "weekday": "周五",
+  "totalCount": 21,
+  "categories": [
+    {
+      "key": "all",
+      "label": "全部",
+      "count": 21
+    },
+    {
+      "key": "biz",
+      "label": "商业",
+      "count": 1
+    },
+    {
+      "key": "infra",
+      "label": "基础设施",
+      "count": 2
+    },
+    {
+      "key": "model",
+      "label": "大模型",
+      "count": 2
+    },
+    {
+      "key": "tool",
+      "label": "工具",
+      "count": 10
+    },
+    {
+      "key": "research",
+      "label": "研究",
+      "count": 2
+    },
+    {
+      "key": "industry",
+      "label": "行业",
+      "count": 1
+    },
+    {
+      "key": "opinion",
+      "label": "观点",
+      "count": 3
+    }
+  ],
+  "top3": [
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "04:27",
+      "source": "Claude：Blog（网页）",
+      "heat": 96,
+      "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+      "summary": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Platform",
+        "Computer"
+      ],
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "rank": 1
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "01:56",
+      "source": "Claude：Blog（网页）",
+      "heat": 95,
+      "title": "Anthropic 如何开展 AI 教学",
+      "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Academy"
+      ],
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "rank": 2
+    },
+    {
+      "cat": "基础设施",
+      "catKey": "infra",
+      "time": "00:52",
+      "source": "Hugging Face：Blog（RSS）",
+      "heat": 94,
+      "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
+      "summary": "Hugging Face 发布 LFM2.5 系列三款模型的 DSpark 草稿模型检查点，通过投机解码在不改变输出质量的前提下，GPU 吞吐最高提升 3.18 倍，端侧最高 2.87 倍。草稿模型约 300M 参数，LFM2.5-2.6B 函数调用延迟平均降低 57%，已开源支持 llama.cpp 和 SGLang。",
+      "reason": "基础设施方向的新动态,值得关注。",
+      "tags": [
+        "Hugging",
+        "Face",
+        "LFM2.5"
+      ],
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "rank": 3
+    }
+  ],
+  "items": [
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "00:02",
+      "source": "Mistral AI：News（网页）",
+      "heat": 93,
+      "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+      "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Mistral",
+        "Agentic",
+        "Search"
+      ],
+      "url": "https://mistral.ai/news/agentic-search",
+      "rank": 4
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "00:00",
+      "source": "Google Cloud：Databases（RSS）",
+      "heat": 92,
+      "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+      "summary": "AlloyDB 的 ScaNN 索引现已支持超过 100 亿向量的规模，通过全新的四层树架构（预览版）实现，将查询复杂度从 O（N^1/2） 降至 O（N^1/4）。内部测试中，该架构在 100 亿向量规模下可实现 p95 延迟不超过 51 毫秒、召回率达 95%。该功能可通过快速入门指南部署，新用户可享受 30 天免费试用。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "AlloyDB",
+        "ScaNN"
+      ],
+      "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
+      "rank": 5
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "21:26",
+      "source": "Claude：Blog（网页）",
+      "heat": 91,
+      "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
+      "summary": "Anthropic 发布面向初创公司的 Claude Code 使用指南，基于对十余家高增长公司的调研，总结出\"人人皆可交付、自动化繁琐工作、信任但验证、为重构而构建、原型-自用-产品化\"五大规则。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Code",
+        "Anthropic"
+      ],
+      "url": "https://claude.com/blog/claude-code-guide-for-startups",
+      "rank": 6
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "17:45",
+      "source": "IT之家（RSS）",
+      "heat": 90,
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "summary": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Qwen-UI-Agent",
+        "GUI",
+        "DeepSearch"
+      ],
+      "url": "https://www.ithome.com/0/992/239.htm",
+      "rank": 7
+    },
+    {
+      "cat": "商业",
+      "catKey": "biz",
+      "time": "08:17",
+      "source": "IT之家（RSS）",
+      "heat": 89,
+      "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+      "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 2000 万。",
+      "reason": "商业方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "IPO"
+      ],
+      "url": "https://www.ithome.com/0/991/886.htm",
+      "rank": 8
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "04:42",
+      "source": "X：Sky Computing Lab (@haoailab)",
+      "heat": 88,
+      "title": "FastMetal 让 Mac 本地 30 秒生成视频",
+      "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上运行，默认 INT8。\n\n三个模型：1.3B 支持 480P，5B 支持 720P，14B 追求画质。\n\n📷 博客：http://haoailab.com/blogs/fastmetal 📷 代码：http://github.com/hao-ai-lab/FastVideo 📷 模型：http://huggingface.co/collections/FastVideo/fastmetal",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "FastMetal",
+        "Mac",
+        "CUDA"
+      ],
+      "url": "https://x.com/haoailab/status/2090177721913770407",
+      "rank": 9
+    },
+    {
+      "cat": "大模型",
+      "catKey": "model",
+      "time": "21:48",
+      "source": "Hugging Face：Blog（RSS）",
+      "heat": 87,
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+      "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+      "reason": "大模型方向的新动态,值得关注。",
+      "tags": [
+        "Liquid",
+        "LFM2.5",
+        "QAD"
+      ],
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "rank": 10
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "09:03",
+      "source": "公众号：智谱（GLM）",
+      "heat": 86,
+      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "GLM-5.3",
+        "API",
+        "Claude"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+      "rank": 11
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "08:00",
+      "source": "xAI：News（网页）",
+      "heat": 85,
+      "title": "Grok Build 全面上线网页与移动端，所有套餐可用",
+      "summary": "Grok Build 现已面向所有套餐开放，支持网页、iOS 和 Android 端使用。用户描述应用、游戏或网站后，Grok 可在聊天中实时生成可运行版本。该功能自 7 月推出 Early Beta 以来，新增了发布分享、接入 X 及调用 Grok 自身模型等能力，发布的应用可获得 grok.me 链接并支持自定义域名、导出到 GitHub 等。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Grok",
+        "Build",
+        "Android"
+      ],
+      "url": "https://x.ai/news/grok-build-for-everyone",
+      "rank": 12
+    },
+    {
+      "cat": "行业",
+      "catKey": "industry",
+      "time": "08:00",
+      "source": "OpenRouter：Announcements（RSS）",
+      "heat": 84,
+      "title": "OpenRouter 宣布加入 Stripe",
+      "summary": "OpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。",
+      "reason": "行业方向的新动态,值得关注。",
+      "tags": [
+        "OpenRouter",
+        "Stripe"
+      ],
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "rank": 13
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "05:26",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "heat": 83,
+      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Mojo",
+        "Apache",
+        "LLVM"
+      ],
+      "url": "https://www.modular.com/blog/mojo-open-source",
+      "rank": 14
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "04:06",
+      "source": "X：Claude (@claudeai)",
+      "heat": 82,
+      "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+      "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。\n\n让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。\n\n从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "Claude",
+        "Gmail",
+        "Google"
+      ],
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "rank": 15
+    },
+    {
+      "cat": "研究",
+      "catKey": "research",
+      "time": "02:09",
+      "source": "Hugging Face：Blog（RSS）",
+      "heat": 81,
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
+      "reason": "研究方向的新动态,值得关注。",
+      "tags": [
+        "DeepSeek-V3.2",
+        "671B",
+        "MoE"
+      ],
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "rank": 16
+    },
+    {
+      "cat": "基础设施",
+      "catKey": "infra",
+      "time": "00:00",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "heat": 80,
+      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+      "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。",
+      "reason": "基础设施方向的新动态,值得关注。",
+      "tags": [
+        "DeepSeek-V4-Pro",
+        "H20",
+        "LMSYS"
+      ],
+      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+      "rank": 17
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "19:00",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "heat": 79,
+      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+      "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "OpenAI-Hugging",
+        "Face"
+      ],
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "rank": 18
+    },
+    {
+      "cat": "工具",
+      "catKey": "tool",
+      "time": "19:00",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "heat": 78,
+      "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+      "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户自动启用，内置更强安全保护与家长控制。新增 Study Mode、负责任作业提醒、测验与学习可视化，以及可设定默认开启时段的 Study Hours，引导青少年分步解题而非直接给答案。OpenAI 同时宣布与 CodeAI 合作，帮助青少年理解、质疑并创造性地使用 AI。",
+      "reason": "工具方向的新动态,值得关注。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Teens"
+      ],
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "rank": 19
+    },
+    {
+      "cat": "观点",
+      "catKey": "opinion",
+      "time": "15:00",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "heat": 77,
+      "title": "设计 AI 评测：先求清晰，再谈可视化",
+      "summary": "本文演示如何用开源评测框架 Inspect AI 和 Harbor 评估 agent 技能，并借助 Google Sheets 和 Data Studio 进行可视化分析。",
+      "reason": "观点方向的新动态,值得关注。",
+      "tags": [
+        "Inspect",
+        "Harbor",
+        "Google"
+      ],
+      "url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+      "rank": 20
+    },
+    {
+      "cat": "研究",
+      "catKey": "research",
+      "time": "08:00",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "heat": 76,
+      "title": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
+      "summary": "StartupBench 是一个基于市场验证的 AI 初创公司产品构建的端到端智能体基准，从真实采用的产品工作流中提炼任务，而非研究者预设任务。在统一智能体框架下，最强模型也仅能完成约 30% 的任务，复杂指令遵循和领域专业知识是主要失败来源。该基准揭示了当前通用智能体在真实用户任务上的能力边界。",
+      "reason": "研究方向的新动态,值得关注。",
+      "tags": [
+        "StartupBench"
+      ],
+      "url": "https://arxiv.org/abs/2608.17800",
+      "rank": 21
+    }
+  ]
+}
