@@ -1,11 +1,7 @@
 name: Daily AI Digest Web
 on:
   schedule:
-    - cron: '0 0 * * *'    # 08:00 北京
-    - cron: '0 1 * * *'    # 09:00 北京
-    - cron: '0 2 * * *'    # 10:00 北京(主)
-    - cron: '0 3 * * *'    # 11:00 北京
-    - cron: '0 4 * * *'    # 12:00 北京
+    - cron: '0 2 * * *'    # 每天 10:00 北京（单时间窗，成功后当天不再触发）
   workflow_dispatch:
 permissions:
   contents: write
