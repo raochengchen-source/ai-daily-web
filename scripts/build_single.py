@@ -93,6 +93,8 @@ def build():
             continue
         items_html = ""
         for it in items:
+            if it.get("is_top"):
+                continue  # TOP3 已展示，正文不重复
             heat_html = f'<span class="heat">🔥 {esc(str(it.get("heat", "")))}</span>' if it.get("heat") else ""
             tags_html = "".join(f'<span class="tag">#{esc(t)}</span>' for t in it.get("tags", [])[:3])
             items_html += (
