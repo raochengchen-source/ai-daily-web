@@ -1,40 +1,58 @@
 {
-  "date": "2026-10-19",
   "title": "AI 每日行业简报",
-  "window": "2026-10-16 ~ 2026-10-19",
-  "item_count": 11,
+  "date": "2026-10-19",
+  "window": "近 3 天（自动抓取精选）",
+  "item_count": 21,
   "core_conclusions": [
-    "国产开源集中爆发：DeepSeek-V4.1-Flash-1017 以不变价格登顶 Code Arena 开源榜并开放自研搜索 API；Meta 携 816B 开源模型重返，中美开源进入性能竞赛",
-    "监管司法加速划定 AI 责任边界：国内拟将大模型、智能体、算力集群等 23 项 AI 技术纳入出口管制清单征求意见；德国法院裁定 Google 滥用数据权",
-    "AI 对就业与商业渠道的影响首次有了公司级数据：Anthropic 研究显示初级技术岗占比与新招比例下滑、Agent 工时达员工 6 倍；叠加 a16z 智能体购物被电商拦截报告，AI 商业化从“能力展示”进入“组织与渠道重构”阶段。"
+    "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站。AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道…",
+    "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流。n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenA…",
+    "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型。Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展…"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "DeepSeek-V4.1-Flash-1017 发布：三端同步、价格不变、编程能力大幅跃升",
-      "why": "国产开源模型在“能力—价格”曲线上再次刷新预期；同日开放自研搜索 API，显示 DeepSeek 正向 Agent 基础设施扩展，影响覆盖开发者生态与推理成本结构。",
-      "url": "https://api-docs.deepseek.com/zh-cn/updates/",
-      "summary": "10月17日 DeepSeek 将 V4.1 Flash 升级至 V4.1-Flash-1017，网页端、App、API 同步换新，调用方式与价格不变，模型权重以 MIT 许可证开源。新版本通过基于自反馈的强化学习（RL）提升编程与终端任务能力，在 DeepSWE v1.1 软件开发基准得分 77.0，据韩媒报道在编程、推理与 Agent 任务上超过 GPT-5.6 Sol 与 Claude Opus 5。",
-      "source": "DeepSeek API 更新日志",
-      "time": "10/17"
+      "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "summary": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
+      "why": "行业方向的新动态,值得关注。",
+      "source": "The Verge：AI（RSS）",
+      "time": "21:58",
+      "heat": 96,
+      "tags": [
+        "John",
+        "Deere",
+        "SharkNinja"
+      ]
     },
     {
       "rank": 2,
-      "title": "Meta 发布 Muse Spark Open（816B MoE / 1M 上下文），宣称“美国最强开放权重模型”",
-      "why": "Meta 与苹果合作重回开源，“1M 上下文 + 原生多模态 + 两台 Mac Studio 可跑”的组合直接对标 DeepSeek 与国内开源路线，开源生态竞争格局生变。",
-      "url": "https://next.ithome.com/archiver/1/013/706.htm",
-      "summary": "当地时间 10月15日（北京时间 10/16）Meta 发布开放权重模型 Muse Spark Open：原生多模态架构，总参数 816B、激活约 42B 的 MoE，1M token 上下文，专为代码与智能体任务设计，权重已上 Hugging Face；Meta 称其为迄今能力最强的美国开放权重模型。10/16 Arena 数据显示其在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源总榜第 13。",
-      "source": "IT之家 / 36氪",
-      "time": "10/16"
+      "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+      "url": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
+      "summary": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+      "why": "基础设施方向的新动态,值得关注。",
+      "source": "n8n Blog",
+      "time": "21:22",
+      "heat": 95,
+      "tags": [
+        "NVIDIA",
+        "DGX",
+        "Spark"
+      ]
     },
     {
       "rank": 3,
-      "title": "商务部、科技部拟将 23 项 AI 技术增列入出口管制目录并征求意见",
-      "why": "国内首次系统性将大模型、智能体、算力集群纳入出口技术管制框架，对出海 AI 业务、开源分发与跨境合作的合规路径影响深远。",
-      "url": "http://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/blgg/art/2026/art_718071a95e6948cdb652e2f08f422673.html",
-      "summary": "10/16 商务部、科技部发布 2026 年第 48 号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，涉及人工智能、生物医药、光伏三领域共 40 项技术；其中 AI 领域包括大模型、智能体、算力集群、信息处理相关 23 项；拟禁止出口 14 项、限制出口 26 项；对已通过开源、发表论文等方式进入公共领域的技术不纳入管理；同步对相关技术实施出口前登记临时管理。",
-      "source": "商务部官网 / 新华社",
-      "time": "10/16"
+      "title": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "summary": "Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展到约 100 万张 GPU。",
+      "why": "基础设施方向的新动态,值得关注。",
+      "source": "Meta Engineering Blog（RSS）",
+      "time": "21:00",
+      "heat": 94,
+      "tags": [
+        "Meta",
+        "Prometheus",
+        "Muse"
+      ]
     }
   ],
   "sections": [
@@ -44,28 +62,116 @@
       "color": "blue",
       "items": [
         {
-          "title": "DeepSeek 开放自研搜索 API",
-          "summary": "10月16日 DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求，索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵与低质 AIGC；网页搜索按每 1000 次 5 元计费（据新浪财经/观点网报道）。",
-          "why": "自研搜索 API 意味着 DeepSeek 向“Agent 基础设施”扩张，直接切入 RAG / 联网检索场景，是模型公司补齐工具链的关键动作。",
-          "url": "https://api-docs.deepseek.com/zh-cn/updates/",
-          "source": "DeepSeek API 更新日志",
-          "time": "10/16"
+          "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+          "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+          "summary": "AWS 宣布 TorchNeuron，一个面向 Trainium 的开源原生 PyTorch 后端，10 月 20 日起以 Apache 2.0 公开 Beta 发布于 github.com/aws-neuron/torch-neuronx。",
+          "why": "工具方向的新动态,值得关注。",
+          "source": "PyTorch：Blog（RSS）",
+          "time": "20:45",
+          "heat": 93,
+          "tags": [
+            "AWS",
+            "TorchNeuron",
+            "Trainium"
+          ]
         },
         {
-          "title": "NVIDIA RTX Spark 笔记本正式开售：128GB 统一内存主打本地 AI",
-          "summary": "10月16日 NVIDIA 宣布 RTX Spark 笔记本开售，覆盖 ASUS、Dell、HP、Lenovo、Microsoft、MSI，起价 2,599 美元，主打 128GB 统一内存与本地 AI 推理。国内华硕 ProArt 创16（RTX Spark N1X、128G+1T）京东售价 37999 元，据卡兹克实测，开售时 128G 版本几分钟内售罄。",
-          "why": "本地大内存硬件放量正在改变“云端 vs 端侧”推理的成本叙事，128GB 统一内存让 70B 级模型本地运行成为可能，对个人工作站与端侧 Agent 生态是里程碑事件。",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-          "source": "NVIDIA Newsroom / 数字生命卡兹克",
-          "time": "10/16"
+          "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+          "url": "https://x.com/arena/status/2111894091168682086",
+          "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
+          "why": "大模型方向的新动态,值得关注。",
+          "source": "X：Arena (@arena)",
+          "time": "02:56",
+          "heat": 92,
+          "tags": [
+            "DeepSeek-V4.1-Fl",
+            "Code",
+            "Arena"
+          ]
         },
         {
-          "title": "腾讯 WorkBuddy Intl 接入 DeepSeek-V4.1-Flash-1017，10/31 前免费",
-          "summary": "10月17日 Tencent WorkBuddy Intl 宣布已更新至最新 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放；官方称新模型性能更强、任务完成更快、输出更短，已针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做优化。",
-          "why": "国内大厂产品快速接入最新开源模型，体现“模型竞争 → 产品层套利”的产业链传导；WorkBuddy 免费期也是观察海外办公 Agent 获客策略的样本。",
+          "title": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+          "url": "https://www.minimax.io/blog/minimax-m31f",
+          "summary": "MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。",
+          "why": "大模型方向的新动态,值得关注。",
+          "source": "MiniMax：Blog（网页）",
+          "time": "00:00",
+          "heat": 91,
+          "tags": [
+            "MiniMax",
+            "M3.1",
+            "Flash"
+          ]
+        },
+        {
+          "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
           "url": "https://x.com/WorkBuddy_AI/status/2111404103402430558",
-          "source": "Tencent WorkBuddy (X)",
-          "time": "10/17"
+          "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
+          "why": "工具方向的新动态,值得关注。",
+          "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+          "time": "18:29",
+          "heat": 87,
+          "tags": [
+            "WorkBuddy",
+            "Intl",
+            "DeepSeek-V4.1-Fl"
+          ]
+        },
+        {
+          "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+          "url": "https://x.com/arena/status/2111221323217412318",
+          "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
+          "why": "大模型方向的新动态,值得关注。",
+          "source": "X：Arena (@arena)",
+          "time": "06:22",
+          "heat": 84,
+          "tags": [
+            "Muse",
+            "Spark",
+            "Open"
+          ]
+        },
+        {
+          "title": "DeepSeek 开放自研搜索 API",
+          "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+          "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+          "why": "工具方向的新动态,值得关注。",
+          "source": "DeepSeek：API 更新日志",
+          "time": "00:00",
+          "heat": 83,
+          "tags": [
+            "DeepSeek",
+            "API",
+            "SEO"
+          ]
+        },
+        {
+          "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+          "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+          "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+          "why": "大模型方向的新动态,值得关注。",
+          "source": "DeepSeek：API 更新日志",
+          "time": "00:00",
+          "heat": 82,
+          "tags": [
+            "DeepSeek-V4.1-Fl",
+            "API",
+            "DeepSeek"
+          ]
+        },
+        {
+          "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
+          "url": "https://x.com/Khazix0918/status/2110914404393091205",
+          "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。",
+          "why": "工具方向的新动态,值得关注。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "time": "10:03",
+          "heat": 76,
+          "tags": [
+            "Kling",
+            "Flash",
+            "HDR"
+          ]
         }
       ]
     },
@@ -75,28 +181,69 @@
       "color": "teal",
       "items": [
         {
+          "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+          "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+          "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+          "why": "行业方向的新动态,值得关注。",
+          "source": "The Decoder：AI News（RSS）",
+          "time": "18:52",
+          "heat": 90,
+          "tags": [
+            "Google",
+            "Overview"
+          ]
+        },
+        {
           "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
-          "summary": "10/16 a16z 指出智能体商务遇阻：Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起约翻倍；NRF 数据称退货率与退货成本自 2019 年分别翻倍、增至三倍；调查显示 42% 消费者完全不信任 AI 代购；Similarweb 显示 AI 购物多发生在发现与购买之间的中间阶段。",
-          "why": "这是“AI Agent 进入真实交易环节”受阻的系统性证据：反爬与信任问题是 Agent 电商落地的硬约束，也预示 Agent 基础设施（身份、支付、反滥用）将是下一阶段投资热点。",
           "url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
-          "source": "a16z",
-          "time": "10/16"
+          "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
+          "why": "行业方向的新动态,值得关注。",
+          "source": "a16z：News（RSS）",
+          "time": "22:00",
+          "heat": 81,
+          "tags": [
+            "Cloudflare",
+            "NRF",
+            "Similarweb"
+          ]
         },
         {
-          "title": "Anthropic 如何在 Claude 写出 Claude Code 约 90% 代码后重新设计代码评审（解读）",
-          "summary": "10/17 邵猛解读 Anthropic 博客：Claude Code 约 90% 的代码由 Claude 编写，2026 年 6 月至 9 月团队合并 PR 数量翻倍以上，revert 率下降超 40%；团队围绕 AI 产出重新设计了代码评审流程。",
-          "why": "大厂“用 AI 造 AI”的工程组织实践样本，评审流程重构对研发团队的 AI 原生研发转型有直接参考价值。",
-          "url": "https://x.com/shao__meng/status/2111274173192638932",
-          "source": "邵猛解读 (X)",
-          "time": "10/17"
+          "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+          "url": "https://www.ithome.com/1/013/983.htm",
+          "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
+          "why": "行业方向的新动态,值得关注。",
+          "source": "IT之家·人工智能",
+          "time": "16:23",
+          "heat": 79,
+          "tags": [
+            "行业"
+          ]
         },
         {
-          "title": "Waymo 宣布进军多伦多，目标 2028 年首批乘客",
-          "summary": "10/16 Waymo 官方博客宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标 2028 年迎接首批乘客；近期先以人工驾驶采集高精地图并由自动驾驶专家测试，与 Element Fleet Management 合作提供车队管理，将逐步创造数百个岗位；官方称基于 4 亿+ 公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少 95%。",
-          "why": "自动驾驶全球扩张进入第二梯队城市，其“先人工采图 + 专家测试”的渐进路线与事故数据口径值得持续跟进。",
+          "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
           "url": "https://waymo.com/blog/2026/10/waymo-in-toronto",
-          "source": "Waymo Blog",
-          "time": "10/16"
+          "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
+          "why": "行业方向的新动态,值得关注。",
+          "source": "Waymo：Blog（网页）",
+          "time": "15:00",
+          "heat": 78,
+          "tags": [
+            "Waymo",
+            "Element",
+            "Fleet"
+          ]
+        },
+        {
+          "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+          "url": "https://www.ithome.com/1/013/914.htm",
+          "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+          "why": "行业方向的新动态,值得关注。",
+          "source": "IT之家·人工智能",
+          "time": "14:14",
+          "heat": 77,
+          "tags": [
+            "行业"
+          ]
         }
       ]
     },
@@ -104,24 +251,7 @@
       "key": "policy",
       "name": "政策与监管",
       "color": "amber",
-      "items": [
-        {
-          "title": "德国两家法院裁定 Google 须为 AI Overview 内容负责",
-          "summary": "The Decoder 10/18 报道：慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决；另一家德国法院随后作出类似认定。",
-          "why": "“AI 生成内容 = 平台言论”的司法认定若在欧洲扩散，将重塑搜索引擎与 AI 助手的内容责任边界；本案以和解收场留下法律空白，后续判例值得跟踪。",
-          "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-          "source": "The Decoder",
-          "time": "10/18 报道"
-        },
-        {
-          "title": "丹麦最高法院裁定：持有并传播 AI 生成儿童色情内容可判实刑",
-          "summary": "据彭博社 10/15 报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁（不适用缓刑）的判决，其因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑；法院裁定即使图像无真实人物原型也受丹麦《刑法》约束，量刑时不考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查（警方查明 273 名买家身份、逮捕 25 人）。",
-          "why": "为“完全由 AI 生成、无真实受害者”的内容确立刑事责任先例，标志监管从“生成环节”延伸到“持有与传播环节”，对内容平台治理有全球示范意义。",
-          "url": "https://www.ithome.com/1/013/914.htm",
-          "source": "IT之家（引彭博社）",
-          "time": "10/16"
-        }
-      ]
+      "items": []
     },
     {
       "key": "research",
@@ -129,39 +259,78 @@
       "color": "violet",
       "items": [
         {
-          "title": "Anthropic 官方研究：初级技术岗位占比下降，Agent 工时达员工 6 倍",
-          "summary": "10/16 Anthropic 发布《How employment is changing at Anthropic》：技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定；截至 2026 年 8 月，员工直接指导的交互式 Agent 工作时长已达人类操作者的 6 倍；公司整体就业规模仍在扩张。",
-          "why": "首批“公司级”AI 对就业结构影响的一手数据：挤压的是入门级岗位而非岗位总量，Agent 工时占比持续上升，或预示各行业组织设计与人才梯队将系统性调整。",
-          "url": "https://www.anthropic.com/research/employment-at-anthropic",
-          "source": "Anthropic Research",
-          "time": "10/16"
+          "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+          "url": "https://x.com/Khazix0918/status/2111639562720329976",
+          "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+          "why": "观点方向的新动态,值得关注。",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "time": "10:04",
+          "heat": 89,
+          "tags": [
+            "ProArt",
+            "RTX",
+            "Spark"
+          ]
         },
         {
-          "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源榜首",
-          "summary": "10/18 Arena（@arena）宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超越 Kimi K3 (Max)，且成本低约 10 倍。",
-          "why": "第三方竞技场数据交叉验证了 1017 版本的编程能力跃升，“成本低约 10 倍”的性价比叙事对开发者迁移决策影响显著。",
-          "url": "https://x.com/arena/status/2111894091168682086",
-          "source": "Arena (X)",
-          "time": "10/18"
-        },
-        {
-          "title": "Browser Use 科普：浏览器智能体的工作原理与使用时机",
-          "summary": "10/18 Browser Use 发布文章，讲解浏览器智能体由模型、harness 与浏览器三部分组成，通过“观察页面 → 选择动作 → 执行并检查结果”的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
-          "why": "浏览器智能体正从实验走向工程化，其技术选型（DOM vs 截图）与失败模式是 Agent 落地的基础设施知识，值得团队内部分享。",
+          "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
           "url": "https://browser-use.com/posts/browser-agents",
+          "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+          "why": "观点方向的新动态,值得关注。",
           "source": "Browser Use",
-          "time": "10/18"
+          "time": "08:00",
+          "heat": 88,
+          "tags": [
+            "Browser",
+            "Use",
+            "DOM"
+          ]
+        },
+        {
+          "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
+          "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
+          "why": "基础设施方向的新动态,值得关注。",
+          "source": "公众号：数字生命卡兹克",
+          "time": "18:19",
+          "heat": 86,
+          "tags": [
+            "RTX",
+            "Spark",
+            "Token"
+          ]
+        },
+        {
+          "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+          "url": "https://x.com/shao__meng/status/2111274173192638932",
+          "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
+          "why": "观点方向的新动态,值得关注。",
+          "source": "X：邵猛 (@shao__meng)",
+          "time": "09:52",
+          "heat": 85,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Code"
+          ]
+        },
+        {
+          "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+          "summary": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
+          "why": "基础设施方向的新动态,值得关注。",
+          "source": "NVIDIA：Newsroom（RSS）",
+          "time": "20:00",
+          "heat": 80,
+          "tags": [
+            "NVIDIA",
+            "RTX",
+            "Spark"
+          ]
         }
       ]
     }
   ],
-  "observations": [
-    "头部闭源厂商静默期：OpenAI（最近一次模型侧大动作是 10/14 停用 GPT-5.5，GPT-5.6 系列与降价在 7-8 月）、Google（Gemini API changelog 近 3 天无更新）均无窗口内高置信新发布；需关注其对 DeepSeek / Muse Spark 开源冲击的回应节奏。",
-    "字节火山引擎“豆包 1.6 / 语音 2.0”等发布信息时间线存在冲突（部分来源标注为 2025 年 10 月 FORCE LINK 武汉站），本期未纳入，待官方口径确认后跟进。",
-    "出口管制征求意见（10/16 起）进入窗口期：关注正式稿对“开源 / 论文公开豁免”与“出口前登记”的落地细节，直接影响大模型出海与开源合规。",
-    "DeepSeek 生态扩张：搜索 API 定价（1000 次 / 5 元）与 Harness / CodeBuddy / WorkBuddy 等接入案例，将检验“模型 + 工具链”闭环的商业化空间。",
-    "Anthropic 就业数据或成行业样板：若更多大厂公开 AI 对岗位结构的影响，“Agent 工时占比”有望成为组织健康度的新观察指标。",
-    "本地推理硬件放量（RTX Spark 128GB）：端侧 70B 级模型部署成本下降，可能改变中小企业推理采购结构，与云 API 价格战形成对冲。"
-  ],
-  "notes": "本期窗口 2026-10-16 ~ 2026-10-19（北京时间）。数据来自 aihot.virxact.com 精选 + 官方公告 / 权威媒体交叉验证。不确定性说明：Muse Spark Open 官方发布以 IT之家 / 36氪转述为准（Meta 官方博客链接待确认）；德国案件以 The Decoder 报道为准（上诉后和解，未获上级法院终审）；DeepSeek 搜索 API 计费以新浪财经转述为准；字节火山引擎相关信息因时间线冲突未纳入本期。 本期 TOP3 三条已置顶单独展示，正文重点事件不再重复列出（去重后正文共 11 条）。"
+  "observations": [],
+  "notes": "数据源：aihot.virxact.com 精选资讯（自动抓取）；本页由 GitHub Actions 每日自动构建，核心结论由当日 TOP3 自动提炼。构建于 2026-10-19 22:04。"
 }
