@@ -1,58 +1,40 @@
 {
+  "date": "2026-10-30",
   "title": "AI 每日行业简报",
-  "date": "2026-10-29",
-  "window": "近 3 天（自动抓取精选）",
-  "item_count": 21,
+  "window": "2026-10-28 ~ 2026-10-30",
+  "item_count": 12,
   "core_conclusions": [
-    "Addy Osmani 谈你可能对 Claude 过度提示了：Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /e…",
-    "OpenRouter 教程：用 LLM 从 PDF 中抽取表格：OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清…",
-    "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链"
+    "开源模型生态进入「万亿参数」时代：Mistral 于 10 月 29 日开放旗舰模型 Large 4（代号 Le Chonk）的完整权重——约 1T 总参数（MoE，激活约 49-52B）、1M 上下文、原生多模态，采用修改版 MIT 开源许可；配合社区 1-bit 量化（Unsloth）已可本地运行。欧洲开源生态在旗舰权重开放上再进一步，开源与闭源的差距叙事被改写。",
+    "AI 攻防能力同周密集亮相：Anthropic 用未公开的 Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 五大平台自主发现并串联攻击链（Chrome 62 个严重/高危 CVE、Android 锁屏下提取照片、53 分钟拿下 Linux 最高权限）；Wiz 同日发布智能体攻击研究报告——AI 既是安全防御的新武器，也正在成为企业面临的新威胁面。",
+    "AI 治理与行为规范进入「落地期」：OpenAI 于 10 月 29 日发布新版 Model Spec，围绕五项核心价值观（对人类意图的忠诚、危害最小化、诚实与透明、人类主体性、关怀）重组模型行为准则；同日 Codex 各档位用量上限翻倍——头部厂商在行为治理与商业化配套上同步加速。"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "Addy Osmani 谈你可能对 Claude 过度提示了",
-      "url": "https://x.com/addyosmani/status/2115688494865465370",
-      "summary": "Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /effort medium 起步按需调整。",
-      "why": "观点方向的新动态,值得关注。",
-      "source": "X：Addy Osmani (@addyosmani)",
-      "time": "14:13",
-      "heat": 96,
-      "tags": [
-        "Addy",
-        "Osmani",
-        "Claude"
-      ]
+      "title": "Mistral 开放 Large 4（Le Chonk）完整权重：1T 参数 MoE、1M 上下文、修改版 MIT",
+      "why": "这是迄今欧洲厂商开放的规模最大的旗舰级开源权重：1T 参数 + 约 50B 激活的 MoE 架构、1M token 上下文、原生多模态，配合社区量化已可本地运行——开源权重旗舰直接对标闭源前沿模型，是全球开源生态的标志性事件。",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "summary": "Mistral AI 于当地时间 10 月 29 日开放旗舰模型 Mistral Large 4（代号 Le Chonk）完整权重，托管于 Hugging Face（mistralai/Mistral-Large-4-1T-A52B，FP8/NVFP4 格式），并在自有 API 与合作伙伴平台提供；模型约 1T 总参数、激活约 49-52B（MoE），1M token 上下文，原生多模态（文本/图像输入，文本/代码输出），采用修改版 MIT 的 Mistral Ecosystem Open-Weight 许可；距离 10 月 6 日 API 预览约三周。Unsloth 同日发布其 1-bit GGUF 量化版。",
+      "source": "Hugging Face / Unite.AI / IT之家",
+      "time": "2026-10-29"
     },
     {
       "rank": 2,
-      "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
-      "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
-      "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
-      "why": "观点方向的新动态,值得关注。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "time": "08:00",
-      "heat": 95,
-      "tags": [
-        "OpenRouter",
-        "LLM",
-        "PDF"
-      ]
+      "title": "Anthropic 研究模型自主发现并串联五大平台漏洞：Chrome 62 个 CVE、锁屏提取照片、53 分钟 Linux 提权",
+      "why": "Anthropic 用未公开的内部研究模型完成从漏洞发现到攻击链串联的全流程：仅 Chrome 就产生 62 个严重/高危 CVE（含 13 个沙箱逃逸），Android 锁屏下可提取照片、Linux 53 分钟获取最高权限——展示出 AI 在真实世界攻防中的能力上限，直接冲击安全行业对 AI 红队的认知。",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "summary": "Anthropic 于 10 月 27 日发布研究报告：其未公开的 Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 五个平台发现并串联出 5 条可运行的攻击链。Chrome 方面向谷歌提交的报告共产生 62 个严重或高危 CVE（含 13 个沙箱逃逸、21 个可控制网页渲染进程的漏洞），修复已随 Chrome 156 发布；Safari 漏洞可绕过同源策略窃取登录数据；Android 可在锁屏状态下提取照片；Linux 在 53 分钟内获取最高权限；Windows 涉及 QUIC/HTTP3 内核漏洞（CVE-2026-33096）。10 月 28-29 日国内外媒体密集报道。",
+      "source": "Anthropic Research / IT之家 / DoNews",
+      "time": "2026-10-27"
     },
     {
       "rank": 3,
-      "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
-      "url": "https://www.ithome.com/1/019/268.htm",
-      "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
-      "why": "研究方向的新动态,值得关注。",
-      "source": "IT之家·人工智能",
-      "time": "06:35",
-      "heat": 94,
-      "tags": [
-        "Anthropic",
-        "Claude",
-        "Chrome"
-      ]
+      "title": "OpenAI 发布新版 Model Spec：围绕五项核心价值观重组模型行为准则",
+      "why": "Model Spec 是 OpenAI 模型行为对齐的顶层规范文件：本次更新首次以「对人类意图的忠诚、危害最小化、诚实与透明、人类主体性、关怀」五项核心价值观重组全部准则，并明确拥抱知识自由——为模型行为治理提供了新的结构框架，也是各厂商对齐规范的标杆性文本。",
+      "url": "https://openai.com/index/updated-model-spec",
+      "summary": "OpenAI 于 10 月 29 日发布新版 Model Spec（模型规范）：在收集公开反馈、部署经验与外部专家讨论后，将准则围绕五项根本价值重组——对人类意图的忠诚、危害最小化、诚实与透明、人类主体性、关怀；明确拥抱「知识自由」（模型应赋能人们在有争议话题上探索、辩论与创作，不受任意限制）。同日 OpenAI 还发布《How we detect frontier model misalignment》技术博客，介绍其扩展至训练/评估/内部使用/外部部署全表面的失准监控系统。",
+      "source": "OpenAI 官网",
+      "time": "2026-10-29"
     }
   ],
   "sections": [
@@ -62,102 +44,29 @@
       "color": "blue",
       "items": [
         {
-          "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
-          "url": "https://x.com/sundarpichai/status/2115489219804352921",
-          "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
-          "why": "大模型方向的新动态,值得关注。",
-          "source": "X：Sundar Pichai (@sundarpichai)",
-          "time": "01:01",
-          "heat": 89,
-          "tags": [
-            "Google",
-            "Gemini",
-            "Carbon"
-          ]
+          "is_top": 1,
+          "title": "Mistral 开放 Large 4（Le Chonk）完整权重",
+          "summary": "10 月 29 日开放 1T 参数 MoE（激活约 49-52B）、1M 上下文、原生多模态旗舰权重，修改版 MIT 许可；Unsloth 同步发布 1-bit GGUF 量化版，可本地运行。",
+          "why": "欧洲厂商迄今最大规模开源权重，开源旗舰直接对标闭源前沿模型。",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+          "source": "Hugging Face / Unite.AI / IT之家",
+          "time": "2026-10-29"
         },
         {
-          "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-          "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
-          "why": "大模型方向的新动态,值得关注。",
-          "source": "Google DeepMind：Blog（RSS）",
-          "time": "01:00",
-          "heat": 88,
-          "tags": [
-            "Google",
-            "DeepMind",
-            "Gemini"
-          ]
+          "title": "腾讯全球数字生态大会：Buddy One 办公套件发布，混元 Hy4 即将推出",
+          "summary": "10 月 30 日腾讯全球数字生态大会上，腾讯云 CEO 汤道生宣布以 WorkBuddy 为工作台的 AI 办公一体化套件 Buddy One 正式发布；全新混元模型 Hy4 与 Hy4 Flash 即将推出；腾讯云 Agent Runtime、安全能力全面升级。混元开源侧此前已累计开放多代模型。",
+          "why": "国内大厂近两周少有的大规模模型+办公产品双发布，Hy4 正式发布节奏值得跟踪。",
+          "url": "https://www.jiemian.com/article/15270473.html",
+          "source": "界面新闻 / 腾讯全球数字生态大会",
+          "time": "2026-10-30"
         },
         {
-          "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
-          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
-          "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
-          "why": "工具方向的新动态,值得关注。",
-          "source": "Microsoft：Official Blog（RSS）",
-          "time": "00:51",
-          "heat": 87,
-          "tags": [
-            "Microsoft",
-            "Foundry",
-            "Copilot"
-          ]
-        },
-        {
-          "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
-          "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-          "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
-          "why": "工具方向的新动态,值得关注。",
-          "source": "GitHub Blog",
-          "time": "00:09",
-          "heat": 86,
-          "tags": [
-            "GitHub",
-            "Universe",
-            "Copilot"
-          ]
-        },
-        {
-          "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
-          "url": "https://openmoss.ai/blog/cn/moss-image/",
-          "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
-          "why": "大模型方向的新动态,值得关注。",
-          "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
-          "time": "00:00",
-          "heat": 83,
-          "tags": [
-            "OpenMOSS",
-            "MOSS-Image",
-            "5B"
-          ]
-        },
-        {
-          "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f",
-          "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
-          "why": "大模型方向的新动态,值得关注。",
-          "source": "公众号：面壁智能（MiniCPM）",
-          "time": "19:38",
-          "heat": 82,
-          "tags": [
-            "MiniCPM-OCR",
-            "3B",
-            "2B"
-          ]
-        },
-        {
-          "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687902&idx=1&sn=9a57b3d769582b12d8645af23431743d",
-          "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
-          "why": "大模型方向的新动态,值得关注。",
-          "source": "公众号：数字生命卡兹克",
-          "time": "08:22",
-          "heat": 76,
-          "tags": [
-            "Google",
-            "Genie",
-            "WASD"
-          ]
+          "title": "AWS：Jassy 称 AWS 将成万亿美元营收业务，2026 年资本开支约 2200 亿美元",
+          "summary": "亚马逊 10 月 29 日发布 Q3 财报（美东盘后），CEO Andy Jassy 在电话会中表示 AWS 未来将成为万亿美元营收业务；2026 年资本开支预计约 2200 亿美元，重点投向 AI 基础设施。与此前 Alphabet Q3（Google Cloud 同比增 103%、明年资本开支大增）呼应，云厂商 AI 资本开支竞赛延续。",
+          "why": "头部云厂商 2026 年 AI 资本开支预期持续上调，是 AI 周期需求验证的关键信号。",
+          "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+          "source": "TechCrunch",
+          "time": "2026-10-29"
         }
       ]
     },
@@ -167,128 +76,28 @@
       "color": "teal",
       "items": [
         {
-          "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
-          "url": "https://x.com/sundarpichai/status/2115535455156642066",
-          "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "X：Sundar Pichai (@sundarpichai)",
-          "time": "04:05",
-          "heat": 93,
-          "tags": [
-            "Alphabet",
-            "Google",
-            "Cloud"
-          ]
+          "title": "OpenAI 宣布 Codex 各档位用量上限翻倍",
+          "summary": "OpenAI 产品负责人 Tibo 于 10 月 29 日宣布：即日起大幅提高 ChatGPT Pro 系列与 Business Premium 用户在 Codex 的使用额度，部分套餐直接翻倍；同时撤销此前备受争议的 Pro 200 额度下调计划。",
+          "why": "在 GitHub 智能体起草超 40% PR 的背景下，OpenAI 以额度放量争夺 coding agent 市场份额。",
+          "url": "https://www.ifanr.com/1686830",
+          "source": "爱范儿 / X（@thsottiaux）",
+          "time": "2026-10-29"
         },
         {
-          "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
-          "url": "https://www.wheresyoured.at/exit-liquidity/",
-          "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
-          "time": "01:51",
-          "heat": 92,
-          "tags": [
-            "Zitron",
-            "Anthropic",
-            "S-1"
-          ]
+          "title": "Reddit 宣布转向以登录为主的体验，应对 AI 搜索带来的流量下滑",
+          "summary": "Reddit 于 10 月 29 日宣布将向「以登录为主」的体验转型，以应对 AI 搜索（如 Google AI Overviews）导致的开放网络流量下滑；同日 Reddit 与 Google 股价均下跌，投资者担忧 AI 搜索变现拖累内容平台与传统搜索业务。",
+          "why": "AI 搜索对开放网络的流量挤压开始反噬内容平台商业模式，是 AI 分发格局变化的直接观察样本。",
+          "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged/",
+          "source": "TechCrunch / Platformer",
+          "time": "2026-10-29"
         },
         {
-          "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
-          "url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
-          "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "time": "01:11",
-          "heat": 91,
-          "tags": [
-            "Anthropic",
-            "IPO",
-            "7B"
-          ]
-        },
-        {
-          "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
-          "url": "https://x.com/bcherny/status/2115491259381072269",
-          "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "X：Boris Cherny (@bcherny)",
-          "time": "01:09",
-          "heat": 90,
-          "tags": [
-            "Claude",
-            "Code",
-            "Boris"
-          ]
-        },
-        {
-          "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
-          "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-          "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "GitHub Blog",
-          "time": "00:07",
-          "heat": 85,
-          "tags": [
-            "GitHub",
-            "Octoverse"
-          ]
-        },
-        {
-          "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
-          "url": "https://www.a16z.news/p/the-new-security-agenda",
-          "summary": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "a16z：News（RSS）",
-          "time": "00:00",
-          "heat": 84,
-          "tags": [
-            "CISO",
-            "SOC"
-          ]
-        },
-        {
-          "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
-          "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
-          "summary": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "The Decoder：AI News（RSS）",
-          "time": "18:56",
-          "heat": 81,
-          "tags": [
-            "Cathedral",
-            "Anthropic",
-            "Slack"
-          ]
-        },
-        {
-          "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
-          "url": "https://openai.com/index/the-future-of-the-firm",
-          "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "time": "18:00",
-          "heat": 80,
-          "tags": [
-            "OpenAI",
-            "Hemanth",
-            "Asirvatham"
-          ]
-        },
-        {
-          "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
-          "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-          "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "TechCrunch：AI（RSS）",
-          "time": "09:15",
-          "heat": 77,
-          "tags": [
-            "Anthropic",
-            "IPO",
-            "Amazon"
-          ]
+          "title": "Factory 发布 Droid 1.0：程序化工具调用的企业级 Agent harness",
+          "summary": "Factory 于 10 月 29 日发布 Droid 1.0：面向企业开发的企业级 agent harness，核心是新的程序化工具调用引擎——同一批任务上比各模型原生 harness 高效最多 20%，并支持单次模型请求内运行数百次工具调用；模型无关设计，可配 Factory Router 自动选择最优模型组合。",
+          "why": "「harness 层」成为 agent 竞争新战场：与微软 Copilot harness、OpenAI Codex 正面交锋，企业 agent 基础设施进入工具链白热化阶段。",
+          "url": "https://factory.com/news/frontier-harness",
+          "source": "Factory Research",
+          "time": "2026-10-29"
         }
       ]
     },
@@ -296,7 +105,25 @@
       "key": "policy",
       "name": "政策与监管",
       "color": "amber",
-      "items": []
+      "items": [
+        {
+          "is_top": 3,
+          "title": "OpenAI 发布新版 Model Spec：五项核心价值观重组行为准则",
+          "summary": "10 月 29 日发布：以人类意图忠诚、危害最小化、诚实与透明、人类主体性、关怀五项价值重组模型行为准则，明确拥抱知识自由；同日发布前沿模型失准监控系统扩展技术博客。",
+          "why": "模型行为对齐规范的结构性更新，是各厂商对齐标准的标杆文本。",
+          "url": "https://openai.com/index/updated-model-spec",
+          "source": "OpenAI 官网",
+          "time": "2026-10-29"
+        },
+        {
+          "title": "a16z 调研 100 位 CISO：AI 成为 2027 年安全最优先事项",
+          "summary": "a16z 于 10 月 28 日发布《The New Security Agenda》：调研 100 位千人以上公司 CISO 的 2027 年优先级与预算，AI 相关安全能力成为最优先事项，SOC（安全运营中心）采用率约 18%，安全预算持续流向 AI 防御。",
+          "why": "企业安全预算向 AI 防御倾斜的量化证据，反映智能体攻击威胁已进入 CISO 决策议程。",
+          "url": "https://a16z.com/the-new-security-agenda/",
+          "source": "a16z / remio",
+          "time": "2026-10-28"
+        }
+      ]
     },
     {
       "key": "research",
@@ -304,36 +131,40 @@
       "color": "violet",
       "items": [
         {
-          "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
-          "url": "https://x.com/SaitoWu/status/2115376256929948006",
-          "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
-          "why": "基础设施方向的新动态,值得关注。",
-          "source": "X：Saito 硬地骇客 (@SaitoWu)",
-          "time": "17:32",
-          "heat": 79,
-          "tags": [
-            "Anthropic",
-            "S-1",
-            "SemiAnalysis"
-          ]
+          "is_top": 2,
+          "title": "Anthropic 研究模型自主发现并串联五大平台漏洞",
+          "summary": "10 月 27 日官方发布、10 月 28-29 日广泛报道：Claude 研究模型在 Chrome/Safari/Android/Windows/Linux 发现并串联 5 条攻击链，Chrome 62 个 CVE、Android 锁屏提取照片、Linux 53 分钟提权；Chrome 156 已随修复发布。",
+          "why": "AI 自主完成真实世界漏洞发现到利用的端到端流程，重新定义安全红队能力上限。",
+          "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+          "source": "Anthropic Research / IT之家 / DoNews",
+          "time": "2026-10-27"
         },
         {
-          "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
-          "url": "https://x.com/addyosmani/status/2115326629488824753",
-          "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
-          "why": "观点方向的新动态,值得关注。",
-          "source": "X：Addy Osmani (@addyosmani)",
-          "time": "14:15",
-          "heat": 78,
-          "tags": [
-            "Addy",
-            "Osmani",
-            "Claude"
-          ]
+          "title": "Wiz 发布智能体攻击研究：攻击的七大指纹与发展趋势",
+          "summary": "Wiz 于 10 月 29 日发布《The Rise of Agentic Attacks》：基于真实案例研究智能体攻击的形态与演进，归纳智能体攻击的七大指纹特征（自动化侦察、凭证狩猎、横向移动、规避检测等），并分析其发展趋势——智能体正在把攻击从「工具辅助」推向「自主编排」。",
+          "why": "与 Anthropic 漏洞研究同周发布，攻防两侧同时展示智能体能力，安全行业正形成「AI 攻防」新叙事。",
+          "url": "https://www.wiz.io/blog/the-rise-of-agentic-attacks",
+          "source": "Wiz Research",
+          "time": "2026-10-29"
         }
       ]
     }
   ],
-  "observations": [],
-  "notes": "数据源：aihot.virxact.com 精选资讯（自动抓取）；本页由 GitHub Actions 每日自动构建，核心结论由当日 TOP3 自动提炼。构建于 2026-10-29 15:48。"
+  "observations": [
+    "开源旗舰权重竞赛升温：Mistral Large 4 开放 1T 权重 + Unsloth 1-bit 量化本地运行，叠加此前 Llama/Gemma/Qwen 等开源路线，开源模型在「可本地部署」维度对闭源旗舰形成差异化竞争；关注后续云厂商对其的托管与定价。",
+    "AI 攻防议题密集爆发：Anthropic 漏洞研究（10-27 发布、10-28-29 传播）与 Cathedral 渗透事件（10-26）同周出现，Wiz/a16z 同周发布安全研究——智能体对攻防两侧的影响成为本周最集中的主题，后续关注漏洞披露规则与「AI 红队」监管讨论。",
+    "OpenAI 动作密集：Model Spec 更新 + Codex 额度翻倍 + 失准监控扩展 + 外部专家核查 AI 数学证明（10-29 前后）同日多点开花，显示 OpenAI 进入「治理+商业化+安全」并行推进阶段。",
+    "云厂商资本开支竞赛延续：AWS 2026 年约 2200 亿美元（Jassy 表态）与 Alphabet Q3「明年资本开支大增」相互印证，AI 基础设施投入的回报检验仍是市场核心关注点。",
+    "内容平台开始反击 AI 搜索：Reddit 转向登录体验是首个明确以产品形态应对 AI 搜索流量挤压的大型平台动作，开放网络与 AI 分发的利益博弈值得长期跟踪。"
+  ],
+  "notes": [
+    "窗口为 2026-10-28 ~ 2026-10-30。",
+    "Anthropic 漏洞研究官方发布于 10 月 27 日（略早于窗口），10 月 28-29 日 Chrome 156 修复随版本发布、国内外媒体密集报道构成明确新进展，故收录并标注时间线。",
+    "Mistral Large 4 参数口径各家略有差异：总参数约 1T，激活参数报道为 49-52B（MoE），1M 上下文；许可为修改版 MIT（Mistral Ecosystem Open-Weight）；10 月 6 日 API 预览、10 月 29 日开放权重。",
+    "AWS 资本开支约 2200 亿美元为 Jassy 在 10-29 财报电话会上的表态（TechCrunch 报道），属公司预测性言论；Alphabet Q3 详情已于昨日（10-29）日报收录，今日不重复。",
+    "a16z 调研对象为 100 位千人以上公司 CISO（10-28 发布），SOC 采用率 18% 为 remio 转述口径。",
+    "OpenAI 失准监控扩展（How we detect frontier model misalignment，10-29 官方博客）与 Model Spec 同属治理主题，已在 top3 条目中说明，未单列。",
+    "未收录：OpenRouter 路由重算（多次未获官方公告交叉验证）；Gemini 文档/PDF/表格直接生成（仅 X 官方账号发布、精确时间未确认）；MOSS-Image 开源（未获时间窗交叉验证）；Unsloth 1-bit 量化（Mistral 配套工具，已在相关条目说明）；各 Anthropic S-1 衍生解读（提交事件已于前日收录，今日不重复）。",
+    "字节跳动、Meta、xAI、百度近 3 天未检索到其他高置信新增动态。"
+  ]
 }
