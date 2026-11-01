@@ -1,58 +1,40 @@
 {
+  "date": "2026-11-01",
   "title": "AI 每日行业简报",
-  "date": "2026-10-31",
-  "window": "近 3 天（自动抓取精选）",
-  "item_count": 21,
+  "window": "2026-10-29 ~ 2026-11-01",
+  "item_count": 9,
   "core_conclusions": [
-    "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务：Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美…",
-    "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保。据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建…",
-    "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用：Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承…"
+    "Anthropic IPO 冲刺全球纪录：招股文件披露近 9000 亿美元「隐性债务」——公司计划通过远期履约义务在服务器、建筑与电力等方面支出近 9000 亿美元，远超资产负债表账面负债（1175 亿美元，其中可转债 1085.66 亿美元、占比 92.4%）；2026 上半年净亏损 807 亿美元，主要来自可转债公允价值重估。市场预期估值 1.5 万亿至 2 万亿美元、募资最高 1000 亿美元，传闻 11 月 16 日当周上市。AI 时代最大规模 IPO 的资本结构与风险画像首次完整公开。",
+    "OpenAI 将 ChatGPT 与 Codex 合并为统一 Token 额度：10 月 31 日公告，自 12 月起 ChatGPT Plus、Pro、Business 套餐的使用额度将在 ChatGPT 与 Codex 之间共享，用量以 Token 统计、按模型与任务复杂度计费，即时对话（Instant chat）不占用共享额度。AI 订阅正从「按产品割裂计费」收敛为「统一算力池」，是消费端商业模型的一次重要重构。",
+    "AI 基建承诺总额首次被完整统计：彭博统计显示 Alphabet、Meta、微软、亚马逊、甲骨文五大巨头已承诺的未来 AI 基础设施支出超过 3 万亿美元（数据中心租赁、建筑、能源、设备采购等，部分账单偿还期长达 30 年），较一年前高出近八倍；标普 11 月 1 日将 Meta 评级展望下调至负面（预测其 2027 年资本支出超 2250 亿美元）。「投入规模」与「财务承受力」的张力正成为市场核心议题。"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-      "url": "https://www.ithome.com/1/020/444.htm",
-      "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
-      "why": "商业方向的新动态,值得关注。",
-      "source": "IT之家·人工智能",
-      "time": "11:25",
-      "heat": 96,
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "GPU"
-      ]
+      "title": "Anthropic IPO 招股文件披露近 9000 亿美元「隐性债务」",
+      "why": "这是 AI 时代最大规模 IPO 的关键风险画像：公司承诺的近 9000 亿美元远期基础设施支出远超账面负债（1175 亿美元），叠加上半年 807 亿美元净亏损（主要为可转债重估），让「compute 承诺 vs 财务健康」首次透明化；估值 1.5-2 万亿美元、募资最高 1000 亿美元的传闻若兑现，将刷新全球 IPO 纪录。",
+      "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixaray1749145.shtml",
+      "summary": "Anthropic PBC 在 10 月 26 日向 SEC 提交 S-1 注册文件（拟以「ANT」登陆纳斯达克），10 月 31 日解读焦点集中在：公司将通过未来义务在服务器、建筑和电力等方面支出近 9000 亿美元（规模远超账面负债）；账面负债 1175 亿美元，其中对亚马逊、谷歌等发行人的可转债 1085.66 亿美元（占 92.4%）；2026 上半年 GAAP 净亏损 807.48 亿美元，其中 723.88 亿来自可转债/衍生品公允价值变动。市场消息称公司计划募资最高 1000 亿美元、估值预期 1.5 万至 2 万亿美元、11 月 16 日当周上市（时间仍可调整）。",
+      "source": "新浪财经 / 36氪 / 财新网 / Anthropic 官方",
+      "time": "2026-10-31"
     },
     {
       "rank": 2,
-      "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建设的数据中心担保数十亿美元债务融资，Anthropic 已就首栋建筑签署 446 亿美元合同。",
-      "why": "商业方向的新动态,值得关注。",
-      "source": "TechCrunch：AI（RSS）",
-      "time": "09:20",
-      "heat": 95,
-      "tags": [
-        "Nvidia",
-        "Nscale",
-        "Anthropic"
-      ]
+      "title": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 合并为统一 Token 额度",
+      "why": "OpenAI 消费端商业模式的一次重要收敛：ChatGPT Plus/Pro/Business 套餐额度不再按产品割裂，改为 ChatGPT 与 Codex 共享的统一 Token 池（按模型与任务复杂度计费）——对重度 Codex 用户的成本结构影响最大，也预示「AI 平台化订阅」方向。",
+      "url": "http://m.163.com/dy/article/LAKV9B4A0534A4SC.html",
+      "summary": "10 月 31 日 OpenAI 公告：自 12 月起，ChatGPT Plus、Pro、Business 套餐的使用额度将在 ChatGPT 与 Codex 之间共享；用量以 Token 统计，消耗额度取决于模型与任务复杂度（复杂任务消耗更高）；即时对话（Instant chat）不占用该共享额度。OpenAI 预计大多数用户等待额度重置的频率不会比现在更高；官方 Help Center 费率页同日更新（含 Codex 长上下文定价说明）。",
+      "source": "OpenAI 公告（网易转载）/ OpenAI Help Center",
+      "time": "2026-10-31"
     },
     {
       "rank": 3,
-      "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
-      "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
-      "summary": "Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承载图像和视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成、裁剪、Painter 等编辑节点；工作流可打包成 Weave tool 让团队成员一键运行，社区工具发布已上线。",
-      "why": "工具方向的新动态,值得关注。",
-      "source": "Figma AI / Agent / Make",
-      "time": "08:58",
-      "heat": 94,
-      "tags": [
-        "Figma",
-        "Weave",
-        "Painter"
-      ]
+      "title": "彭博：五大科技巨头 AI 基础设施承诺支出超 3 万亿美元",
+      "why": "AI 资本开支叙事从「年度指引」升级为「三十年义务」：3 万亿美元的未来支出承诺（较一年前高出近八倍）首次被完整统计，其中 Meta 披露未来支出超 8000 亿美元、近半为最长 30 年期数据中心租赁；标普同日下调 Meta 评级展望——市场开始对 AI 基建的财务可持续性重新定价。",
+      "url": "http://news.qq.com/rain/a/20261031A03JOH00?adChannelId=tech",
+      "summary": "彭博 10 月 30 日报道：Alphabet（谷歌）、Meta、微软、亚马逊、甲骨文五大巨头已承诺未来在 AI 算力基础设施上投入超过 3 万亿美元（统计口径为财报披露的未来支出承诺，含数据中心租赁、建筑、能源、设备采购等），较一年前高出近八倍；部分账单偿还期限长达 30 年，谷歌、Meta 已因此烧成自由现金流为负。Meta 单独披露未来支出超 8000 亿美元，其中略少于一半为尚未起租的数据中心租赁（最长 30 年支付期）；标普 11 月 1 日将 Meta 评级展望下调至负面，预测其 2027 年资本支出加速至超 2250 亿美元、杠杆率最早明年超 1 倍。",
+      "source": "彭博社 / 腾讯新闻 / 证券之星 / 新浪财经",
+      "time": "2026-10-30"
     }
   ],
   "sections": [
@@ -62,32 +44,22 @@
       "color": "blue",
       "items": [
         {
-          "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
-          "url": "https://x.com/adocomplete/status/2116224220539883992",
-          "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。",
-          "why": "工具方向的新动态,值得关注。",
-          "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-          "time": "01:42",
-          "heat": 88,
-          "tags": [
-            "Anthropic",
-            "Claude",
-            "Max"
-          ]
+          "is_top": 1,
+          "title": "Anthropic IPO 招股文件披露近 9000 亿美元「隐性债务」",
+          "summary": "S-1（10-26 提交）显示：近 9000 亿美元远期基础设施支出承诺、账面负债 1175 亿美元（可转债占 92.4%）、上半年净亏损 807 亿美元（主要为可转债重估）；市场消息称估值 1.5-2 万亿、募资最高 1000 亿、11-16 当周上市。",
+          "why": "AI 时代最大规模 IPO 的资本结构与风险画像首次完整公开。",
+          "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixaray1749145.shtml",
+          "source": "新浪财经 / 36氪 / 财新网 / Anthropic 官方",
+          "time": "2026-10-31"
         },
         {
-          "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
-          "url": "https://ai.google.dev/gemini-api/docs/changelog#10-30-2026",
-          "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。",
-          "why": "工具方向的新动态,值得关注。",
-          "source": "Gemini API：更新日志（网页）",
-          "time": "08:00",
-          "heat": 79,
-          "tags": [
-            "Gemini",
-            "API",
-            "Computer"
-          ]
+          "is_top": 3,
+          "title": "彭博：五大科技巨头 AI 基础设施承诺支出超 3 万亿美元",
+          "summary": "Alphabet、Meta、微软、亚马逊、甲骨文未来承诺支出超 3 万亿美元（含最长 30 年期数据中心租赁）；标普 11-1 将 Meta 展望调至负面。",
+          "why": "AI 资本开支叙事从年度指引升级为三十年义务，评级机构开始介入。",
+          "url": "http://news.qq.com/rain/a/20261031A03JOH00?adChannelId=tech",
+          "source": "彭博社 / 腾讯新闻 / 证券之星",
+          "time": "2026-10-30"
         }
       ]
     },
@@ -97,154 +69,29 @@
       "color": "teal",
       "items": [
         {
-          "title": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247489416&idx=1&sn=9525f61df8086fcd6fe4d4183da068de",
-          "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "公众号：千问APP（阿里）",
-          "time": "08:03",
-          "heat": 93,
-          "tags": [
-            "Apple",
-            "Siri",
-            "Beta"
-          ]
+          "is_top": 2,
+          "title": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 合并为统一 Token 额度",
+          "summary": "10-31 公告：Plus/Pro/Business 套餐额度在 ChatGPT 与 Codex 间共享，按 Token 与任务复杂度计费，即时对话不占用共享额度。",
+          "why": "消费端从按产品计费收敛为统一算力池，Codex 重度用户成本结构将变。",
+          "url": "http://m.163.com/dy/article/LAKV9B4A0534A4SC.html",
+          "source": "OpenAI 公告（网易转载）/ OpenAI Help Center",
+          "time": "2026-10-31"
         },
         {
-          "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
-          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
-          "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "TechCrunch：AI（RSS）",
-          "time": "05:17",
-          "heat": 90,
-          "tags": [
-            "Alphabet",
-            "Amazon",
-            "Meta"
-          ]
+          "title": "Figma 正式启用 Weave 创作平台：AI 原生媒体生成与编辑",
+          "summary": "Figma 官方 FAQ（10-31 更新）确认：Weavy 更名为 Figma Weave，作为 Figma 的生成式 AI 媒体平台（图片/视频/音频/3D）在 weave.figma.com 独立可用——节点化工作流聚合 Google、Kling、OpenAI、字节跳动等多家模型与专业编辑工具，工作流从左到右连接输入与输出。",
+          "why": "创作工具层向「多模型节点化工作流」演进，Figma 从设计工具延伸为 AI 媒体生成编排平台。",
+          "url": "https://help.figma.com/hc/en-us/articles/35965787376919-Figma-Weave-FAQ",
+          "source": "Figma 官方 Help Center / weave.figma.com",
+          "time": "2026-10-31"
         },
         {
-          "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
-          "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
-          "summary": "Reddit CEO Steve Huffman 表示 10 月 Reddit 每周流失超过 100 万来自 Google 搜索的访问，股价在业绩强劲的情况下仍下跌超 25%。他称 AI Mode 不会带来流量，Reddit 正在美国以外测试登录墙以遏制抓取，并与 AI 提供商继续数据授权谈判。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "The Decoder：AI News（RSS）",
-          "time": "01:15",
-          "heat": 87,
-          "tags": [
-            "Reddit",
-            "CEO",
-            "Google"
-          ]
-        },
-        {
-          "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
-          "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-          "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "Hacker News：AI 热帖",
-          "time": "22:50",
-          "heat": 86,
-          "tags": [
-            "Intel",
-            "BBC"
-          ]
-        },
-        {
-          "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
-          "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "The Verge：AI（RSS）",
-          "time": "21:11",
-          "heat": 85,
-          "tags": [
-            "The",
-            "Verge",
-            "Anthropic"
-          ]
-        },
-        {
-          "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
-          "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
-          "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "Sierra：Blog（RSS）",
-          "time": "20:50",
-          "heat": 84,
-          "tags": [
-            "Sierra",
-            "ARR"
-          ]
-        },
-        {
-          "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
-          "url": "https://x.com/cursor_ai/status/2116074289053175808",
-          "summary": "Cursor 发现通过其 IDE 扩展市场分发的 Claude Code VS Code 扩展被修改并植入恶意软件，最多影响 5000 用户，恶意版本并非 Anthropic 开发。Cursor 已于当日下午下线扩展市场，与相关提供方合作清除恶意软件并确认无进一步风险后重新上线，建议受影响用户参考博客说明排查，并升级到 Claude Code for VS Code 2.1.314。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "X：Cursor (@cursor_ai)",
-          "time": "15:46",
-          "heat": 82,
-          "tags": [
-            "Cursor",
-            "Claude",
-            "Code"
-          ]
-        },
-        {
-          "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-          "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "公众号：月之暗面（Kimi）",
-          "time": "12:04",
-          "heat": 81,
-          "tags": [
-            "Kimi",
-            "K3.1",
-            "Pro"
-          ]
-        },
-        {
-          "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-          "url": "https://www.platformer.news/thursday-newsletter-6/",
-          "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。",
-          "why": "商业方向的新动态,值得关注。",
-          "source": "Platformer（热点 RSS）",
-          "time": "08:51",
-          "heat": 80,
-          "tags": [
-            "Google",
-            "Reddit",
-            "Casey"
-          ]
-        },
-        {
-          "title": "OpenAI 汇编各方法庭之友意见，主张 AI 训练应适用合理使用原则",
-          "url": "https://openai.com/index/fair-use-benefits-everyone",
-          "summary": "OpenAI 整理了在《纽约时报》诉讼中提交给法院的多份支持合理使用的法庭之友意见摘要，作者包括图书馆协会、法律学者、独立创作者和美国政府等。各意见书主张 AI 训练具有转换性、不构成版权法认可的市场损害，并警告限缩合理使用将阻碍科研进展与美国经济繁荣；完整文件可在法院公开卷宗查阅。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "time": "08:00",
-          "heat": 78,
-          "tags": [
-            "OpenAI"
-          ]
-        },
-        {
-          "title": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
-          "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-          "summary": "Amazon CEO Andy Jassy 在周四的季度财报电话会议上表示，AWS 未来五到十年内可以成为年营收万亿美元的业务，2026 年现金 capex 预计约 2200 亿美元，大部分投向 AWS，2027 年还将大幅增加。",
-          "why": "行业方向的新动态,值得关注。",
-          "source": "TechCrunch：AI（RSS）",
-          "time": "07:42",
-          "heat": 76,
-          "tags": [
-            "Jassy",
-            "AWS",
-            "Amazon"
-          ]
+          "title": "Pika 基于 MiniMax H3 后训练并开源 H3 Flex 视频生成模型",
+          "summary": "据行业博主卡兹克（X，10-29）：Pika 基于 MiniMax H3 后训练的视频生成模型 Pika H3 Flex 已发布并开源；未获 Pika 官方博客直接交叉验证，属第三方渠道披露。",
+          "why": "国际视频生成公司反向采用中国基座模型（MiniMax H3），显示国产多模态基座的开源生态影响力。",
+          "url": "https://x.com/Khazix0918/status/2115898252004622617",
+          "source": "X（行业博主卡兹克）",
+          "time": "2026-10-29"
         }
       ]
     },
@@ -260,78 +107,32 @@
       "color": "violet",
       "items": [
         {
-          "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
-          "url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
-          "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。",
-          "why": "观点方向的新动态,值得关注。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "time": "08:00",
-          "heat": 92,
-          "tags": [
-            "OpenRouter",
-            "Agent",
-            "SDK"
-          ]
-        },
-        {
-          "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
-          "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
-          "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。",
-          "why": "研究方向的新动态,值得关注。",
-          "source": "Wiz：Research（安全研究）",
-          "time": "06:51",
-          "heat": 91,
-          "tags": [
-            "Wiz",
-            "Fireworks",
-            "Lightning"
-          ]
-        },
-        {
-          "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
-          "url": "https://x.com/_philschmid/status/2116235686445502608",
-          "summary": "Philipp Schmid 转引 Sundar Pichai 的消息：Google Project Suncatcher 在数周前发射原型卫星后，成功向轨道发送指令、启动 TPU、运行提示词，并在地面收到了首个完整回应（一首 haiku），作者称 Gemma 4 成为首个在太空运行的大语言模型。",
-          "why": "基础设施方向的新动态,值得关注。",
-          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-          "time": "02:28",
-          "heat": 89,
-          "tags": [
-            "Project",
-            "Suncatcher",
-            "TPU"
-          ]
-        },
-        {
-          "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-          "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
-          "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
-          "why": "研究方向的新动态,值得关注。",
-          "source": "Epoch AI：Gradient Updates（RSS）",
-          "time": "20:07",
-          "heat": 83,
-          "tags": [
-            "Epoch",
-            "GLM",
-            "Firefox"
-          ]
-        },
-        {
-          "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-          "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
-          "summary": "OpenRouter 实测 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5 三档模型，建议默认用 Sonnet 5.5，高频与子智能体任务用 Haiku 5.5，长且容错成本高的任务用 Opus 5.5。",
-          "why": "观点方向的新动态,值得关注。",
-          "source": "OpenRouter：Announcements（RSS）",
-          "time": "08:00",
-          "heat": 77,
-          "tags": [
-            "OpenRouter",
-            "Claude",
-            "Opus"
-          ]
+          "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
+          "summary": "腾讯混元官方 X 账号（10-29）发布 Hy-Nomas 技术报告，并开源配套评测基准 Hy-Nomas-Bench；具体模型规模与评测维度以技术报告为准，官方博客暂未见完整版披露。",
+          "why": "国产大模型在「评测基建」上继续补位，开源基准有利于多模态/长程能力横向比较。",
+          "url": "https://x.com/TencentHunyuan/status/2115851165904814283",
+          "source": "X（腾讯混元官方）",
+          "time": "2026-10-29"
         }
       ]
     }
   ],
-  "observations": [],
-  "notes": "数据源：aihot.virxact.com 精选资讯（自动抓取）；本页由 GitHub Actions 每日自动构建，核心结论由当日 TOP3 自动提炼。构建于 2026-10-31 15:44。"
+  "observations": [
+    "Anthropic IPO 是本阶段 AI 资本叙事的枢纽事件：S-1 让「compute 承诺 vs 财务健康」首次透明化（近 9000 亿隐性债务、半年净亏损 807 亿、可转债 1085.66 亿）；关注 11-16 当周上市定价、AWS/谷歌可转债安排，以及对 AI 基建板块估值的连锁影响。",
+    "OpenAI 统一 Token 额度：从按产品限额度转向统一 Token 池，是「AI 平台化订阅」方向；对重度 Codex 用户是涨是降取决于 12 月生效的定价细则（模型/任务复杂度计费），值得跟踪用户反馈与竞品（Claude、Gemini）订阅策略跟进。",
+    "3 万亿美元承诺 + 标普调 Meta 展望：AI 资本开支从「年度指引」升级为「三十年义务」，评级机构开始介入；下周财报季与各厂 2027 年 capex 指引（Meta 预计超 2250 亿）是市场验证点。",
+    "创作工具竞争加剧：Figma Weave（聚合多模型节点化工作流）与 Pika 采用 MiniMax H3 开源基座，显示「模型中立编排层 + 开源多模态基座」成为创作产品的新组合范式。",
+    "中国 AI 生态在 IPO（Anthropic 千亿美元级）与算力承诺（3 万亿）主导全球叙事的同时，国产模型以开源基准（腾讯 Hy-Nomas-Bench）、被国际产品采用（MiniMax 基座）的方式持续输出影响力。"
+  ],
+  "notes": [
+    "窗口为 2026-10-29 ~ 2026-11-01。",
+    "Anthropic S-1 于 10-26 提交（超窗主体事件），10-27~31 持续被多家媒体解读；「近 9000 亿美元隐性债务」为 10-31 格隆汇/新浪财经/36氪对招股书的解读焦点；估值 1.5-2 万亿、募资最高 1000 亿、11-16 当周上市均为市场消息，非招股书确定值，已标注。",
+    "OpenAI 统一 Token 额度：10-31 公告、12 月起生效；主来源为网易转载的 OpenAI 公告，另有 OpenAI Help Center 费率页（10-31 更新）佐证 Codex 定价与共享额度机制。",
+    "彭博 3 万亿美元统计：10-30 彭博报道（腾讯新闻/证券之星/格隆汇 10-31 转载），口径为五大巨头财报披露的未来支出承诺；Meta 未来支出超 8000 亿、近半为最长 30 年期租赁；标普 11-01 将 Meta 展望调至负面。",
+    "Figma Weave：官方 FAQ（10-31 更新）确认 Weavy 更名为 Figma Weave 并「今日可用」；Weavy 系 Figma 2025 年收购资产，Weave 品牌 10 月底正式对外启用，属窗口内的品牌/产品进展。",
+    "腾讯混元 Hy-Nomas（10-29）与 Pika H3 Flex（10-29）为窗口边缘事件（今日补收），均以 X 官方/行业账号为来源：腾讯为官方账号、Pika 为第三方博主披露，后者置信度中等、未获官方博客交叉验证，已标注。",
+    "OpenAI 11-01 release notes 另推出 GPT-Live-1 驱动的 ChatGPT Voice 新体验（付费用户），信息量单薄，仅作提及不单列。",
+    "白宫科技顾问萨克斯称「Anthropic 可能成为资本主义史上最伟大企业」（IT之家 10-31 转述）为观点类言论、未获官方一手信源，未收录。",
+    "昨日（10-31）已收录的阿里×Apple 千问、Nvidia 债务担保、OpenAI fair use、Cursor 恶意扩展、Sierra ARR、Gemini Computer Use GA、Wiz 黑色十月、Claude 套餐更名、科技股 AI 支出担忧等今日不重复。政策与监管板块近 3 天未检索到高置信新增动态（fair use 昨日已收）；字节、Meta、xAI、百度近 3 天未检索到其他高置信新增动态。"
+  ]
 }
