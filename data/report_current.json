@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "AI 每日行业简报",
-  "window": "2026-10-29 ~ 2026-11-01",
-  "item_count": 9,
+  "window": "2026-10-30 ~ 2026-11-02",
+  "item_count": 8,
   "core_conclusions": [
-    "Anthropic IPO 冲刺全球纪录：招股文件披露近 9000 亿美元「隐性债务」——公司计划通过远期履约义务在服务器、建筑与电力等方面支出近 9000 亿美元，远超资产负债表账面负债（1175 亿美元，其中可转债 1085.66 亿美元、占比 92.4%）；2026 上半年净亏损 807 亿美元，主要来自可转债公允价值重估。市场预期估值 1.5 万亿至 2 万亿美元、募资最高 1000 亿美元，传闻 11 月 16 日当周上市。AI 时代最大规模 IPO 的资本结构与风险画像首次完整公开。",
-    "OpenAI 将 ChatGPT 与 Codex 合并为统一 Token 额度：10 月 31 日公告，自 12 月起 ChatGPT Plus、Pro、Business 套餐的使用额度将在 ChatGPT 与 Codex 之间共享，用量以 Token 统计、按模型与任务复杂度计费，即时对话（Instant chat）不占用共享额度。AI 订阅正从「按产品割裂计费」收敛为「统一算力池」，是消费端商业模型的一次重要重构。",
-    "AI 基建承诺总额首次被完整统计：彭博统计显示 Alphabet、Meta、微软、亚马逊、甲骨文五大巨头已承诺的未来 AI 基础设施支出超过 3 万亿美元（数据中心租赁、建筑、能源、设备采购等，部分账单偿还期长达 30 年），较一年前高出近八倍；标普 11 月 1 日将 Meta 评级展望下调至负面（预测其 2027 年资本支出超 2250 亿美元）。「投入规模」与「财务承受力」的张力正成为市场核心议题。"
+    "OpenAI 与 Anthropic 下一代旗舰同日曝光：OpenAI 跳过 6.1 在 Codex 后台灰测 GPT-6.2 Astra（原 6.1 旗舰因安全测试回炉重炼，Codex 团队 28 天重做底层、支持 AI 连续工作数小时）；Anthropic 官方源码中被扒出无护栏特种版 Claude Mythos 5.5（仅向顶尖网安与科研机构开放，据称 53 分钟独立攻破 Linux 内核）与 100 万上下文的通用旗舰 Fable 5.5（已现身 MLflow 与 Azure 目录）。两者均为媒体爆料/代码泄露，未获官方确认；叠加谷歌 Gemini 4 Carbon 10-29 刚夺回全球第一，三大巨头旗舰正面碰撞。",
+    "Anthropic IPO 前夕估值争议升级：路演阶段被披露 Q3 营收 168 亿美元、增速 45%（较 Q2 的 144% 大幅放缓），每投 1 美元算力成本仅产生 1.70 美元营收（低于 Q2 的 2.0+）；大空头艾斯曼公开质疑其刻意不披露 Q3 数据；预测平台 Polymarket 显示 56% 概率估值落在 1.5 万亿至 1.75 万亿美元。史上最大 AI IPO 的定价争议进入公开化阶段。",
+    "Anthropic 更新使用政策并于 11 月 12 日生效：武器禁令明确涵盖武器软件与组件、无人机/自动驾驶平台武装；重写监视与刑事司法条款；新增 Claude 自主采取物理行动时的控制要求；同时删除对个性化投票/竞选定向的全面禁令。政策与「自主硬件」风险的监管边界正随 Agent 化进程被重新划定。"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "Anthropic IPO 招股文件披露近 9000 亿美元「隐性债务」",
-      "why": "这是 AI 时代最大规模 IPO 的关键风险画像：公司承诺的近 9000 亿美元远期基础设施支出远超账面负债（1175 亿美元），叠加上半年 807 亿美元净亏损（主要为可转债重估），让「compute 承诺 vs 财务健康」首次透明化；估值 1.5-2 万亿美元、募资最高 1000 亿美元的传闻若兑现，将刷新全球 IPO 纪录。",
-      "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixaray1749145.shtml",
-      "summary": "Anthropic PBC 在 10 月 26 日向 SEC 提交 S-1 注册文件（拟以「ANT」登陆纳斯达克），10 月 31 日解读焦点集中在：公司将通过未来义务在服务器、建筑和电力等方面支出近 9000 亿美元（规模远超账面负债）；账面负债 1175 亿美元，其中对亚马逊、谷歌等发行人的可转债 1085.66 亿美元（占 92.4%）；2026 上半年 GAAP 净亏损 807.48 亿美元，其中 723.88 亿来自可转债/衍生品公允价值变动。市场消息称公司计划募资最高 1000 亿美元、估值预期 1.5 万至 2 万亿美元、11 月 16 日当周上市（时间仍可调整）。",
-      "source": "新浪财经 / 36氪 / 财新网 / Anthropic 官方",
-      "time": "2026-10-31"
+      "title": "OpenAI 灰测 GPT-6.2 Astra、Anthropic 源码现 Claude Mythos/Fable 5.5：两大旗舰同日曝光",
+      "why": "这是模型竞赛最前沿的直接信号：OpenAI 原旗舰 6.1 因安全测试回炉后跳级 6.2（在 Codex 后台灰测），Anthropic 则同时泄露无护栏特种版 Mythos 5.5（仅限顶尖网安/科研机构，据称 53 分钟攻破 Linux 内核）与 100 万上下文旗舰 Fable 5.5；叠加 Gemini 4 Carbon 刚登顶，三巨头旗舰在同一周末齐亮底牌。",
+      "url": "https://finance.sina.com.cn/stock/t/2026-11-02/doc-inixhwzf0511716.shtml",
+      "summary": "新智元 11-02 报道：OpenAI 跳过 6.1 在 Codex 后台灰测 GPT-6.2 Astra——原计划冲刺的 6.1 旗舰因安全测试「翻车」回炉重炼一个月后直接跳级 6.2；为配合新模型，Codex 团队 28 天重做底层，让 AI 能自己拉起子进程、连续工作几小时。同日，Anthropic 官方源码中被扒出 Claude Mythos 5.5（无护栏特种版，仅向顶尖网安与科研机构开放）与支持 100 万上下文的通用旗舰 Fable 5.5（已现身 MLflow 与 Azure 目录）；据披露 Mythos 5.5 仅用 53 分钟独立攻破 Linux 内核拿到最高权限、Fable 5.5 一句话生成 3D 版《我的世界》。时间线背景：谷歌 Gemini 4 Carbon（10-29）刚夺回全球第一。以上均为媒体爆料/代码泄露，未获 OpenAI 与 Anthropic 官方确认。",
+      "source": "新智元（新浪财经转载）/ ChainCatcher",
+      "time": "2026-11-02"
     },
     {
       "rank": 2,
-      "title": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 合并为统一 Token 额度",
-      "why": "OpenAI 消费端商业模式的一次重要收敛：ChatGPT Plus/Pro/Business 套餐额度不再按产品割裂，改为 ChatGPT 与 Codex 共享的统一 Token 池（按模型与任务复杂度计费）——对重度 Codex 用户的成本结构影响最大，也预示「AI 平台化订阅」方向。",
-      "url": "http://m.163.com/dy/article/LAKV9B4A0534A4SC.html",
-      "summary": "10 月 31 日 OpenAI 公告：自 12 月起，ChatGPT Plus、Pro、Business 套餐的使用额度将在 ChatGPT 与 Codex 之间共享；用量以 Token 统计，消耗额度取决于模型与任务复杂度（复杂任务消耗更高）；即时对话（Instant chat）不占用该共享额度。OpenAI 预计大多数用户等待额度重置的频率不会比现在更高；官方 Help Center 费率页同日更新（含 Codex 长上下文定价说明）。",
-      "source": "OpenAI 公告（网易转载）/ OpenAI Help Center",
-      "time": "2026-10-31"
+      "title": "Anthropic IPO 前夕 Q3 增长放缓遭空头发难：营收 168 亿美元、增速 45%",
+      "why": "IPO 定价的核心争议点：Q3 增速（45%）较 Q2（144%）大幅放缓、算力投入产出比下降（每 1 美元投入产出 1.70 美元营收，低于 Q2 的 2.0+），大空头艾斯曼公开质疑公司「刻意不披露 Q3 数据」——这直接影响 1.5-2 万亿美元估值能否兑现。",
+      "url": "https://c.m.163.com/news/a/LANOSR2J05198R91.html",
+      "summary": "据 11-02 多家媒体报道：Anthropic 已向潜在投资者披露部分 Q3 业绩指标——营收 168 亿美元、同比增长 45%，较 Q2 的 144% 大幅放缓；每投入 1 美元算力与基础设施成本仅产生 1.70 美元营收（低于 Q2 的 2.0+）。大空头艾斯曼（以做空次贷闻名的「大空头」原型之一）公开质疑其刻意不披露 Q3 数据。预测平台 Polymarket 数据显示：56% 概率 IPO 估值落在 1.5 万亿至 1.75 万亿美元、38% 概率落在 1.75 万亿至 2 万亿。路演 11 月初启动、11-16 当周上市仍为市场消息。",
+      "source": "网易新闻 / 搜狐 / Polymarket",
+      "time": "2026-11-02"
     },
     {
       "rank": 3,
-      "title": "彭博：五大科技巨头 AI 基础设施承诺支出超 3 万亿美元",
-      "why": "AI 资本开支叙事从「年度指引」升级为「三十年义务」：3 万亿美元的未来支出承诺（较一年前高出近八倍）首次被完整统计，其中 Meta 披露未来支出超 8000 亿美元、近半为最长 30 年期数据中心租赁；标普同日下调 Meta 评级展望——市场开始对 AI 基建的财务可持续性重新定价。",
-      "url": "http://news.qq.com/rain/a/20261031A03JOH00?adChannelId=tech",
-      "summary": "彭博 10 月 30 日报道：Alphabet（谷歌）、Meta、微软、亚马逊、甲骨文五大巨头已承诺未来在 AI 算力基础设施上投入超过 3 万亿美元（统计口径为财报披露的未来支出承诺，含数据中心租赁、建筑、能源、设备采购等），较一年前高出近八倍；部分账单偿还期限长达 30 年，谷歌、Meta 已因此烧成自由现金流为负。Meta 单独披露未来支出超 8000 亿美元，其中略少于一半为尚未起租的数据中心租赁（最长 30 年支付期）；标普 11 月 1 日将 Meta 评级展望下调至负面，预测其 2027 年资本支出加速至超 2250 亿美元、杠杆率最早明年超 1 倍。",
-      "source": "彭博社 / 腾讯新闻 / 证券之星 / 新浪财经",
-      "time": "2026-10-30"
+      "title": "Anthropic 更新使用政策：武器/监视/自主硬件条款收紧，11 月 12 日生效",
+      "why": "这是近 3 天政策板块唯一的高置信动态：武器禁令从「武器系统」扩展至武器软件与组件、无人机及自动驾驶平台武装；重写监视与刑事司法条款；新增 Claude 自主采取物理行动（接入硬件）时的控制要求——监管边界正随 Agent 化、具身化趋势同步演进。",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "summary": "Anthropic 官方 10 月 8 日发布 2026 使用政策更新（11 月 12 日生效，11-01 前后被广泛讨论）。要点：武器禁令明确涵盖「让武器工作的软件与组件」以及武装无人机、车辆或任何无人/自主平台；重写监视与刑事司法条款（禁止构建监视工具等）；新增 Claude 被用于自主采取物理行动（连接硬件）时的控制要求；新增针对模型滥用/欺骗行为的规则；同时删除对个性化投票与竞选定向的全面禁令（改为更聚焦的条款）。官方称更新依据过去一年观察到的影响力操作、武器开发与监视方面的新型滥用模式。",
+      "source": "Anthropic 官方博客 / Unite.AI / Notebookcheck",
+      "time": "2026-11-12 生效（2026-10-08 发布）"
     }
   ],
   "sections": [
@@ -45,21 +45,45 @@
       "items": [
         {
           "is_top": 1,
-          "title": "Anthropic IPO 招股文件披露近 9000 亿美元「隐性债务」",
-          "summary": "S-1（10-26 提交）显示：近 9000 亿美元远期基础设施支出承诺、账面负债 1175 亿美元（可转债占 92.4%）、上半年净亏损 807 亿美元（主要为可转债重估）；市场消息称估值 1.5-2 万亿、募资最高 1000 亿、11-16 当周上市。",
-          "why": "AI 时代最大规模 IPO 的资本结构与风险画像首次完整公开。",
-          "url": "https://finance.sina.com.cn/stock/bxjj/2026-10-31/doc-inixaray1749145.shtml",
-          "source": "新浪财经 / 36氪 / 财新网 / Anthropic 官方",
-          "time": "2026-10-31"
+          "title": "OpenAI 灰测 GPT-6.2 Astra、Anthropic 源码现 Claude Mythos/Fable 5.5",
+          "summary": "OpenAI 跳过 6.1 在 Codex 后台灰测 GPT-6.2 Astra（Codex 底层重做、AI 可连续工作数小时）；Anthropic 源码现 Mythos 5.5（无护栏特种版，53 分钟攻破 Linux）与 Fable 5.5（100 万上下文）。均为爆料/泄露，未官方确认。",
+          "why": "三巨头旗舰周末同日曝光，模型竞赛进入新一轮交锋。",
+          "url": "https://finance.sina.com.cn/stock/t/2026-11-02/doc-inixhwzf0511716.shtml",
+          "source": "新智元（新浪财经转载）/ ChainCatcher",
+          "time": "2026-11-02"
         },
         {
-          "is_top": 3,
-          "title": "彭博：五大科技巨头 AI 基础设施承诺支出超 3 万亿美元",
-          "summary": "Alphabet、Meta、微软、亚马逊、甲骨文未来承诺支出超 3 万亿美元（含最长 30 年期数据中心租赁）；标普 11-1 将 Meta 展望调至负面。",
-          "why": "AI 资本开支叙事从年度指引升级为三十年义务，评级机构开始介入。",
-          "url": "http://news.qq.com/rain/a/20261031A03JOH00?adChannelId=tech",
-          "source": "彭博社 / 腾讯新闻 / 证券之星",
-          "time": "2026-10-30"
+          "is_top": 2,
+          "title": "Anthropic IPO 前夕 Q3 增长放缓遭空头发难",
+          "summary": "Q3 营收 168 亿美元、增速 45%（Q2 为 144%）；算力投入产出 1 美元 1.70 美元（Q2 为 2.0+）；艾斯曼质疑其刻意不披露 Q3；Polymarket 56% 概率估值 1.5-1.75 万亿。",
+          "why": "史上最大 AI IPO 的定价争议公开化。",
+          "url": "https://c.m.163.com/news/a/LANOSR2J05198R91.html",
+          "source": "网易新闻 / 搜狐 / Polymarket",
+          "time": "2026-11-02"
+        },
+        {
+          "title": "谷歌发布 Gemini 4 Carbon：重回全球第一，聚焦网络安全与多日长程任务",
+          "summary": "Google DeepMind 10 月 29 日发布前沿旗舰 Gemini 4 Carbon：在 Artificial Analysis Intelligence Index v5.0 拿下 59 分，超越 Claude Opus 5.5（58 分）与 GPT-6 Astra（57 分）登顶；官方 14 项核心基准拿下 12 项第一；能连续数天处理复杂工程任务、自主寻找验证并修复软件缺陷；发布初期暂仅向安全防御者（Defenders）开放，10 月底灰度扩大。",
+          "why": "谷歌借「网络安全 + 长周期自主任务」定位夺回全球第一，为周末 OpenAI/Anthropic 新旗舰爆料提供了直接背景。",
+          "url": "https://m.36kr.com/p/4046154482078599",
+          "source": "Google DeepMind / 36氪 / 爱范儿",
+          "time": "2026-10-29（窗口边缘补收）"
+        },
+        {
+          "title": "腾讯发布 BuddyOne 跨应用 AI 协同体系，WorkBuddy 累计处理超 90 亿次任务请求",
+          "summary": "据腾讯新闻 11-02 报道（转述券商观点）：2026 腾讯全球数字生态大会本周举办，会上腾讯发布 BuddyOne 跨应用 AI 协同体系，升级企业级 WorkBuddy 能力——WorkBuddy 自 3 月上线以来累计处理超 90 亿次任务请求；并预告混元 Hy4 正式版及 Hy4Flash 后续发布。",
+          "why": "腾讯在「跨应用 Agent 协同」方向给出新体系，叠加混元 Hy4 预告，国产大厂 Agent 层竞争升温。",
+          "url": "https://news.qq.com/rain/a/20261102A04LB000",
+          "source": "腾讯新闻（券商观点转述）",
+          "time": "2026-11-02"
+        },
+        {
+          "title": "智元发布 GO-3 Preview 具身模型：全链路 Scaling，机器人榜单三榜第一、年底开源",
+          "summary": "智元（AgiBot）10 月 29 日发布 GO-3 Preview——在预训练、后训练、部署后阶段实现全链路 Scaling 的具身模型，拿下 RoboDojo、RoboTwin、RoboColiseum 等机器人榜单 Top 1；公司计划年底全面开源。",
+          "why": "具身智能进入「模型竞赛」阶段，国产具身模型首次同时登顶多个国际机器人基准并承诺开源。",
+          "url": "https://36kr.com/p/4046784076305283",
+          "source": "36氪",
+          "time": "2026-10-29（窗口边缘补收）"
         }
       ]
     },
@@ -69,29 +93,20 @@
       "color": "teal",
       "items": [
         {
-          "is_top": 2,
-          "title": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 合并为统一 Token 额度",
-          "summary": "10-31 公告：Plus/Pro/Business 套餐额度在 ChatGPT 与 Codex 间共享，按 Token 与任务复杂度计费，即时对话不占用共享额度。",
-          "why": "消费端从按产品计费收敛为统一算力池，Codex 重度用户成本结构将变。",
-          "url": "http://m.163.com/dy/article/LAKV9B4A0534A4SC.html",
-          "source": "OpenAI 公告（网易转载）/ OpenAI Help Center",
-          "time": "2026-10-31"
+          "title": "OpenAI 推出 GPT-Live-1 驱动的 ChatGPT Voice 新体验",
+          "summary": "OpenAI 官方 Release Notes（11-01 更新）：ChatGPT Voice 现由 GPT-Live-1 驱动，向付费用户滚动推出新的语音体验（低延迟语音交互）。官方暂未披露 GPT-Live-1 的参数量与完整能力边界。",
+          "why": "OpenAI 语音层模型独立命名（GPT-Live），实时语音交互进入模型级迭代阶段。",
+          "url": "https://help.openai.com/zh-hans-cn/articles/11391654-chatgpt-business-release-notes",
+          "source": "OpenAI Help Center（Release Notes）",
+          "time": "2026-11-01"
         },
         {
-          "title": "Figma 正式启用 Weave 创作平台：AI 原生媒体生成与编辑",
-          "summary": "Figma 官方 FAQ（10-31 更新）确认：Weavy 更名为 Figma Weave，作为 Figma 的生成式 AI 媒体平台（图片/视频/音频/3D）在 weave.figma.com 独立可用——节点化工作流聚合 Google、Kling、OpenAI、字节跳动等多家模型与专业编辑工具，工作流从左到右连接输入与输出。",
-          "why": "创作工具层向「多模型节点化工作流」演进，Figma 从设计工具延伸为 AI 媒体生成编排平台。",
-          "url": "https://help.figma.com/hc/en-us/articles/35965787376919-Figma-Weave-FAQ",
-          "source": "Figma 官方 Help Center / weave.figma.com",
-          "time": "2026-10-31"
-        },
-        {
-          "title": "Pika 基于 MiniMax H3 后训练并开源 H3 Flex 视频生成模型",
-          "summary": "据行业博主卡兹克（X，10-29）：Pika 基于 MiniMax H3 后训练的视频生成模型 Pika H3 Flex 已发布并开源；未获 Pika 官方博客直接交叉验证，属第三方渠道披露。",
-          "why": "国际视频生成公司反向采用中国基座模型（MiniMax H3），显示国产多模态基座的开源生态影响力。",
-          "url": "https://x.com/Khazix0918/status/2115898252004622617",
-          "source": "X（行业博主卡兹克）",
-          "time": "2026-10-29"
+          "title": "数字生命卡兹克分享「折腾一年」的 Agent 自动化系统架构",
+          "summary": "公众号「数字生命卡兹克」11-02 发布实操长文：分享其搭建近一年的个人 Agent 自动化系统架构（任务编排、多智能体协作、长周期自主执行的经验与踩坑）。属创作者个人实践分享，非官方技术文档。",
+          "why": "反映 Agent 从「单点工具」走向「个人自动化系统」的真实工程实践与社区关注度。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688060&idx=1&sn=e00d7e57b6f0e3670f0e267e677047df",
+          "source": "公众号：数字生命卡兹克",
+          "time": "2026-11-02"
         }
       ]
     },
@@ -99,40 +114,41 @@
       "key": "policy",
       "name": "政策与监管",
       "color": "amber",
-      "items": []
+      "items": [
+        {
+          "is_top": 3,
+          "title": "Anthropic 更新使用政策：武器/监视/自主硬件条款收紧，11 月 12 日生效",
+          "summary": "官方 10-08 发布 2026 使用政策更新（11-12 生效）：武器禁令扩展至武器软件与组件、无人机/自主平台武装；重写监视与刑事司法条款；新增 Claude 自主物理行动（连接硬件）控制要求；删除个性化投票/竞选定向全面禁令。",
+          "why": "政策边界随 Agent 化、具身化趋势同步演进，为「自主硬件 + 模型」划出红线。",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "source": "Anthropic 官方博客",
+          "time": "2026-11-12 生效（2026-10-08 发布）"
+        }
+      ]
     },
     {
       "key": "research",
       "name": "研究与基础设施",
       "color": "violet",
-      "items": [
-        {
-          "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
-          "summary": "腾讯混元官方 X 账号（10-29）发布 Hy-Nomas 技术报告，并开源配套评测基准 Hy-Nomas-Bench；具体模型规模与评测维度以技术报告为准，官方博客暂未见完整版披露。",
-          "why": "国产大模型在「评测基建」上继续补位，开源基准有利于多模态/长程能力横向比较。",
-          "url": "https://x.com/TencentHunyuan/status/2115851165904814283",
-          "source": "X（腾讯混元官方）",
-          "time": "2026-10-29"
-        }
-      ]
+      "items": []
     }
   ],
   "observations": [
-    "Anthropic IPO 是本阶段 AI 资本叙事的枢纽事件：S-1 让「compute 承诺 vs 财务健康」首次透明化（近 9000 亿隐性债务、半年净亏损 807 亿、可转债 1085.66 亿）；关注 11-16 当周上市定价、AWS/谷歌可转债安排，以及对 AI 基建板块估值的连锁影响。",
-    "OpenAI 统一 Token 额度：从按产品限额度转向统一 Token 池，是「AI 平台化订阅」方向；对重度 Codex 用户是涨是降取决于 12 月生效的定价细则（模型/任务复杂度计费），值得跟踪用户反馈与竞品（Claude、Gemini）订阅策略跟进。",
-    "3 万亿美元承诺 + 标普调 Meta 展望：AI 资本开支从「年度指引」升级为「三十年义务」，评级机构开始介入；下周财报季与各厂 2027 年 capex 指引（Meta 预计超 2250 亿）是市场验证点。",
-    "创作工具竞争加剧：Figma Weave（聚合多模型节点化工作流）与 Pika 采用 MiniMax H3 开源基座，显示「模型中立编排层 + 开源多模态基座」成为创作产品的新组合范式。",
-    "中国 AI 生态在 IPO（Anthropic 千亿美元级）与算力承诺（3 万亿）主导全球叙事的同时，国产模型以开源基准（腾讯 Hy-Nomas-Bench）、被国际产品采用（MiniMax 基座）的方式持续输出影响力。"
+    "三大旗舰交锋是本周主线：Gemini 4 Carbon（10-29 登顶）→ GPT-6.2 Astra 灰测 + Mythos/Fable 5.5 泄露（11-02 爆料）——留意官方正式发布节奏：OpenAI 是否在 12 月统一 Token 额度落地前同步上新旗舰、Anthropic 是否在 IPO 挂牌（传闻 11-16 当周）前官宣 Mythos/Fable。",
+    "Anthropic IPO 进入路演关键期：Q3 增速放缓（45% vs Q2 144%）与算力投入产出比下降是空头弹药，Polymarket 估值预期（56% 落在 1.5-1.75 万亿）与市场传闻（最高 2 万亿）存在分歧；关注路演定价区间披露与 11-16 当周挂牌是否如期。",
+    "政策与 Agent 化的张力：Anthropic 使用政策明确「自主物理行动/硬件」红线、同时放宽竞选定向禁令（改聚焦条款），AI 企业「自我监管」的具体边界值得持续对照后续滥用案例观察。",
+    "腾讯 BuddyOne 跨应用协同 + 混元 Hy4 预告、智元 GO-3 年底开源：国产厂商分别在 Agent 编排与具身模型开源上推进，与 Anthropic 政策中「自主硬件」条款形成呼应。",
+    "Microsoft Ignite（11-17~20，旧金山）为下一个大厂发布窗口，Copilot Home/Code/Autopilot 等新品将集中亮相。"
   ],
   "notes": [
-    "窗口为 2026-10-29 ~ 2026-11-01。",
-    "Anthropic S-1 于 10-26 提交（超窗主体事件），10-27~31 持续被多家媒体解读；「近 9000 亿美元隐性债务」为 10-31 格隆汇/新浪财经/36氪对招股书的解读焦点；估值 1.5-2 万亿、募资最高 1000 亿、11-16 当周上市均为市场消息，非招股书确定值，已标注。",
-    "OpenAI 统一 Token 额度：10-31 公告、12 月起生效；主来源为网易转载的 OpenAI 公告，另有 OpenAI Help Center 费率页（10-31 更新）佐证 Codex 定价与共享额度机制。",
-    "彭博 3 万亿美元统计：10-30 彭博报道（腾讯新闻/证券之星/格隆汇 10-31 转载），口径为五大巨头财报披露的未来支出承诺；Meta 未来支出超 8000 亿、近半为最长 30 年期租赁；标普 11-01 将 Meta 展望调至负面。",
-    "Figma Weave：官方 FAQ（10-31 更新）确认 Weavy 更名为 Figma Weave 并「今日可用」；Weavy 系 Figma 2025 年收购资产，Weave 品牌 10 月底正式对外启用，属窗口内的品牌/产品进展。",
-    "腾讯混元 Hy-Nomas（10-29）与 Pika H3 Flex（10-29）为窗口边缘事件（今日补收），均以 X 官方/行业账号为来源：腾讯为官方账号、Pika 为第三方博主披露，后者置信度中等、未获官方博客交叉验证，已标注。",
-    "OpenAI 11-01 release notes 另推出 GPT-Live-1 驱动的 ChatGPT Voice 新体验（付费用户），信息量单薄，仅作提及不单列。",
-    "白宫科技顾问萨克斯称「Anthropic 可能成为资本主义史上最伟大企业」（IT之家 10-31 转述）为观点类言论、未获官方一手信源，未收录。",
-    "昨日（10-31）已收录的阿里×Apple 千问、Nvidia 债务担保、OpenAI fair use、Cursor 恶意扩展、Sierra ARR、Gemini Computer Use GA、Wiz 黑色十月、Claude 套餐更名、科技股 AI 支出担忧等今日不重复。政策与监管板块近 3 天未检索到高置信新增动态（fair use 昨日已收）；字节、Meta、xAI、百度近 3 天未检索到其他高置信新增动态。"
+    "窗口为 2026-10-30 ~ 2026-11-02（含周末及周一上午）。",
+    "GPT-6.2 Astra / Claude Mythos 5.5 / Fable 5.5 均为媒体爆料与代码泄露（新智元 11-02 06:55、ChainCatcher 11-02 08:31），未获 OpenAI、Anthropic 官方确认；「6.1 安全测试回炉」「53 分钟攻破 Linux」「3D《我的世界》」等细节均出自该爆料，置信度待官方验证。注意 OpenAI 已于 10-27 发布中端 GPT-6.1 Terra（超窗事件，今日仅作背景）。",
+    "Anthropic Q3 数据系「向潜在投资者披露的部分业绩指标」经媒体报道转述（网易/搜狐 11-02），非官方公开财报；「刻意不披露」为艾斯曼观点；估值概率来自 Polymarket 预测市场。",
+    "Anthropic 使用政策：10-08 官方发布、11-12 生效，事件主体发布日在窗口外、生效临近（11-01 前后被广泛讨论），已标注完整时间线。",
+    "Gemini 4 Carbon（10-29）与智元 GO-3 Preview（10-29）为窗口边缘事件（昨日 11-01 简报未收录），今日补收并标注时间线。",
+    "昨日（11-01）已收录的 Anthropic IPO 9000 亿隐性债务、OpenAI 统一 Token 额度、彭博 3 万亿、Figma Weave、腾讯混元 Hy-Nomas、Pika H3 Flex 等今日不重复。",
+    "研究与基础设施板块近 3 天未检索到高置信新增动态（Epoch AI「GLM 5.3 自主攻击 Firefox」实验、Wiz「黑色十月」报告均于 10-30 前日已收）。",
+    "应用板块候选以教程/技巧类居多（Claude Code ultrathink、OpenRouter Responses API 教程、OpenRouter Agent SDK 教程等），非高置信产品动态，未收录；「Cursor 订阅与 Grok 共享用量池」仅见单一二手来源，未验证，未收录。",
+    "字节小荷 AI 医生相关报道（财经网科技 11-02）细节不足，未收录。"
   ]
 }
