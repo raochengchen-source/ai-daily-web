@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-02",
-  "title": "AI 每日行业简报",
-  "window": "2026-10-30 ~ 2026-11-02",
-  "item_count": 8,
+  "date": "2026-11-03",
+  "title": "AI 每日行业简报 · 2026-11-03",
+  "window": "2026-10-31 ~ 2026-11-03",
+  "item_count": 9,
   "core_conclusions": [
-    "OpenAI 与 Anthropic 下一代旗舰同日曝光：OpenAI 跳过 6.1 在 Codex 后台灰测 GPT-6.2 Astra（原 6.1 旗舰因安全测试回炉重炼，Codex 团队 28 天重做底层、支持 AI 连续工作数小时）；Anthropic 官方源码中被扒出无护栏特种版 Claude Mythos 5.5（仅向顶尖网安与科研机构开放，据称 53 分钟独立攻破 Linux 内核）与 100 万上下文的通用旗舰 Fable 5.5（已现身 MLflow 与 Azure 目录）。两者均为媒体爆料/代码泄露，未获官方确认；叠加谷歌 Gemini 4 Carbon 10-29 刚夺回全球第一，三大巨头旗舰正面碰撞。",
-    "Anthropic IPO 前夕估值争议升级：路演阶段被披露 Q3 营收 168 亿美元、增速 45%（较 Q2 的 144% 大幅放缓），每投 1 美元算力成本仅产生 1.70 美元营收（低于 Q2 的 2.0+）；大空头艾斯曼公开质疑其刻意不披露 Q3 数据；预测平台 Polymarket 显示 56% 概率估值落在 1.5 万亿至 1.75 万亿美元。史上最大 AI IPO 的定价争议进入公开化阶段。",
-    "Anthropic 更新使用政策并于 11 月 12 日生效：武器禁令明确涵盖武器软件与组件、无人机/自动驾驶平台武装；重写监视与刑事司法条款；新增 Claude 自主采取物理行动时的控制要求；同时删除对个性化投票/竞选定向的全面禁令。政策与「自主硬件」风险的监管边界正随 Agent 化进程被重新划定。"
+    "Anthropic 更新招股书再曝重磅：算力与基础设施履约承诺合计约 8954 亿美元（其中约 4475 亿须在 2030 年底前发生、约 698 亿一年内到期），叠加 Q3 净亏损扩大至 233 亿美元、营收 169.56 亿美元（同比 +1127%）——IPO 前「算力军备的账单」与盈利压力被完整摊开。",
+    "OpenAI 一周双线推进安全与国安：官方发布激活分类器（activation classifiers）逐 token 实时监控前沿模型内部激活，可在生成中拦截违规行为；同日宣布任命前美国陆军部长 Dan Driscoll 为新设「国家安全现代化高级顾问」，并推出电网削峰计划 Grid Protectors。",
+    "国产 AI 科研范式转向：腾讯混元发布 Hyra 2.0，让通用 Agent 参与科研模型、工作流与软件工具的研发并复用成果（从「刷题解题」走向「造工具」）；政策端 OpenAI、Google、Microsoft、Anthropic 同意统一 robots.txt 训练退出信号（10-30 宣布）。"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "OpenAI 灰测 GPT-6.2 Astra、Anthropic 源码现 Claude Mythos/Fable 5.5：两大旗舰同日曝光",
-      "why": "这是模型竞赛最前沿的直接信号：OpenAI 原旗舰 6.1 因安全测试回炉后跳级 6.2（在 Codex 后台灰测），Anthropic 则同时泄露无护栏特种版 Mythos 5.5（仅限顶尖网安/科研机构，据称 53 分钟攻破 Linux 内核）与 100 万上下文旗舰 Fable 5.5；叠加 Gemini 4 Carbon 刚登顶，三巨头旗舰在同一周末齐亮底牌。",
-      "url": "https://finance.sina.com.cn/stock/t/2026-11-02/doc-inixhwzf0511716.shtml",
-      "summary": "新智元 11-02 报道：OpenAI 跳过 6.1 在 Codex 后台灰测 GPT-6.2 Astra——原计划冲刺的 6.1 旗舰因安全测试「翻车」回炉重炼一个月后直接跳级 6.2；为配合新模型，Codex 团队 28 天重做底层，让 AI 能自己拉起子进程、连续工作几小时。同日，Anthropic 官方源码中被扒出 Claude Mythos 5.5（无护栏特种版，仅向顶尖网安与科研机构开放）与支持 100 万上下文的通用旗舰 Fable 5.5（已现身 MLflow 与 Azure 目录）；据披露 Mythos 5.5 仅用 53 分钟独立攻破 Linux 内核拿到最高权限、Fable 5.5 一句话生成 3D 版《我的世界》。时间线背景：谷歌 Gemini 4 Carbon（10-29）刚夺回全球第一。以上均为媒体爆料/代码泄露，未获 OpenAI 与 Anthropic 官方确认。",
-      "source": "新智元（新浪财经转载）/ ChainCatcher",
-      "time": "2026-11-02"
+      "title": "Anthropic 更新招股书：8954 亿美元算力承诺、Q3 净亏 233 亿美元",
+      "why": "IPO 关键文件首次给出算力军备的完整账单与支付时间表，直接关系到上市估值、融资结构与长期负债判断。",
+      "summary": "11-02 更新版 S-1 显示，Anthropic 合计约 8954 亿美元履约承诺几乎全部用于算力与数据中心建设；约 4475 亿美元须在 2030 年 12 月 31 日前发生，其余在 2031-2045 年间，其中约 698 亿美元在 2026 年 9 月 30 日后 12 个月内到期；约 2138 亿美元附终止权或或有条件。同期披露 Q3 营收 169.56 亿美元、净亏损扩大至 233 亿美元。",
+      "url": "https://www.securities.io/anthropic-reports-895-4-billion-in-compute-and-infrastructure-commitments/",
+      "source": "Securities.io / Unite.AI / 新浪财经",
+      "time": "11-02"
     },
     {
       "rank": 2,
-      "title": "Anthropic IPO 前夕 Q3 增长放缓遭空头发难：营收 168 亿美元、增速 45%",
-      "why": "IPO 定价的核心争议点：Q3 增速（45%）较 Q2（144%）大幅放缓、算力投入产出比下降（每 1 美元投入产出 1.70 美元营收，低于 Q2 的 2.0+），大空头艾斯曼公开质疑公司「刻意不披露 Q3 数据」——这直接影响 1.5-2 万亿美元估值能否兑现。",
-      "url": "https://c.m.163.com/news/a/LANOSR2J05198R91.html",
-      "summary": "据 11-02 多家媒体报道：Anthropic 已向潜在投资者披露部分 Q3 业绩指标——营收 168 亿美元、同比增长 45%，较 Q2 的 144% 大幅放缓；每投入 1 美元算力与基础设施成本仅产生 1.70 美元营收（低于 Q2 的 2.0+）。大空头艾斯曼（以做空次贷闻名的「大空头」原型之一）公开质疑其刻意不披露 Q3 数据。预测平台 Polymarket 数据显示：56% 概率 IPO 估值落在 1.5 万亿至 1.75 万亿美元、38% 概率落在 1.75 万亿至 2 万亿。路演 11 月初启动、11-16 当周上市仍为市场消息。",
-      "source": "网易新闻 / 搜狐 / Polymarket",
-      "time": "2026-11-02"
+      "title": "OpenAI 部署激活分类器：逐 token 实时监控前沿模型内部激活",
+      "why": "把「可解释性」从研究推向生产：利用模型内部激活信号做实时安全监控，是前沿模型安全栈从外挂审查走向内生监测的标志性动作。",
+      "summary": "OpenAI 官方 11-02 发布《Training activation classifiers for safety and alignment》：在其最强模型中训练并部署激活分类器（activation probes）作为附加安全层，生成过程中逐 token 打分，可立即中断响应、阻止工具调用，并在推理模型进行完整审查时暂停生成；10-29 的《How we detect frontier model misalignment》进一步披露 L0 激活探针 / L1 模型审查员 / L2 高算力审查的三阶段监测栈。",
+      "url": "https://openai.com/news/",
+      "source": "OpenAI 官方（News 列表含该文）",
+      "time": "11-02"
     },
     {
       "rank": 3,
-      "title": "Anthropic 更新使用政策：武器/监视/自主硬件条款收紧，11 月 12 日生效",
-      "why": "这是近 3 天政策板块唯一的高置信动态：武器禁令从「武器系统」扩展至武器软件与组件、无人机及自动驾驶平台武装；重写监视与刑事司法条款；新增 Claude 自主采取物理行动（接入硬件）时的控制要求——监管边界正随 Agent 化、具身化趋势同步演进。",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "summary": "Anthropic 官方 10 月 8 日发布 2026 使用政策更新（11 月 12 日生效，11-01 前后被广泛讨论）。要点：武器禁令明确涵盖「让武器工作的软件与组件」以及武装无人机、车辆或任何无人/自主平台；重写监视与刑事司法条款（禁止构建监视工具等）；新增 Claude 被用于自主采取物理行动（连接硬件）时的控制要求；新增针对模型滥用/欺骗行为的规则；同时删除对个性化投票与竞选定向的全面禁令（改为更聚焦的条款）。官方称更新依据过去一年观察到的影响力操作、武器开发与监视方面的新型滥用模式。",
-      "source": "Anthropic 官方博客 / Unite.AI / Notebookcheck",
-      "time": "2026-11-12 生效（2026-10-08 发布）"
+      "title": "腾讯混元发布 Hyra 2.0：AI 科研从「刷题解题」转向「造工具」",
+      "why": "国产大厂科研范式的明确转向：让通用 Agent 产出可复用的科学模型与软件工具，强调「智能复利」，与海外以算力堆叠为主的研究路径形成分化。",
+      "summary": "腾讯混元 11-02 发布 AI 科研系统 Hyra 2.0：研发重点从直接用 AI 攻克科学难题，转向让通用 Agent 参与科学模型、研究工作流及软件工具的研发与升级，让一次研发成果在后续研究中被反复使用。",
+      "url": "https://original.ifeng.com/c/8xjMEhQvTuR?ch=ttsearch",
+      "source": "凤凰网科技 / 新浪·IT之家",
+      "time": "11-02"
     }
   ],
   "sections": [
@@ -44,46 +44,29 @@
       "color": "blue",
       "items": [
         {
-          "is_top": 1,
-          "title": "OpenAI 灰测 GPT-6.2 Astra、Anthropic 源码现 Claude Mythos/Fable 5.5",
-          "summary": "OpenAI 跳过 6.1 在 Codex 后台灰测 GPT-6.2 Astra（Codex 底层重做、AI 可连续工作数小时）；Anthropic 源码现 Mythos 5.5（无护栏特种版，53 分钟攻破 Linux）与 Fable 5.5（100 万上下文）。均为爆料/泄露，未官方确认。",
-          "why": "三巨头旗舰周末同日曝光，模型竞赛进入新一轮交锋。",
-          "url": "https://finance.sina.com.cn/stock/t/2026-11-02/doc-inixhwzf0511716.shtml",
-          "source": "新智元（新浪财经转载）/ ChainCatcher",
-          "time": "2026-11-02"
+          "title": "腾讯混元发布 Hyra 2.0：科研从「刷题解题」转向「造工具」",
+          "summary": "11-02 发布 AI 科研系统 Hyra 2.0，让通用 Agent 参与科学模型、研究工作流及软件工具的研发与升级，成果可反复复用，推动科研范式转变。",
+          "why": "国产科研 Agent 从「解题」到「造工具」的范式切换，代表一条强调成果积累与复用的差异化路线。",
+          "url": "https://original.ifeng.com/c/8xjMEhQvTuR?ch=ttsearch",
+          "source": "凤凰网科技",
+          "time": "11-02",
+          "is_top": 3
         },
         {
-          "is_top": 2,
-          "title": "Anthropic IPO 前夕 Q3 增长放缓遭空头发难",
-          "summary": "Q3 营收 168 亿美元、增速 45%（Q2 为 144%）；算力投入产出 1 美元 1.70 美元（Q2 为 2.0+）；艾斯曼质疑其刻意不披露 Q3；Polymarket 56% 概率估值 1.5-1.75 万亿。",
-          "why": "史上最大 AI IPO 的定价争议公开化。",
-          "url": "https://c.m.163.com/news/a/LANOSR2J05198R91.html",
-          "source": "网易新闻 / 搜狐 / Polymarket",
-          "time": "2026-11-02"
+          "title": "OpenAI 推出 Grid Protectors：电网承压时数据中心最多削减 1GW 用电",
+          "summary": "11-02 宣布「电网守护者计划」：首案为佐治亚州 Effingham 县拟建园区（Project Camellia，最高 3200MW）与 Georgia Power 的 25 年协议，高峰时最多削减 1000MW（约 70 万户用电），并承诺将模式推广至全美。",
+          "why": "AI 数据中心与电网的协同模式首次规模化落地：以「可削减」换电网建设支持，是基建叙事的新变量。",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-02/doc-inixkeur0372896.shtml.md",
+          "source": "新浪财经",
+          "time": "11-02"
         },
         {
-          "title": "谷歌发布 Gemini 4 Carbon：重回全球第一，聚焦网络安全与多日长程任务",
-          "summary": "Google DeepMind 10 月 29 日发布前沿旗舰 Gemini 4 Carbon：在 Artificial Analysis Intelligence Index v5.0 拿下 59 分，超越 Claude Opus 5.5（58 分）与 GPT-6 Astra（57 分）登顶；官方 14 项核心基准拿下 12 项第一；能连续数天处理复杂工程任务、自主寻找验证并修复软件缺陷；发布初期暂仅向安全防御者（Defenders）开放，10 月底灰度扩大。",
-          "why": "谷歌借「网络安全 + 长周期自主任务」定位夺回全球第一，为周末 OpenAI/Anthropic 新旗舰爆料提供了直接背景。",
-          "url": "https://m.36kr.com/p/4046154482078599",
-          "source": "Google DeepMind / 36氪 / 爱范儿",
-          "time": "2026-10-29（窗口边缘补收）"
-        },
-        {
-          "title": "腾讯发布 BuddyOne 跨应用 AI 协同体系，WorkBuddy 累计处理超 90 亿次任务请求",
-          "summary": "据腾讯新闻 11-02 报道（转述券商观点）：2026 腾讯全球数字生态大会本周举办，会上腾讯发布 BuddyOne 跨应用 AI 协同体系，升级企业级 WorkBuddy 能力——WorkBuddy 自 3 月上线以来累计处理超 90 亿次任务请求；并预告混元 Hy4 正式版及 Hy4Flash 后续发布。",
-          "why": "腾讯在「跨应用 Agent 协同」方向给出新体系，叠加混元 Hy4 预告，国产大厂 Agent 层竞争升温。",
-          "url": "https://news.qq.com/rain/a/20261102A04LB000",
-          "source": "腾讯新闻（券商观点转述）",
-          "time": "2026-11-02"
-        },
-        {
-          "title": "智元发布 GO-3 Preview 具身模型：全链路 Scaling，机器人榜单三榜第一、年底开源",
-          "summary": "智元（AgiBot）10 月 29 日发布 GO-3 Preview——在预训练、后训练、部署后阶段实现全链路 Scaling 的具身模型，拿下 RoboDojo、RoboTwin、RoboColiseum 等机器人榜单 Top 1；公司计划年底全面开源。",
-          "why": "具身智能进入「模型竞赛」阶段，国产具身模型首次同时登顶多个国际机器人基准并承诺开源。",
-          "url": "https://36kr.com/p/4046784076305283",
-          "source": "36氪",
-          "time": "2026-10-29（窗口边缘补收）"
+          "title": "Anthropic Q3 财务：营收 169.56 亿美元同比 +1127%，净亏损扩大至 233 亿美元",
+          "summary": "11-02 更新招股书：前三季度营收 332.42 亿美元（同比 +1206%）；Q3 营收 169.56 亿美元（同比约 +1127%、环比约 +47%），按 GAAP 净亏损 233 亿美元（去年同期 121 亿美元）；按使用量计费收入占比近八成。",
+          "why": "营收高增与亏损扩大的剪刀差，是 IPO 定价与市场分歧的核心；多源口径修正昨日日报引用的同比数据（详见 notes）。",
+          "url": "https://finance.sina.com.cn/roll/2026-11-02/doc-inixkmap0284796.shtml",
+          "source": "新浪财经 / SoSoValue / Anadolu",
+          "time": "11-02"
         }
       ]
     },
@@ -93,20 +76,20 @@
       "color": "teal",
       "items": [
         {
-          "title": "OpenAI 推出 GPT-Live-1 驱动的 ChatGPT Voice 新体验",
-          "summary": "OpenAI 官方 Release Notes（11-01 更新）：ChatGPT Voice 现由 GPT-Live-1 驱动，向付费用户滚动推出新的语音体验（低延迟语音交互）。官方暂未披露 GPT-Live-1 的参数量与完整能力边界。",
-          "why": "OpenAI 语音层模型独立命名（GPT-Live），实时语音交互进入模型级迭代阶段。",
-          "url": "https://help.openai.com/zh-hans-cn/articles/11391654-chatgpt-business-release-notes",
-          "source": "OpenAI Help Center（Release Notes）",
-          "time": "2026-11-01"
+          "title": "Claude Platform 推出 message threads 公开公测：长会话 agent 无需重发全量历史",
+          "summary": "11-02 Anthropic Release Notes 宣布 Messages API message threads 公开 beta：服务端保留对话、客户端只续传新消息，降低长运行会话延迟；线程闲置 5 分钟过期、最长保留 1 小时；支持 Claude API / AWS / Google Cloud（Anthropic managed）/ Microsoft Foundry。",
+          "why": "把「会话状态」下沉到服务端，是长时任务 agent 工程化的关键一步，直接影响多步 agent 的成本与延迟。",
+          "url": "https://claude.com/resources/articles/message-threads",
+          "source": "Claude 官方",
+          "time": "11-02"
         },
         {
-          "title": "数字生命卡兹克分享「折腾一年」的 Agent 自动化系统架构",
-          "summary": "公众号「数字生命卡兹克」11-02 发布实操长文：分享其搭建近一年的个人 Agent 自动化系统架构（任务编排、多智能体协作、长周期自主执行的经验与踩坑）。属创作者个人实践分享，非官方技术文档。",
-          "why": "反映 Agent 从「单点工具」走向「个人自动化系统」的真实工程实践与社区关注度。",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688060&idx=1&sn=e00d7e57b6f0e3670f0e267e677047df",
-          "source": "公众号：数字生命卡兹克",
-          "time": "2026-11-02"
+          "title": "OpenAI 发布 LifeVal 基准：衡量 AI 完成「人间烟火」日常事务的能力",
+          "summary": "11-02 发布 LifeVal 新基准，从选幼儿园到报税，测试 AI 能否真正帮助普通人完成日常事务，称评估旨在让通用 AI 更贴近「对人类最有用的日常帮助」。",
+          "why": "前沿模型竞争开始把「日常事务完成度」单列为评估维度，反映能力叙事从竞技场走向真实生活场景。",
+          "url": "https://m.weibo.cn/detail/5361108923712268",
+          "source": "IT之家",
+          "time": "11-02"
         }
       ]
     },
@@ -116,13 +99,20 @@
       "color": "amber",
       "items": [
         {
-          "is_top": 3,
-          "title": "Anthropic 更新使用政策：武器/监视/自主硬件条款收紧，11 月 12 日生效",
-          "summary": "官方 10-08 发布 2026 使用政策更新（11-12 生效）：武器禁令扩展至武器软件与组件、无人机/自主平台武装；重写监视与刑事司法条款；新增 Claude 自主物理行动（连接硬件）控制要求；删除个性化投票/竞选定向全面禁令。",
-          "why": "政策边界随 Agent 化、具身化趋势同步演进，为「自主硬件 + 模型」划出红线。",
-          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-          "source": "Anthropic 官方博客",
-          "time": "2026-11-12 生效（2026-10-08 发布）"
+          "title": "OpenAI 任命前美国陆军部长 Dan Driscoll 为国家安全现代化高级顾问",
+          "summary": "OpenAI 官方 11-02 宣布，前美国陆军部长 Dan Driscoll 出任新设的「国家安全现代化高级顾问」，为领导层提供建议并与政府、行业、学界协作，聚焦先进 AI 强化国家安全与网络安全、与盟友推进负责任使用；Driscoll 今年早些时候因与国防部长赫格塞思不和而辞职。",
+          "why": "继军工合作与网安能力布局后，OpenAI 以高级人事再次加码「国家安全」叙事，AI 与国防的交界面持续前移。",
+          "url": "https://c.m.163.com/news/a/LAQ6PEIQ0519QIKK.html",
+          "source": "网易 / 36氪 / OpenAI 官方",
+          "time": "11-02"
+        },
+        {
+          "title": "OpenAI、Google、Microsoft、Anthropic 统一 robots.txt 训练退出信号",
+          "summary": "四家公司同意共同遵守 robots.txt 中的统一 AI 训练退出信号（单一 token），网站可用一行规则同时退出四家的 AI 训练爬虫；Google 不单独列出 Google-Extended 即视为禁止，Microsoft 表示不影响 Bing 收录。",
+          "why": "内容版权与训练数据获取的博弈进入「单一开关」阶段，是训练数据合规格局的重要收敛信号。",
+          "url": "https://madrobot.blog/2026/10/30/robots-txt-ai-training-opt-out-signal/",
+          "source": "MadRobot / OpenAI 官方",
+          "time": "10-30"
         }
       ]
     },
@@ -130,25 +120,46 @@
       "key": "research",
       "name": "研究与基础设施",
       "color": "violet",
-      "items": []
+      "items": [
+        {
+          "title": "Anthropic 8954 亿美元算力与基础设施履约承诺披露",
+          "summary": "11-02 更新招股书披露：合计约 8954 亿美元履约承诺几乎全部用于算力与数据中心建设；约 4475 亿须 2030 年底前发生，约 698 亿在 12 个月内到期，约 2138 亿附终止权或或有条件。",
+          "why": "基础设施工期与付款节奏被写入招股书，成为评估 AI 巨头资产负债表与「烧钱换能力」可持续性的核心锚点。",
+          "url": "https://www.unite.ai/anthropic-details-long-term-compute-commitments-in-amended-ipo-filing/",
+          "source": "Unite.AI / Securities.io",
+          "time": "11-02",
+          "is_top": 1
+        },
+        {
+          "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
+          "summary": "11-02 官方文章：在最强模型中训练并部署激活分类器（activation probes），生成时逐 token 打分、可即时中断响应与阻止工具调用；配合 10-29 披露的 L0 探针 / L1 模型审查 / L2 高算力审查三阶段监测栈。",
+          "why": "利用内部激活信号做实时监测，标志前沿模型安全栈从「外挂内容审查」走向「内生行为监测」。",
+          "url": "https://openai.com/news/",
+          "source": "OpenAI 官方（News 列表含该文）",
+          "time": "11-02",
+          "is_top": 2
+        }
+      ]
     }
   ],
   "observations": [
-    "三大旗舰交锋是本周主线：Gemini 4 Carbon（10-29 登顶）→ GPT-6.2 Astra 灰测 + Mythos/Fable 5.5 泄露（11-02 爆料）——留意官方正式发布节奏：OpenAI 是否在 12 月统一 Token 额度落地前同步上新旗舰、Anthropic 是否在 IPO 挂牌（传闻 11-16 当周）前官宣 Mythos/Fable。",
-    "Anthropic IPO 进入路演关键期：Q3 增速放缓（45% vs Q2 144%）与算力投入产出比下降是空头弹药，Polymarket 估值预期（56% 落在 1.5-1.75 万亿）与市场传闻（最高 2 万亿）存在分歧；关注路演定价区间披露与 11-16 当周挂牌是否如期。",
-    "政策与 Agent 化的张力：Anthropic 使用政策明确「自主物理行动/硬件」红线、同时放宽竞选定向禁令（改聚焦条款），AI 企业「自我监管」的具体边界值得持续对照后续滥用案例观察。",
-    "腾讯 BuddyOne 跨应用协同 + 混元 Hy4 预告、智元 GO-3 年底开源：国产厂商分别在 Agent 编排与具身模型开源上推进，与 Anthropic 政策中「自主硬件」条款形成呼应。",
-    "Microsoft Ignite（11-17~20，旧金山）为下一个大厂发布窗口，Copilot Home/Code/Autopilot 等新品将集中亮相。"
+    "Anthropic IPO 时间线：更新版招股书持续放量披露（算力承诺、Q3 财务），路演 11 月初已启动，市场消息称 11-16 当周上市——负债结构与融资安排仍是估值博弈核心，需持续跟踪。",
+    "OpenAI 安全栈公开化：激活分类器→模型审查→高算力审查的多层监测成为前沿模型标配，安全与能力竞争并行加速，值得关注其对开源与监管的溢出效应。",
+    "政策趋同信号：四大厂商统一 robots.txt 训练退出 token（10-30 宣布），内容版权博弈进入「单一开关」阶段，后续需观察小厂与数据中介的跟进情况。",
+    "国产 Agent 科研路线：Hyra 2.0 强调成果复用与「造工具」，与海外算力堆叠路径分化，科研范式差异可能带来工程化与商业化节奏的错位。",
+    "电网与 AI 基建协同：OpenAI 以「峰值可削减 1GW」换取电网配套（Georgia 25 年协议），AI 数据中心与电力基础设施的捆绑模式开始出现可复制的范本。"
   ],
   "notes": [
-    "窗口为 2026-10-30 ~ 2026-11-02（含周末及周一上午）。",
-    "GPT-6.2 Astra / Claude Mythos 5.5 / Fable 5.5 均为媒体爆料与代码泄露（新智元 11-02 06:55、ChainCatcher 11-02 08:31），未获 OpenAI、Anthropic 官方确认；「6.1 安全测试回炉」「53 分钟攻破 Linux」「3D《我的世界》」等细节均出自该爆料，置信度待官方验证。注意 OpenAI 已于 10-27 发布中端 GPT-6.1 Terra（超窗事件，今日仅作背景）。",
-    "Anthropic Q3 数据系「向潜在投资者披露的部分业绩指标」经媒体报道转述（网易/搜狐 11-02），非官方公开财报；「刻意不披露」为艾斯曼观点；估值概率来自 Polymarket 预测市场。",
-    "Anthropic 使用政策：10-08 官方发布、11-12 生效，事件主体发布日在窗口外、生效临近（11-01 前后被广泛讨论），已标注完整时间线。",
-    "Gemini 4 Carbon（10-29）与智元 GO-3 Preview（10-29）为窗口边缘事件（昨日 11-01 简报未收录），今日补收并标注时间线。",
-    "昨日（11-01）已收录的 Anthropic IPO 9000 亿隐性债务、OpenAI 统一 Token 额度、彭博 3 万亿、Figma Weave、腾讯混元 Hy-Nomas、Pika H3 Flex 等今日不重复。",
-    "研究与基础设施板块近 3 天未检索到高置信新增动态（Epoch AI「GLM 5.3 自主攻击 Firefox」实验、Wiz「黑色十月」报告均于 10-30 前日已收）。",
-    "应用板块候选以教程/技巧类居多（Claude Code ultrathink、OpenRouter Responses API 教程、OpenRouter Agent SDK 教程等），非高置信产品动态，未收录；「Cursor 订阅与 Grok 共享用量池」仅见单一二手来源，未验证，未收录。",
-    "字节小荷 AI 医生相关报道（财经网科技 11-02）细节不足，未收录。"
+    "窗口 2026-10-31 ~ 11-03，数据源 aihot.news 新 API 正常（15 条候选）。",
+    "Anthropic 财务口径修正：昨日（11-02）日报 top2 曾引用「Q3 营收 168 亿美元、同比 +45%」；今日多源（新浪财经、SoSoValue、Anadolu、搜狐上证报）核对为 Q3 营收 169.56 亿美元、同比增长约 1127%（约 12 倍）、环比约 +47%，前三季度累计 332.42 亿美元——本日报以最新多源口径为准，昨日口径如有出入以上市公司招股书披露为最终依据。",
+    "8954 亿美元承诺细节：约 4475 亿须在 2030-12-31 前发生、其余主要在 2031-2045 年间；约 698 亿在 2026-09-30 后 12 个月内到期；约 2138 亿附可行使终止权或或有条件（含融资安排）。",
+    "OpenAI 激活分类器条目主信源为官方 News 列表页（https://openai.com/news/），文章标题《Training activation classifiers for safety and alignment》（11-02）与《How we detect frontier model misalignment》（10-29，L0/L1/L2 三阶段监测栈）均在列表可见；GPT-6 Astra System Card 亦提及同类 misalignment monitoring。",
+    "Grid Protectors：11-02 宣布；佐治亚州 Effingham 县 Project Camellia 园区（拟最高 3200MW）与 Georgia Power 签 25 年协议，高峰最多削减 1000MW（约 70 万户家庭用电量），并拟推广全美（整体最多 1GW 需求削减）。",
+    "Dan Driscoll：11-02 OpenAI 官方公告；此前任美国陆军部长，今年早些时候因与国防部长赫格塞思关系紧张辞职（背景信息来自媒体报道）。",
+    "message threads：11-02 公开 beta（beta 标识 message-threads-2026-08-12）；线程在最后一次请求后 5 分钟过期、最多 1 小时删除；支持 Claude API / AWS / Google Cloud（Anthropic managed）/ Microsoft Foundry。",
+    "robots.txt 统一退出信号：10-30 由 OpenAI、Google、Microsoft、Anthropic 宣布（窗口外 1 天，属近 4 天动态，已标注时间线收录）；10-31~11-02 媒体持续解读。",
+    "未收录：教程类（DeepSeek Harness 养鱼、Claude Code ultrathink、OpenRouter 教程）非高置信产品动态；微软 VEO 自愿离职方案（10-26 超窗）；Lumen×Microsoft AI 网络联合销售（相对次要）；OpenAI gpt-oss-safeguard（检索时间线不清晰、未确认为本窗口新发布）。",
+    "前两日已收录不重复：GPT-6.2 Astra / Mythos-Fable 爆料（11-02）、Anthropic 使用政策 11-12 生效、Gemini 4 Carbon（10-29）、腾讯 BuddyOne / 混元 Hy4 预告（11-02 大会）、GPT-Live-1 Voice（11-01）、智元 GO-3（10-29）、阿里×Apple（10-31）、OpenAI 统一 Token 额度（11-01）等。",
+    "research 板块 2 条均为 top 条目（is_top 1/2），正文区域由 top3 速览卡承接展示，板块标题下无额外正文卡属预期去重结果。"
   ]
 }
