@@ -1,7 +1,11 @@
 name: Daily AI Digest Web
 on:
-  schedule:
-    - cron: '0 2 * * *'    # 每天 10:00 北京（单时间窗，成功后当天不再触发）
+  # 定时触发已停用（2026-11-09）：云端 runner 访问数据源 aihot.news 返回空响应，
+  # fetch_daily.py 每天必失败并发送一封失败邮件；公开页改由本地 update_public.py
+  # 每日补推（push 后由 GitHub Pages 自动构建，稳定成功）。
+  # 需要手动重建时，用 Actions 页面 Run workflow 触发。
+  # schedule:
+  #   - cron: '0 2 * * *'    # 每天 10:00 北京
   workflow_dispatch:
 permissions:
   contents: write
