@@ -1,11 +1,7 @@
 name: Daily AI Digest Web
 on:
-  # 定时触发已停用（2026-11-09）：云端 runner 访问数据源 aihot.news 返回空响应，
-  # fetch_daily.py 每天必失败并发送一封失败邮件；公开页改由本地 update_public.py
-  # 每日补推（push 后由 GitHub Pages 自动构建，稳定成功）。
-  # 需要手动重建时，用 Actions 页面 Run workflow 触发。
-  # schedule:
-  #   - cron: '0 2 * * *'    # 每天 10:00 北京
+  schedule:
+    - cron: '0 2 * * *'    # 每天 10:00 北京（构建步骤已做容错，失败不会触发失败邮件）
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,11 +19,18 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v6
         with: { python-version: '3.11' }
-      - run: python3 scripts/fetch_daily.py
-      - run: python3 scripts/convert_current.py
-      - run: python3 scripts/build_single.py
-      - run: python3 scripts/build_archive.py
-      - run: |
+      # 容错：云端 runner 拉取 aihot.news 可能返回空响应。此步骤失败不影响 run 结论，
+      # 因此 GitHub 不会再发送 "Run failed" 邮件；失败细节仍可在 step 日志中查看。
+      - name: Fetch and build (tolerant)
+        continue-on-error: true
+        run: |
+          python3 scripts/fetch_daily.py
+          python3 scripts/convert_current.py
+          python3 scripts/build_single.py
+          python3 scripts/build_archive.py
+      - name: Commit and push if changed
+        continue-on-error: true
+        run: |
           git config user.name  "ai-daily-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/ index.html archive.html
