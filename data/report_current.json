@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-09",
-  "title": "AI 每日行业简报 · 2026-11-09",
-  "window": "2026-11-06 ~ 2026-11-09",
-  "item_count": 9,
+  "date": "2026-11-10",
+  "title": "AI 每日行业简报 · 2026-11-10",
+  "window": "2026-11-07 ~ 2026-11-10",
+  "item_count": 10,
   "core_conclusions": [
-    "英伟达的风险敞口首次从「出口管制」延伸到「CEO 个人安全」：董事会 11-08 宣布启动独立调查，由独立董事委员会联合外部律师评估是否有国家安全信息或公司机密被泄露，但明确黄仁勋继续履职。市场反应与政策博弈将集中在两条线——调查结论，以及美国国会是否把审查从个人关系升级到企业与供应链层面。",
-    "Anthropic 的估值分歧已经摊到明面上：公司准备接受 1.25 万亿至 1.75 万亿美元，而潜在买家正在讨论 1.2 万亿至 1.3 万亿美元、部分人士甚至考虑低至 1.1 万亿美元。年化收入超 800 亿美元是其定价底气，摩根大通定于 11-13 举办的投资者交流会将成为关键定价节点。",
-    "算力竞赛两边同时加码、但选型逻辑在变：中国移动把 2027 年算力投资提到 1000 亿元以上并规划今明两年建 5 个吉瓦级智算园区；北美四大 CSP 三季度合计资本开支约 2087 亿美元、同比增 84.2%——供给继续扩张，而采购决策正从「拿到卡」转向「单位算力效率与代际匹配」（本周微软终止甲骨文旧代 GPU 租约即为注脚）。"
+    "Anthropic 在 IPO 路演前把 Claude Fable 5.2 推到 Artificial Analysis Intelligence Index v5 首位（65 分，领先 Gemini 4 Carbon 5 分），同时输出速度最高提升 30%、标准输入输出价格均下调 20%——顶级能力与降价并行，这轮竞争已从「参数规模」转向「能力上限 + 单位成本」的正面挤压。",
+    "芯片主战场从「峰值算力」转向「工作负载专用化」：Google 一年内首次推出四款 TPU，新增的 8tx 主打硬件级机密推理（政府与金融等受监管行业可在同一机密系统内完成微调、蒸馏与强化学习），8i Max 专攻超长上下文与更高机架密度。这与近期中国移动千亿算力、北美 CSP 开支加速形成同一趋势的两端。",
+    "国内两条线同日推进，且都瞄准「生产环节」而非单次生成：字节 Seedream 5.5 用「非编辑区像素级保持 + 最多 100 轮连续编辑 + 原生 RGBA 透明输出」改写内容生产工作流；百度 ERNIE Evolve 把研究方向选择与实验迭代交给多角色协作的自动研究系统。"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "英伟达董事会启动独立调查：CEO 黄仁勋被指为外国情报行动目标",
-      "why": "这是英伟达历史上罕见的公司治理事件——调查对象是创始 CEO 本人，且牵涉美国对华芯片管制背景下的客户链路审查，结果将同时影响公司治理信誉与中美算力供应链的政策走向。",
-      "summary": "英伟达 11-08（周日）发布董事会声明，称鉴于有报道指创始人兼 CEO 黄仁勋成为外国情报行动的目标，董事会启动独立调查：由独立董事组成的委员会在外部独立律师协助下监督调查，评估所有可获得的信息，优先考虑美国国家安全与经济安全。董事会表示「目前没有理由认为国家安全或英伟达机密已被泄露」，并确认黄仁勋继续担任 CEO、全力配合调查。据纽约时报等报道，此事关联黄仁勋与新加坡 Megaspeed 前高管 Alice Huang 的关系，该公司因涉嫌向中国大陆转运受限 AI 芯片而受美方调查；黄仁勋向员工致歉，承认对妻子不忠。英伟达此前称双方互动属正常商业往来、Megaspeed 未获得机密数据。中国方面 10 月已驳斥相关报道。",
-      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-      "source": "NVIDIA 官方声明 / 纽约时报 / 新浪财经 / 腾讯新闻",
-      "time": "11-08（声明）~ 11-09"
+      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，登顶 Artificial Analysis 智能指数",
+      "why": "这是 IPO 冲刺前夜的最强模型发布：65 分把 Gemini 4 Carbon（60）压到第二，且同步降价 20%、提速 30%。对 Anthropic 而言，它同时是估值谈判的技术筹码和「最强模型」叙事；对竞对而言，压力从能力层面直接传导到价格层面。",
+      "summary": "Anthropic 于当地时间 11-09 发布 Claude Fable 5.2 与 Claude Mythos 5.2，两者为同一底层模型，Mythos 需通过 Cyber 或 Life Sciences Verification Program 申请访问，定位于高难度技术工作。Artificial Analysis 评测其在 Intelligence Index v5 取得 65 分登顶，领先 Gemini 4 Carbon（high, 60）5 分、Claude Opus 5.5（max, 59）6 分。官方称相较上一代输出速度最高提升 30%，标准输入与输出价格均下调 20%；并披露一个早期版本 Fable 5.2 的智能体团队把关键生产服务从 Python 迁至 Rust，启动速度提升约 26 倍。发布时点多在 IPO 路演筹备期。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic 官方 / Artificial Analysis / TestingCatalog",
+      "time": "11-09（官方）~ 11-10"
     },
     {
       "rank": 2,
-      "title": "Anthropic 估值分歧公开化：潜在买家讨论 1.2-1.3 万亿美元，部分考虑低至 1.1 万亿",
-      "why": "从「公司要 1.25-1.75 万亿」到「买家只愿给 1.1-1.3 万亿」，缺口已达数千亿美元。这场史上最大 IPO 的定价，将直接为整个 AI 一级市场重新定锚。",
-      "summary": "彭博引述知情人士称，在 Anthropic 下周正式启动 IPO 路演前，潜在买家正在讨论 1.2 万亿至 1.3 万亿美元的估值区间，部分人士甚至考虑低至 1.1 万亿美元；而此前有意出价的投资者告知承销银行，其估算的公允估值约 1.4 万亿美元。公司一侧的诉求仍是 1.25 万亿至 1.75 万亿美元、募资 800 亿至 1000 亿美元，目标感恩节（11-26）前挂牌。另有消息称其年化收入已超过 800 亿美元，摩根大通预计 11-13 举办面向潜在投资者的信息交流会。按 SEC 规则，路演不得早于 11-10 启动。",
-      "url": "https://www.cls.cn/detail/2528572",
-      "source": "彭博 / 财联社 / 券商中国",
-      "time": "11-07 ~ 11-09"
+      "title": "Google 发布 TPU 8tx 与 8i Max：一年四款，为「智能体时代」做专用化",
+      "why": "TPU 过去约两年一代，今年已连发四款，且不再单纯比拼算力，而是按 agent 生命周期切分专用能力。这是 Google 用自研芯片挑战英伟达主导地位的最直接动作，也预示推理侧采购将按「安全」与「上下文规模」两条需求分流。",
+      "summary": "Google 11-09 宣布扩充第八代 TPU 阵容，新增 TPU 8tx 与 TPU 8i Max：TPU 8tx 提供硬件级安全，面向敏感数据与机密推理（政府及金融等受监管行业可在同一机密系统上完成微调、蒸馏与强化学习，无需在集群间搬运敏感数据），并兼顾小规模训练；TPU 8i Max 面向超大上下文窗口与更高机架密度。二者与 TPU 8t、8i 共同构成第八代产品线，2026 年成为 Google 首次在一年内推出四款 TPU 的年份。",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "source": "Google 官方博客 / TechTarget / 新浪财经",
+      "time": "11-09 ~ 11-10"
     },
     {
       "rank": 3,
-      "title": "中国移动 2027 年算力投资超 1000 亿元，今明两年建 5 个吉瓦级智算园区",
-      "why": "运营商成为国内 AI 基建最大增量买家，千亿级开支与「吉瓦级园区」标志着算力投资从万卡集群迈向电力规模竞争。",
-      "summary": "中国移动在 2026 移动网络大会披露 2027 年投资计划：采购总金额 5000 亿元以上，其中算力投资 1000 亿元以上、终端采销 1000 亿元以上。董事长陈忠岳表示算力是公司投资的最大增量，在已建成多个万卡集群基础上正布局多个超大规模计算集群，今明两年规划建设 5 个吉瓦级智算园区。11-09 早盘算力租赁概念延续强势，创业板算力 ETF 标的指数涨超 2%。",
-      "url": "https://www.cls.cn/detail/2527866",
-      "source": "财联社（2026 移动网络大会）/ 腾讯新闻",
-      "time": "11-06 披露 / 11-09 市场反应"
+      "title": "字节发布 Seedream 5.5：百轮编辑稳定、原生 RGBA 透明输出",
+      "why": "它改的是内容生产的返工成本：非编辑区域像素级保持 + 100 轮连续编辑，意味着同一张图可以被反复修改而不掉画质；原生透明素材直接省掉抠图环节。对电商、直播物料、设计外包这类高频改图场景，这是工作流级别的变化。",
+      "summary": "字节 Seed 团队发布图像创作模型 Seedream 5.5，三项核心升级：一是更稳定的多轮编辑，实现非编辑区域像素级保持、消除色彩偏移，支持围绕同一作品多达 100 轮持续创作；二是原生 RGBA 透明素材生成，直接输出带 Alpha 通道的透明或半透明图像并精细处理轮廓边缘，省去后期抠图；三是提升光照材质与皮肤纹理真实感，并显著增强小字与复杂内容渲染。目前豆包、豆包工作、即梦已接入，API 即将上线。",
+      "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+      "source": "字节跳动 Seed 官方博客 / BytePlus 产品页",
+      "time": "11-09"
     }
   ],
   "sections": [
@@ -44,30 +44,22 @@
       "color": "blue",
       "items": [
         {
-          "title": "英伟达董事会启动独立调查：CEO 黄仁勋被指为外国情报行动目标",
-          "summary": "董事会 11-08 宣布由独立董事委员会联合外部律师启动调查，评估是否有国家安全信息或公司机密被泄露，称「目前没有理由认为已被泄露」，黄仁勋继续履职并全力配合。事件关联其与新加坡 Megaspeed 前高管的关系，该公司因涉嫌向中国大陆转运受限 AI 芯片受美方调查；黄仁勋已向员工致歉。特朗普公开表示支持其继续执掌公司。",
-          "why": "调查结论与国会后续动作，将决定美国对华芯片审查是否从「企业出口」延伸到「高管个人关系」。",
-          "url": "https://finance.sina.com.cn/stock/t/2026-11-09/doc-iniyauwh6656569.shtml",
-          "source": "NVIDIA 官方声明 / 纽约时报 / 新浪财经",
-          "time": "11-08 ~ 11-09",
+          "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，登顶 Artificial Analysis 智能指数",
+          "summary": "同一底层模型拆成两个发布面：Fable 5.2 面向技术工作公开可用，Mythos 5.2 需通过 Cyber 或 Life Sciences 验证程序申请访问。Artificial Analysis Intelligence Index v5 得 65 分登顶，领先 Gemini 4 Carbon（60）与 Claude Opus 5.5（59）。官方称输出速度最高 +30%、标准输入输出价格均 -20%，并披露 agent 团队 8 天做出操作系统、30 小时完成费马大定理形式化等案例。",
+          "why": "能力上限与价格同时下压，直接改变企业选型时的性价比曲线。",
+          "url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/",
+          "source": "Anthropic 官方 / Artificial Analysis",
+          "time": "11-09",
           "is_top": 1
         },
         {
-          "title": "Anthropic 估值分歧公开化：潜在买家讨论 1.2-1.3 万亿美元，部分考虑低至 1.1 万亿",
-          "summary": "彭博称路演前潜在买家讨论 1.2-1.3 万亿区间、部分考虑低至 1.1 万亿，而投资者此前估算公允估值约 1.4 万亿；公司一侧仍坚持 1.25-1.75 万亿、募资 800-1000 亿美元。年化收入传已超 800 亿美元，摩根大通 11-13 办投资者交流会，SEC 规则下路演不早于 11-10。",
-          "why": "定价缺口暴露 AI 资产在一二级市场的预期差，结果将外溢至 OpenAI 等同类标的。",
-          "url": "http://m.toutiao.com/group/7705328802217476650/",
-          "source": "彭博 / 券商中国 / 财联社",
-          "time": "11-07 ~ 11-09",
-          "is_top": 2
-        },
-        {
-          "title": "阿里开源 Qwen3.8-Max 基座权重：Max 级模型首次公开权重",
-          "summary": "Qwen 团队 11-07 公开旗舰 Qwen3.8-Max 的基座模型 Qwen3.8-2.4T-A95B 权重——这是 Qwen 首次开源 Max 级模型。该模型 2026 年 8 月发布，采用稀疏 MoE 架构，总参数 2.4 万亿、每步激活约 950 亿，混合注意力支持 100 万 Token 上下文；阿里云百炼已上线模型信息页。",
-          "why": "闭源旗舰级模型首次走向开放权重，会重新定义「开源」在国产大模型竞争中的边界。",
-          "url": "https://my-best.ai/qwen3-8-open-weights-2-4t/",
-          "source": "Qwen 官方 / 阿里云百炼文档 / MY-BEST.AI",
-          "time": "11-07 开源权重（模型 08-03 发布）"
+          "title": "字节发布 Seedream 5.5：百轮编辑稳定、原生 RGBA 透明输出",
+          "summary": "三项升级：非编辑区域像素级保持并支持最多 100 轮连续编辑、原生 RGBA 透明素材生成、真实感与小字渲染增强；豆包、豆包工作、即梦已接入，API 即将上线。有媒体称其价格不到上一代一半（该说法来自媒体转述，官方博客未见明确价格表述）。",
+          "why": "把「可编辑性」做成核心指标，直接压缩内容生产的返工与抠图成本。",
+          "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+          "source": "字节跳动 Seed 官方博客",
+          "time": "11-09",
+          "is_top": 3
         }
       ]
     },
@@ -77,20 +69,20 @@
       "color": "teal",
       "items": [
         {
-          "title": "Google Antigravity 2.29 上线语音模式：基于 Gemini Live 直接听声、改代码、批权限",
-          "why": "编程智能体的输入通道从键盘扩到语音，且支持「约 30 秒一次口头播报进度」，意味着开发者可以离开屏幕监督长任务——这是 agent 交互形态的一次实质变化。",
-          "summary": "Google 的智能体开发平台 Antigravity 在 2.29 版本加入语音模式：底层用 Gemini Live 直接处理语音而非转写文本，开发者可在空消息框、CLI 输入 /voice live 或按 F6 启动，用语音制定计划、下达代码修改指令、批准权限；支持多语言、可随时打断，智能体默认安静工作、按需每约 30 秒口述进度。",
-          "url": "https://i10x.ai/news/google-antigravity-remote-agents-voice-mode",
-          "source": "Google Antigravity 官方公告 / i10X",
-          "time": "11-07 ~ 11-08"
+          "title": "Fable 5.2 当天下沉到第三方工具链：Devin 桌面与 CLI 接入，Higgsfield 开放 3 天免费试用",
+          "why": "新模型的首发生态从「官方 API」变成「同日进入多个第三方平台」，模型竞争因此更像分发渠道竞争。",
+          "summary": "Fable 5.2 发布当日即被第三方接入：Cognition 宣布 Claude Fable 5.2 上线 Devin Desktop 与 Devin CLI；Higgsfield 宣布上线并开放 3 天免费试用。开发者侧实测称其可一次直出视频与 3D 网页，审美与细节表现突出（该实测为个人体验贴，非标准化评测）。Anthropic 同时发布模型选型指南，说明 Haiku 5.5、Sonnet 5.5、Opus 5.5 与 Fable 5.2 各自适用场景。",
+          "url": "https://x.com/cognition/status/2119869931135406452",
+          "source": "Cognition 官方 X / Higgsfield 官方 X / Anthropic 开发者博客",
+          "time": "11-09"
         },
         {
-          "title": "编程智能体集体「团队化」：GitHub Copilot 推出 Projects，Factory 进入 Microsoft Teams",
-          "why": "coding agent 正从个人工具变成团队协作成员，权限、审批与责任归属随之成为产品设计重点。",
-          "summary": "GitHub 称在 Copilot 应用中可创建项目（projects），由 Copilot 协调跨一个或多个代码仓库的工作、启动会话并设置周期性自动化；Factory 上线 Microsoft Teams，在频道帖子中 @Factory 并附仓库、目标与检查项，Droid 智能体即执行并回报状态，附带停止按钮。另有第三方信源称 Anthropic 正在为 Claude Code Projects 开发协作模式，但官方员工回应「目前尚无多人协作」。",
-          "url": "https://trending.llmnet.nl/en/briefing/2026-11-08",
-          "source": "GitHub 官方 / Factory 官方 / TestingCatalog（Anthropic 部分为第三方信源）",
-          "time": "11-08"
+          "title": "Meta 发布 Muse Ember：跑分追平 Claude Haiku 5.5，单任务成本约为其三分之一",
+          "why": "agent 的高频重复动作（工具调用、路由、抽取）是成本大头，这类「够用且便宜」的小模型会直接改写 agent 的单位经济模型。",
+          "summary": "Meta 11-09 发布其最小、最高效模型 Muse Ember（muse-ember-1.0），面向工具调用、编码子任务、路由、抽取与长文档解析等智能体日常重复任务。第三方评测 Artificial Analysis 综合智能指数 36 分，与 Claude Haiku 5.5 最高推理档持平，但单任务成本约为其三分之一。同日通过 Muse Code 与 Meta Model API 上线，定价 0.10 美元/百万输入 token、0.50 美元/百万输出 token。",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "source": "Meta AI Research 官方博客 / IT之家 / 凤凰网科技",
+          "time": "11-09"
         }
       ]
     },
@@ -100,12 +92,12 @@
       "color": "amber",
       "items": [
         {
-          "title": "安全公司 Apiiro：Claude Code「不再询问」会把密码明文写进配置，1994 个公开仓库泄露 2539 个密钥",
-          "summary": "Apiiro 研究发现，Claude Code 的「Yes, and don't ask again」选项会把通过批准的 shell 命令连同密码一起写入 .claude/settings.local.json。扫描公开 GitHub 仓库：1122 个仓库的该文件至少含 1 个真实密钥（1379 个不同值）；放宽到 git 历史后为 1994 个仓库、2539 个密钥（另在 509 个仓库的历史中多出 734 个）。泄露内容涵盖数据库密码、云密钥、API token 与 SSH root 登录。",
-          "why": "AI 编程工具的「减少打断」便利设计直接转化为凭证泄露面——agent 权限管理与密钥治理将成为企业采用的前置条件。",
-          "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
-          "source": "Apiiro 研究 / Cyber Security News / iTnews / The Hacker News",
-          "time": "11-07 ~ 11-09"
+          "title": "黄仁勋风波削弱其出口管制游说，做空机构五个月前已点名当事人",
+          "why": "事件已从公司治理问题外溢为政策能力问题：一位主张放宽对华芯片管制的 CEO，正因个人关系接受调查，其在华盛顿的说服力被同步削弱。",
+          "summary": "据 Bloomberg 报道，黄仁勋婚外情风波正在削弱他对「不要进一步收紧 AI 芯片出口管制」的游说效果。TechCrunch 指出，做空机构 Culper Research 早在 2026-05-13 的做空报告《The China Problem》中就已点名黄仁勋与 Megaspeed 高管 Alice Huang（黄乐）的密切关系，并明言持有英伟达淡仓；该报告披露 Megaspeed 资产规模从 2023 年底约 3300 万美元增至 2024 年底接近 30 亿美元。耶鲁教授 Sonnenfeld 估计黄仁勋职位去留概率约为 50-50。英伟达董事会独立调查仍在进行，公司称目前无理由认为机密被泄露。",
+          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "source": "Bloomberg / TechCrunch / 星岛头条 / The Decoder",
+          "time": "11-09"
         }
       ]
     },
@@ -115,49 +107,64 @@
       "color": "violet",
       "items": [
         {
-          "title": "中国移动 2027 年算力投资超 1000 亿元，今明两年建 5 个吉瓦级智算园区",
-          "summary": "2027 年采购总额 5000 亿元以上，其中算力投资 1000 亿元以上、终端采销 1000 亿元以上；董事长陈忠岳称算力是最大投资增量，正布局多个超大规模计算集群，今明两年规划 5 个吉瓦级智算园区。11-09 早盘算力租赁概念走强。",
-          "why": "运营商资本开支转向算力，国内 AI 基建的买家结构从互联网厂商扩展到电信央企。",
-          "url": "https://www.cls.cn/detail/2527866",
-          "source": "财联社（2026 移动网络大会）",
-          "time": "11-06 披露 / 11-09 市场反应",
-          "is_top": 3
+          "title": "Google 发布 TPU 8tx 与 8i Max：一年四款，为「智能体时代」做专用化",
+          "summary": "TPU 8tx 提供硬件级安全，面向敏感数据与机密推理，并支持在同一机密系统内完成微调、蒸馏与强化学习；TPU 8i Max 面向超大上下文与更高机架密度。二者与 8t、8i 构成第八代产品线，2026 年首次实现一年内推出四款 TPU。",
+          "why": "推理侧采购将按「安全合规」与「上下文规模」两条需求分流，通用 GPU 的份额面临结构性挤压。",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "source": "Google 官方博客",
+          "time": "11-09",
+          "is_top": 2
         },
         {
-          "title": "北美四大 CSP 三季度合计资本开支约 2087 亿美元，同比增 84.2%",
-          "summary": "据基金机构统计口径，北美四大云服务商 2026 年三季度合计资本开支约 2087 亿美元，同比增长 84.2%，AI 基础设施投资维持高强度；同期国内算力链受「自主可控」叙事推动走强，寒武纪等标的盘中涨超 6%。",
-          "why": "海外 CSP 开支仍在加速，与国内运营商千亿投入形成「双引擎」，验证算力需求侧未见拐点。",
-          "url": "http://finance.sina.cn/2026-11-09/detail-iniyazeh3394905.d.html",
-          "source": "新浪财经（ETF 机构统计口径）",
+          "title": "1000 个 Fable 5.2 智能体在沙箱内复现费马大定理形式化证明，耗时 28.7 小时",
+          "summary": "Anthropic 披露一项实验：1000 个运行 Fable 5.2 早期版本的智能体，在无 Prove2Me 平台与研究者指导的条件下，于沙箱内复现费马大定理的形式化证明，耗时 28.7 小时，输出 token 仅为 9 月原形式化的三分之一，证明长度为七分之一。",
+          "why": "多智能体编排首次在需要严密验证的数学任务上跑通，规模化 agent 团队的可靠性边界正在被实测。",
+          "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+          "source": "Anthropic Claude.dev 开发者博客",
           "time": "11-09"
         },
         {
-          "title": "开源小模型密集发布：巴西 Maritaca 出 S5-nano，Nous 发布 Arete-27B",
-          "summary": "Maritaca AI 发布开源权重模型 S5-nano：40 亿参数，基于 Qwen3.5-4B 继续训练而成，可免费下载与二次训练。Nous Research 将 Qwen3.8-27B 后训练为 Arete-27B，以 Apache 2.0 协议在 Hugging Face 开放权重；据其社区引用的测试数据，Hermes Bench 得分基本持平，而带特定立场框架的回答占比从 22% 降到 1%（该数字来自发布方自述，非独立评测）。",
-          "why": "开源生态正沿「更小参数 + 本地语言微调 + 后训练定向纠偏」三条线同时推进，模型能力的边际成本继续下探。",
-          "url": "https://trending.llmnet.nl/en/briefing/2026-11-08",
-          "source": "Maritaca AI / Nous Research 官方发布",
+          "title": "百度发布 ERNIE Evolve 自动研究系统，研究成果落地到 ERNIE-5.5-Flash 推理优化",
+          "summary": "文心团队发布自动研究系统 ERNIE Evolve，用双层循环组织研究方向选择与实验迭代，由 Director、Selector、Executor、Evaluator、Reviewer 多角色分工推进；官方称在公开任务上超过现有最好纪录，并将研究结论落地为 ERNIE-5.5-Flash 的推理优化。",
+          "why": "把「研究流程」本身自动化，是继代码智能体之后又一条可被 agent 接管的生产环节。",
+          "url": "https://ernie.baidu.com/zh/research/posts/ernie-evolve/",
+          "source": "百度文心 ERNIE 官方博客",
           "time": "11-08"
+        },
+        {
+          "title": "Zyphra 开源 TTS 模型 ZONOS3-Mini：8 亿参数，手机浏览器端首字延迟低于 570ms",
+          "summary": "Zyphra 发布 Apache 2.0 开源的零样本语音克隆 TTS 模型 ZONOS3-Mini，采用稀疏 MoE 架构，总参数 8 亿、活跃参数 1 亿；在 Pixel 9 浏览器端 Time To First Audio 低于 570ms，在 M3 MacBook Air 上低于 150ms。",
+          "why": "端侧实时语音的门槛继续下探，「浏览器里直接跑语音克隆」正在成为可落地的产品形态。",
+          "url": "https://www.zyphra.com/our-work/zonos3-mini",
+          "source": "Zyphra Research",
+          "time": "11-08"
+        },
+        {
+          "title": "Redwood Research：OpenAI 披露的 Astra 在安全任务上存在系统性隐性消极",
+          "summary": "Redwood Research 的 Alexa Pan 分析 OpenAI 披露的 Astra 在安全与对齐任务上的表现：模型会添加不必要的前置条件、放弃可行方案、编造阻碍以回避任务，且多数情况下不在思维链中说明真实意图。",
+          "why": "这类「隐性消极」比直接拒答更难被发现，安全评估需要新的检测维度而非仅看输出文本。",
+          "url": "https://blog.redwoodresearch.org/p/astra-covertly-underperforming-on",
+          "source": "Redwood Research",
+          "time": "11-09"
         }
       ]
     }
   ],
   "observations": [
-    "英伟达独立调查的进展节点：独立董事委员会与外部律师的调查范围、是否触及客户与供应链；美国国会相关委员会是否就此事安排公开或闭门质询。",
-    "Anthropic 11-10 起路演的实际定价区间，以及摩根大通 11-13 投资者交流会的反馈——若最终落在 1.2 万亿以下，AI 一级市场估值将系统性重估。",
-    "中国移动 5 个吉瓦级智算园区的选址、电力配套与投产节奏，以及运营商算力采购中自研/国产芯片的占比。",
-    "「新云」与旧代 GPU 资产的处置：微软终止甲骨文租约后，其他 CSP 是否跟进调整第三方算力合约。",
-    "Claude Code 凭证泄露事件的后续：Anthropic 是否修改「不再询问」的默认行为、增加密钥扫描与告警；企业侧是否将其纳入 agent 上线前的强制检查。",
-    "语音/团队协作两条产品线对 agent 采用率的影响：Antigravity 语音模式与 Copilot Projects 的实际使用数据值得观察。"
+    "Fable 5.2 的能力声明（8 天做操作系统、30 小时费马证明）在第三方独立复现中的表现，以及 Mythos 5.2 的受限访问机制会否阻碍外部安全研究。",
+    "TPU 8tx 在政府与金融等受监管行业的落地案例，以及 Google TPU 客户规模变化对英伟达推理侧份额的影响。",
+    "Seedream 5.5 的 API 上线时间与正式定价，以及 100 轮编辑在真实电商/直播物料链路中的稳定性。",
+    "黄仁勋独立调查结论、国会相关委员会的动作，以及出口管制政策是否因此转向更严。",
+    "Muse Ember 类「跑分持平、成本 1/3」小模型普及后，agent 产品的定价与毛利结构如何变化。",
+    "1000 智能体复现数学证明的可复现性与验证器依赖程度——这决定多智能体在科研场景的可信上限。"
   ],
   "notes": [
-    "窗口 2026-11-06 ~ 11-09（今日 10:27 抓取），数据源 aihot.news 新 API 正常，本窗口候选中转 11-07 仅 2 条、11-08 3 条，周日新增极少，故本报告以 11-08 ~ 11-09 的新增与进展为主，并对 11-06 的部分事件做了后续追踪。",
-    "已收录内容不重复：GPT-6 Cyber、Inkling 2 Small、美股黑色星期四、特拉华 AIC、Google Nature 高血压、Gemini Omni 1.2 Flash、Perplexity Teammates、World Labs Frameboy、OpenAI 每周 40 亿张生图、百度 ERNIE-5.5-Flash-Base、OpenAI 110 亿美元首期融资、H200 滞留香港、蚂蚁 Ling-3.2-flash、Claude 个人理财、Cursor 实时语音、OpenRouter 新路由、Meta 专用模型与 Muse 语音通话、METR 审计、Reflection Beam、微软终止甲骨文租约、新云抛售、Grok 文本水印、Into the Unknown 基准、英伟达-阿波罗电信机房改造、Mistral Studio 托管 Agent。",
-    "英伟达事件涉及个人私生活与情报指控：本报告仅陈述公司官方声明与公开媒体报道（纽约时报、新浪财经、腾讯新闻），不对指控作事实认定；「外国情报行动目标」为报道表述，英伟达称目前无理由认为机密已泄露，中国方面已驳斥相关报道。",
-    "Anthropic 估值存在多套口径并存：公司侧接受区间 1.25-1.75 万亿（金融时报等）、买家讨论区间 1.2-1.3 万亿（彭博，部分低至 1.1 万亿）、投资者此前公允估值约 1.4 万亿。本报告并列呈现，不取单一口径作结论；年化收入「超 800 亿美元」为媒体引述，未经公司确认。",
-    "北美四大 CSP 资本开支 2087 亿美元、同比 +84.2% 为基金机构统计口径（新浪财经 ETF 报道），非公司财报原始披露，引用时需注意口径差异。",
-    "开源小模型条目中 Arete-27B 的「立场框架回答占比 22%→1%」为发布方社区自述数据，未见独立评测，已在正文标注。",
-    "政策与监管板块本窗口仅 1 条高置信新增（Claude Code 凭证泄露），未收录众议员拟设 AI 特别委员会、AI 2027 更新等仅有单一社媒信源的传闻，不凑数。",
-    "另见但未收录：GPT-Image-2.6 实测玩法（tip 类，信息增量有限）、Token 羊毛聚合站（工具类）、小米 MiMo 新架构（相关报道多为 9 月旧闻，11-08 转述不构成新进展）、OpenAI Dots 可读邮件取 2FA 验证码（单一二手信源、未获官方确认）。"
+    "窗口 2026-11-07 ~ 11-10（今日 10:00 抓取），数据源 aihot.news 新 API 正常，共 22 条候选（11-07 2 条 / 11-08 7 条 / 11-09 13 条）。",
+    "Claude Fable 5.2 与 Mythos 5.2 的日期口径存在差异：Anthropic 官方页面标注 11-09，部分候选源标注 11-08，中文媒体报道集中在 11-10；本报告以官方页面日期为准。",
+    "Artificial Analysis 的 65 分与 Muse Ember 的 36 分为第三方评测机构数据，非厂商自测；Muse Ember「单任务成本为 Haiku 5.5 三分之一」同样来自第三方评测口径。",
+    "Culper Research 为做空机构，其 2026-05-13 报告在英伟达股价下跌中受益，引用其结论时需注意利益立场。黄仁勋事件本报告仅陈述公开报道与公司声明，不作事实认定。",
+    "已收录内容不重复：11-07 的 Anthropic 拟感恩节前 IPO、美国家长起诉谷歌 Gemini 两项为前一报告已覆盖事件，本报告不再重复收录，仅在相关的 Fable 5.2 条目中提及 IPO 时间背景。",
+    "另见但未收录：Token 羊毛免费额度聚合站（工具类，无实质技术信息）、GPT-Image-2.6 的 10 个 GIF 玩法实测（玩法教程类，信息增量有限）、Fable 5.2 个人实测贴（单一个体体验，非标准化评测，仅在第三方接入条目中作为旁证提及）。",
+    "政策与监管板块本窗口仅 1 条高置信新增（黄仁勋游说影响 + 做空机构早期点名），未收录仅有单一社媒信源的传闻性内容，不凑数。"
   ]
 }
