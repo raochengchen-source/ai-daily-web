@@ -1,39 +1,39 @@
 {
-  "date": "2026-11-13",
-  "title": "AI 每日行业简报 · 2026-11-13",
-  "window": "2026-11-10 ~ 2026-11-13",
-  "item_count": 11,
+  "date": "2026-11-14",
+  "title": "AI 每日行业简报 · 2026-11-14",
+  "window": "2026-11-11 ~ 2026-11-14",
+  "item_count": 12,
   "core_conclusions": [
-    "三天之内，黄仁勋从「被报道可能遭罢免」走到「已经离任」：11 月 12 日英伟达董事会公告，黄仁勋辞去总裁、CEO 及董事会成员职务，即刻生效；CFO Colette Kress 以临时 CEO 身份接任并继续兼管财务，董事会已启动正式继任者的内外遴选，公司同时史上首次设立董事会主席。当日英伟达盘前一度跌超 13%、开盘后一度跌 14%，收跌 4.34% 报 166.19 美元，市值蒸发约 1820 亿美元（约合人民币 1.2 万亿元）。在特拉华州注册、仅持股约 3.58%、无双层股权的结构下，创始人无法用股权抵御治理程序——这是 AI 算力周期主导者的一次非商业性更替，下周二财报将成为「后黄仁勋时代」的第一次压力测试。",
-    "个人丑闻在同一天变成了对华出口管制的制度性质询。民主党方面，众议院筹款委员会资深议员 Richard Neal 与参议院财政委员会资深议员 Ron Wyden 于 11 月 12 日致函商务部长 Howard Lutnick，要求保全与 H200 售华安排相关的记录，质疑在情报部门已提示 Alice Huang 与黄仁勋关系之后，为何仍放行 Megaspeed 采购，以及为何给「所列地址无实体存在」的亚洲公司发放许可，并追问英伟达对特朗普相关项目的 2600 万美元捐赠如何计入。共和党方面，三个涉及中国的委员会要求黄仁勋闭门作证，他已于 11 月 12 日同意。此前 11 月 8 日董事会已启动独立调查、黄仁勋同日公开道歉。",
-    "Google 把「日常主力」这一层做实：11 月 12 日 Gemini 4 Hydrogen 面向所有用户全球推送，与前沿模型 Carbon、Argon 形成明确分层。官方口径为同档推理下完成任务速度达 Gemini 3.8 Flash 的 2.5 倍、Terminal-Bench 4.1 从 18.2% 提升至 57%、虚构陈述显著减少；Artificial Analysis 给出智能指数 54、接近 Sonnet 5.5 而成本更低。前沿模型负责深度，轻量模型负责吞吐——这个双层结构正在成为大厂默认的产品形态。"
+    "美联储把 AI 写进了系统性风险清单。11 月 13 日发布的半年度《金融稳定报告》中，AI 成为被提及最多的风险来源：报告称资产估值压力持续处于高位、股票估值指标居高不下，「部分受市场对超级智能的热情推动」，并把它与企业资本支出和发债联系起来。这句话的分量在于定性——AI 的定价问题不再只是产业叙事，而是央行监管框架里的一个变量。IMF 在 10 月报告中也发出过类似警告。",
+    "同一天，出口管制出现了第一份技术证据。前 OpenAI 研究员 Will DePue 通过其非营利组织 Unemployment Labs 发布 checkpoint 法证分析，称 6 个中国顶级开源模型的权重中带有 Blackwell 训练指纹，涉及 DeepSeek V4、Moonshot Kimi、MiniMax 与蚂蚁集团。这把「芯片如何流入中国」从国会信函里的怀疑，变成了一个可被第三方复核的技术命题——若被独立复现，将直接冲击 H200 售华许可的合法性论证。",
+    "Agent 拿到了支付通道。ChatGPT Wallet 于 11 月 13 日上线：dot 智能体可在用户逐笔批准、生物识别验证下代为完成购物与预订，用支付令牌替代真实卡号，同时保留原有信用卡奖励与交易争议保障。叠加此前 Replit Agent 的代购与广告投放能力，agent 正从「生成内容」跨到「完成交易」；随之而来的是争议退款、欺诈责任在模型方与卡组织之间如何划分——这是 2027 年之前必须回答的问题。"
   ],
   "top3": [
     {
       "rank": 1,
-      "title": "黄仁勋辞去英伟达总裁、CEO 及董事职务，CFO Colette Kress 出任临时 CEO",
-      "why": "这是 2026 年 AI 行业最重要的一次人事变动。黄仁勋执掌英伟达 33 年，是过去三年 AI 算力周期的象征物；他的离任不只是一家公司换帅，而是让「谁在为 AI 基础设施定价」这个问题暂时失去答案。当日市值蒸发约 1820 亿美元，说明市场把它当成结构性事件而非治理插曲。",
-      "summary": "英伟达官网 11 月 12 日发布董事会公告：黄仁勋已辞去总裁、首席执行官及董事会成员职务，即刻生效。现任执行副总裁兼首席财务官 Colette Kress 同意担任临时 CEO，并在正式继任者确定前继续履行 CFO 职责；董事会已启动正式 CEO 遴选，将同时考虑内部与外部候选人。公司还宣布史上首次设立董事会主席以稳定治理结构。市场反应剧烈：当日盘前一度跌超 13%、开盘后一度跌 14%，收盘跌 4.34% 报 166.19 美元，市值蒸发约 1820 亿美元（约合人民币 1.2 万亿元），总市值约 4.01 万亿美元，华尔街多家机构下调目标价。此前 11 月 8 日董事会已就「黄仁勋成为外国情报行动目标」的报道启动独立调查，黄仁勋同日发表声明承认「对妻子不忠」。",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "source": "NVIDIA 官方公告 / 中新网 / 上海证券报",
-      "time": "11-12"
+      "title": "美联储《金融稳定报告》：AI 成为美国金融稳定的最高提及风险",
+      "why": "这是央行系统第一次把 AI 放在金融稳定风险清单的首位，而不是作为「科技行业风险」的一个附注。它意味着后续的银行压力测试、估值审查与数据中心债务的统计口径，都可能开始以「AI 敞口」为轴重新组织。",
+      "summary": "美联储 11 月 13 日发布半年度《金融稳定报告》，指出人工智能与高企的资产估值可能带来潜在脆弱性。报告称「资产估值压力持续处于高位，股票估值指标仍然偏高，部分原因是市场对『超级智能』（super intelligence）的狂热」，并使用了特朗普偏爱的这一说法；报告还将风险与企业资本支出和发债联系起来，AI 是被提及最多的风险来源。IMF 在 2026 年 10 月的报告中亦就 AI 驱动的市场动态发出过类似警告。",
+      "url": "https://cryptobriefing.com/fed-survey-ai-top-financial-stability-risk/",
+      "source": "美联储半年度金融稳定报告 / Crypto Briefing / 新浪财经",
+      "time": "11-13"
     },
     {
       "rank": 2,
-      "title": "Google 发布 Gemini 4 Hydrogen 并全球全量推送",
-      "why": "它不是又一个「更强」的模型，而是把「够好且快且便宜」做成默认选项：同档推理 2.5 倍速度、Terminal-Bench 从 18.2% 跳到 57%、智能指数 54 接近 Sonnet 5.5。这会直接改变 agent 产品的成本结构——大多数日常任务不再需要调用前沿模型。",
-      "summary": "Google 于 11 月 12 日发布 Gemini 4 Hydrogen，定位为面向日常编码与 agentic 工作流的主力模型，与前沿模型 Gemini 4 Carbon、Gemini 4 Argon 并列但不替代。官方称与 Gemini 3.8 Flash 相比，默认高推理档位下完成任务速度达 2.5 倍，Terminal-Bench 4.1 得分从 18.2% 升至 57%，虚构陈述显著减少；提供四个可配置的思考档位，可独立使用也可与前沿模型搭配。当日即向全球开发者（Gemini API、AI Studio、Android Studio 付费层、Antigravity）、企业客户与普通消费者推送，免费用户通过自动模型选择获得。同日在 Cursor 上线，CursorBench 得分 54.3%；Artificial Analysis 评测其智能指数为 54，接近 Sonnet 5.5 且成本更低。",
-      "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
-      "source": "Google 官方博客 / DeepMind 模型卡 / 钛媒体 / Artificial Analysis",
-      "time": "11-12"
+      "title": "OpenAI 上线 ChatGPT Wallet，dot 智能体可代用户完成支付",
+      "why": "这是 agent 商业化的分水岭：此前 agent 能推荐、能下单到购物车，但不碰钱。ChatGPT Wallet 让模型在授权范围内真正完成扣款，同时用支付令牌、生物识别与卡组织争议保障三重机制把风险留在原有金融基础设施里——这是各家 agent 支付方案必须抄的模板。",
+      "summary": "OpenAI 于美东时间 11 月 13 日上午发布 ChatGPT Wallet：ChatGPT 的 dot 智能体可在美国 Pro 用户逐笔查看、批准并完成购物或预订付款。系统以与用户信用卡关联的支付令牌替代真实卡信息，使模型无需接触卡号即可完成交易，同时保留原有信用卡奖励与交易争议保障；每次购买需生物识别验证。该项功能与美国运通、Mastercard、Visa 及 Chase 合作开发，上线初期面向美国成年 Pro 订阅用户、须持有符合条件的美国信用卡，初期不从交易中抽成。",
+      "url": "https://www.huxiu.com/ainews/16303.html",
+      "source": "OpenAI 官方发布 / CNBC / 虎嗅",
+      "time": "11-13"
     },
     {
       "rank": 3,
-      "title": "美国国会两党同日升级对英伟达追责：民主党查对华芯片销售，共和党要求黄仁勋闭门作证",
-      "why": "两条线同时推进，指向的已不是一个人的私德，而是「H200 售华是怎么被批准的」「情报预警为何没有阻断 Megaspeed」这两个制度问题。少数党虽无强制权，但要求保全记录本身就是后续听证与立法的前置动作；共和党一侧则握有传票权。",
-      "summary": "11 月 12 日，众议院筹款委员会资深民主党议员 Richard Neal 与参议院财政委员会资深民主党议员 Ron Wyden 致函商务部长 Howard Lutnick，要求商务部门保全与英伟达 H200 售华安排有关的全部记录。信中把该安排描述为：特朗普同意 H200 销往中国，条件是先在台湾制造后运抵美国，抵美后加征关税，从而「通过一个看似违宪的出口税体系实质抽走英伟达对华销售的一部分」，随后商务部签发出口许可；信中还质疑为何在情报机构已提示 Alice Huang 及其与黄仁勋关系后仍允许 Megaspeed 采购芯片、为何批准「所列地址无实体存在」的亚洲公司，以及英伟达向特朗普相关项目（含宴会厅）捐赠的 2600 万美元在决策中起了什么作用。同日，由众议院中共问题特别委员会、外交事务委员会与情报委员会组成的共和党阵营要求黄仁勋闭门作证并曾威胁传票，黄仁勋已在辞职后同意出席。",
-      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "source": "TechCrunch / 美国国会信函",
+      "title": "前 OpenAI 研究员称 6 个中国顶级模型权重中带有被禁 Blackwell 芯片的训练指纹",
+      "why": "如果这一法证结论站得住，它改变的不是某一家公司的合规状态，而是整条出口管制叙事的证据等级：从此不必依赖线报，可以直接从公开权重里读出训练硬件。配合本周国会要求保全 H200 售华记录的动作，它可能成为后续听证的关键物证。",
+      "summary": "前 OpenAI 研究员 Will DePue（曾参与 Sora 与 GPT-5 的训练工作）通过其非营利组织 Unemployment Labs 于 11 月 12 日发布 checkpoint 法证分析，称 DeepSeek、Moonshot、MiniMax 与蚂蚁集团共 6 个最新模型的权重中带有英伟达 Blackwell 芯片的训练指纹，而美国规则禁止该类芯片对华出口。报告点名 DeepSeek V4 Flash 与 V4 Pro（2026 年 4 月）对应 Blackwell B200/B300 与 GB200/GB300，以及 Kimi 系列等。白宫技术顾问 Michael Kratsios 对此有公开表态；被点名的实验室尚未回应，亦未获监管机构确认。",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "source": "Unemployment Labs / The Decoder / Trending Topics",
       "time": "11-12"
     }
   ],
@@ -44,38 +44,36 @@
       "color": "blue",
       "items": [
         {
-          "title": "黄仁勋辞去英伟达总裁、CEO 及董事职务，CFO Colette Kress 出任临时 CEO",
-          "summary": "英伟达董事会 11-12 公告：黄仁勋辞去总裁、CEO 与董事职务，即刻生效；CFO Colette Kress 任临时 CEO 并继续兼管财务，董事会启动正式继任者遴选（内外候选并重），公司史上首次设立董事会主席。当日盘前跌超 13%、开盘一度跌 14%，收跌 4.34% 报 166.19 美元，市值蒸发约 1820 亿美元。",
-          "why": "创始人用股权抵御治理程序的路径在此失效，市场随即给出约 1820 亿美元的折价。",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-          "source": "NVIDIA 官方公告",
-          "time": "11-12",
-          "is_top": 1
+          "title": "WSJ 称黄仁勋被罢免主因是英伟达的高风险业务实践，而非私生活",
+          "summary": "据《华尔街日报》报道（经 The Decoder 转述），黄仁勋离开更可能追溯到英伟达自身的高风险业务实践，而非两段婚外情。核心指向其亲手搭建的「投资 + 算力担保」绑定模式：入股 OpenAI、Anthropic 等公司，同时以算力承诺锁定订单，使英伟达兼具最大出资方与最大供应商双重身份。同期细节：英伟达内部建议箱相关帖文获超 1600 条评论、多数员工请愿其回归；公司副总裁 Bryan Catanzaro 澄清一封要求恢复其职务的信件系伪造；据 36氪报道，长期董事、前 Synopsys CEO Harvey Jones 出任公司首任董事长。11-13 英伟达盘中一度跌 14.3%，AMD 与博通一度涨约 6%。",
+          "why": "把事件性质从「创始人私德」改写为「生态结构风险」，这决定了后续审查会指向业务模式还是个人。",
+          "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+          "source": "WSJ（经 The Decoder）/ 36氪",
+          "time": "11-13"
         },
         {
-          "title": "Google 发布 Gemini 4 Hydrogen 并全球全量推送",
-          "summary": "定位日常编码与 agentic 工作流的主力模型，与前沿模型 Carbon、Argon 并列。同档推理速度达 Gemini 3.8 Flash 的 2.5 倍，Terminal-Bench 4.1 从 18.2% 升至 57%，虚构陈述显著减少；四个可配置思考档位。当日推送至 API、AI Studio、Android Studio、Antigravity 与消费端，免费用户经自动模型选择获得。CursorBench 54.3%，Artificial Analysis 智能指数 54。",
-          "why": "「够好、够快、够便宜」被做成默认选项，agent 产品的日常调用成本结构随之改变。",
-          "url": "https://blog.google/intl/en-in/products/introducing-gemini-4-hydrogen/",
-          "source": "Google 官方博客 / DeepMind 模型卡",
-          "time": "11-12",
-          "is_top": 2
+          "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
+          "summary": "腾讯混元发布实时语音模型 Hy Realtime，在原实时对话能力之上新增工具调用与唱歌能力，可在语音交互中调用外部工具并按需演唱。",
+          "why": "实时语音加上工具调用，意味着语音入口不再只是「说与听」，而成为能执行动作的 agent 界面。",
+          "url": "https://mp.weixin.qq.com/s/bFxAT04ohJs9hPcjjin3bg",
+          "source": "腾讯混元",
+          "time": "11-13"
         },
         {
-          "title": "Anthropic 正式官宣 IPO，认购需求约为发行规模 6 倍，合计募资上限 904 亿美元",
-          "summary": "Anthropic 于 11-12 通过官方账号正式宣布启动 IPO。据知情人士，认购需求已达可供认购股份的约 6 倍。公司计划 IPO 募资最高约 644 亿美元，并通过单独私募配售再筹 260 亿美元，合计上限约 904 亿美元，对应估值约 1.4 万亿美元；若合并计算，其规模将超过 SpaceX 的 IPO。澳大利亚个人投资者认购已于 11-11 开放、预计 11-17 结束。",
-          "why": "6 倍认购意味着定价权已从发行人转向买方，最终定价可能顶到区间上限之上。",
-          "url": "https://x.com/AnthropicAI/status/2120841731302154708",
-          "source": "Anthropic 官方账号 / 财联社 / 36氪",
+          "title": "DeepSeek 开放「全家桶」应用 API：联网搜索、文件输入、阅读链接面向开发者",
+          "summary": "DeepSeek 在更新文档中开放全家桶应用 API，将联网搜索、文件输入、阅读链接等应用层能力直接提供给开发者调用。",
+          "why": "把搜索与文档理解做成平台能力，等于把自家应用的功能边界变成行业公共接口。",
+          "url": "https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api",
+          "source": "DeepSeek 官方文档",
           "time": "11-12"
         },
         {
-          "title": "World Labs 开放世界模型 Atlas，支持生成关键帧、视频片段与 3D Gaussian splats",
-          "summary": "World Labs 开放其世界模型 Atlas，可生成关键帧、视频片段以及 3D Gaussian splats，用于构建与编辑可交互的三维场景。",
-          "why": "把「世界模型」从演示推进到可被开发者调用的资产生产管线，是空间智能落地的关键一步。",
-          "url": "https://x.com/drfeifei/status/2120942509786558671",
-          "source": "World Labs（李飞飞）",
-          "time": "11-12"
+          "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
+          "summary": "Sierra 发布 Personal Agent Protocol（代号 Poppy）v1.0，为面向个人的 agent 定义可互操作的协议规范。",
+          "why": "在 MCP 解决工具调用、A2A 解决 agent 互访之后，个人 agent 的身份与授权协议补上了最后一块拼图。",
+          "url": "https://sierra.ai/blog/releasing-poppy",
+          "source": "Sierra 官方博客",
+          "time": "11-13"
         }
       ]
     },
@@ -85,28 +83,29 @@
       "color": "teal",
       "items": [
         {
-          "title": "Anthropic 推出 Claude Meetings，Claude 以可见参会者身份加入视频会议",
-          "summary": "Claude 可作为可见参会者加入 Google Meet 通话，在用户发言的同时与之共同构建文档、白板等工作成果，会后产出行动项与时间线。目前以测试版面向 Team 与 Enterprise 计划开放：Team 默认开启，Enterprise 需管理员启用；需连接 Google Calendar。隐私设计上，有外部人员在场时 Claude 会自动离开，且在允许参加的跨组织会议中只听不答。",
-          "why": "AI 从「会后整理」变成「会中同席」，会议这个最高密度的协作场景被纳入 agent 的实时工作面。",
-          "url": "https://claude.com/blog/claude-meetings",
-          "source": "Anthropic 官方博客",
-          "time": "11-12"
+          "title": "OpenAI 上线 ChatGPT Wallet，dot 智能体可代用户完成支付",
+          "summary": "dot 智能体可在美国 Pro 用户逐笔批准、生物识别验证下完成购物与预订；以支付令牌替代真实卡号，保留原有信用卡奖励与交易争议保障。与 Amex、Mastercard、Visa、Chase 合作，初期面向美国成年 Pro 用户、不从交易中抽成。",
+          "why": "agent 首次被允许「花钱」，风控边界从内容层延伸到资金层。",
+          "url": "https://www.huxiu.com/ainews/16303.html",
+          "source": "OpenAI 官方发布 / CNBC",
+          "time": "11-13",
+          "is_top": 2
         },
         {
-          "title": "Anthropic Fable 5.2 在 Remote Labor Index 上完成 41.3% 真实自由职业任务，一年前为 2.5%",
-          "summary": "据 The Decoder 报道，Anthropic 的 Fable 5.2 在 Remote Labor Index 基准上完成了 41.3% 的真实自由职业任务，而一年前同类模型仅完成 2.5%。",
-          "why": "真实外包任务的可替代比例一年内提升逾 16 倍，这是「AI 影响就业」从预测变成可测量数据的少数硬指标之一。",
-          "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
-          "source": "The Decoder / Remote Labor Index",
-          "time": "11-10"
+          "title": "Cursor 披露安全事件：恶意 Claude Code 扩展波及最多 5000 用户",
+          "summary": "Cursor 公布安全事件调查结果，称一款恶意 Claude Code 扩展影响了最多 5000 名用户，并披露了事件的时间线与处置措施。",
+          "why": "IDE 与 agent 扩展正在成为新的供应链攻击面，装一个扩展等于授予代码执行权限。",
+          "url": "https://cursor.com/blog/security-incident-update",
+          "source": "Cursor 官方博客",
+          "time": "11-13"
         },
         {
-          "title": "Replit Agent 新增代购能力与 Google Ads 投放功能",
-          "summary": "Replit Agent 新增两项商业侧能力：代购（可替用户完成商品采购流程）与 Google Ads 投放，使 agent 从「写代码」延伸到「花钱」。",
-          "why": "agent 一旦被授权付款与投放广告，就从工具变成交易主体，风控与责任归属问题随之出现。",
-          "url": "https://replit.com/blog/replit-agent-ads-commerce",
-          "source": "Replit 官方博客",
-          "time": "11-12"
+          "title": "Google 展示 Antigravity /teamwork 多智能体协作成果并向研究者开放",
+          "summary": "Google Research 展示 Antigravity 的 /teamwork 功能：多个智能体协作推进科学与工程任务，并向研究者开放使用。",
+          "why": "多智能体从演示走向可申请的科研基础设施，协作编排开始成为公开研究课题。",
+          "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "source": "Google Research",
+          "time": "11-13"
         }
       ]
     },
@@ -116,11 +115,20 @@
       "color": "amber",
       "items": [
         {
-          "title": "美国国会两党同日升级对英伟达追责：民主党查对华芯片销售，共和党要求黄仁勋闭门作证",
-          "summary": "Neal 与 Wyden 致函商务部长 Lutnick 要求保全 H200 售华相关记录，质疑情报预警后仍放行 Megaspeed、批准「地址无实体」的亚洲公司，以及英伟达对特朗普相关项目 2600 万美元捐赠的作用；共和党三个委员会要求黄仁勋闭门作证，他已同意。",
-          "why": "追责对象从个人扩展到行政部门的许可程序，出口管制的执行链条被摆上听证台。",
-          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-          "source": "TechCrunch / 美国国会信函",
+          "title": "美联储《金融稳定报告》：AI 成为美国金融稳定的最高提及风险",
+          "summary": "11-13 半年度报告指出 AI 与高企资产估值可能带来潜在脆弱性：估值压力持续高位、股票估值指标偏高，部分受「超级智能」热情推动，并与企业资本支出和发债相关联。AI 为被提及最多的风险来源。",
+          "why": "央行把 AI 估值风险提到首位，后续监管口径与压力测试框架可能随「AI 敞口」重构。",
+          "url": "https://cryptobriefing.com/fed-survey-ai-top-financial-stability-risk/",
+          "source": "美联储 / Crypto Briefing / 新浪财经",
+          "time": "11-13",
+          "is_top": 1
+        },
+        {
+          "title": "前 OpenAI 研究员称 6 个中国顶级模型权重中带有被禁 Blackwell 芯片训练指纹",
+          "summary": "Unemployment Labs 对公开权重做法证分析，指 DeepSeek V4 Flash/Pro、Moonshot Kimi、MiniMax 与蚂蚁共 6 个模型带有 Blackwell（B200/B300、GB200/GB300）训练指纹，而该芯片被禁止对华出口。被点名方尚未回应。",
+          "why": "出口管制首次拥有可从公开权重复核的技术证据，直接触及 H200 售华许可的合法性问题。",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics",
+          "source": "Unemployment Labs / The Decoder",
           "time": "11-12",
           "is_top": 3
         }
@@ -132,53 +140,51 @@
       "color": "violet",
       "items": [
         {
-          "title": "Epoch AI：华为和林格尔数据中心约 8.1 万 H100 等效算力，仅为 Colossus 2 的 7%",
-          "summary": "Epoch AI 结合卫星影像与公开资料估算，华为位于内蒙古和林格尔的 AI 数据中心约有 8.1 万 H100 等效算力，约为全球最大 AI 数据中心、位于田纳西的 Colossus 2 的 7%；该园区 IT 电力 946 MW，每兆瓦承载的算力约为美国领先站点的 40%，资本成本估计 64 亿美元。报告结论是：中国有电力，但受限于更少且更低效的芯片。",
-          "why": "把「中美算力差距」从叙事变成可核对的数字：差距的主因正从电力转向芯片效率。",
-          "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
-          "source": "Epoch AI",
-          "time": "11-06 发布（11-12 进入本窗口视野）"
+          "title": "llama.cpp 发布 v1.0.0，本地运行大模型迎来首个稳定大版本",
+          "summary": "llama.cpp 发布 v1.0.0，这是该项目首个稳定大版本，标志本地推理框架从长期迭代进入版本化维护阶段。",
+          "why": "本地推理的事实标准进入 1.0，意味着端侧部署从实验性工具转为可被正式依赖的基础设施。",
+          "url": "https://x.com/ClementDelangue/status/2121260104913768931",
+          "source": "llama.cpp / Hugging Face",
+          "time": "11-13"
         },
         {
-          "title": "OpenAI 用自动化红队训练提升 GPT-6 Astra 与 Sol 在高风险领域的模糊鲁棒性",
-          "summary": "OpenAI 发布研究，介绍如何用自动化红队（automated red teaming）训练提升模型面对边界模糊请求时的鲁棒性，覆盖生物、暴力等高风险领域，并将该方法应用于 GPT-6 Astra 与 GPT-5.6 Sol。",
-          "why": "安全训练从「按类目拒答」转向「按模糊度校准」，这是应对越狱的更可行路径，也意味着红队本身正在被自动化。",
-          "url": "https://alignment.openai.com/fuzzy-robustness/",
-          "source": "OpenAI Alignment",
+          "title": "Edge0 开源 145B 端侧模型，称可在笔记本本地运行",
+          "summary": "Edge0 开源 145B 参数模型，官方称其可在个人笔记本本地运行，主打在自有设备上获得接近前沿的 AI 能力。",
+          "why": "145B 量级 + 稳定推理框架 + 本地运行，三者叠加意味着「数据不出设备」的实用方案正在成形。",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "source": "Edge0 官方博客",
           "time": "11-12"
         },
         {
-          "title": "Microsoft Research 披露 Lazarus 权重空间后门：重编程休眠神经元攻击 AI Agent",
-          "summary": "Microsoft Research 公开 Lazarus 技术，通过在模型权重空间中重编程休眠神经元植入后门，使被感染的模型在特定触发条件下按攻击者意图行动，且难以通过常规输入输出检测发现。",
-          "why": "后门从数据层与提示层下沉到权重层，意味着「检查行为」不再足以证明模型安全，权重本身需要被审计。",
-          "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
-          "source": "Microsoft Research",
-          "time": "11-10"
+          "title": "OpenAI 披露误停运行中对齐评估的失准事故",
+          "summary": "OpenAI 在 alignment 站点披露一起事故：系统误将正在运行的对齐评估中止，导致该次评估结果失准，并说明了排查与改进措施。",
+          "why": "把「评估被误停」当成需要公开的事故，说明对齐评估的可靠性本身已被纳入可信度管理。",
+          "url": "https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/",
+          "source": "OpenAI Alignment",
+          "time": "11-12"
         }
       ]
     }
   ],
   "observations": [
-    "英伟达下周二财报（「后黄仁勋时代」第一次压力测试）：临时 CEO 的管理层指引是否下调、数据中心订单与 CoWoS 产能排期是否出现客户观望，以及是否有大客户开始分散采购。",
-    "英伟达正式 CEO 的遴选结果与首任董事会主席人选：外部候选人是否会带来战略调整（尤其是对华业务与生态开放度）。",
-    "国会两条线的后续：民主党信函能否换来商务部交出记录；共和党闭门听证的内容与是否升级为公开听证或立法；「情报预警为何未阻断 Megaspeed」是否触发出口管制执行流程的修订。",
-    "Alice Huang 与 Megaspeed 的司法进展：是否出现刑事指控，以及新加坡侧的配合程度——这决定了事件是停在治理层还是进入执法层。",
-    "Anthropic 最终定价与上市时点：6 倍认购能否把定价推到 78 美元上限以上；不同信源对上市日的口径在 11-19 与 11-20 之间分歧，需以官方为准。",
-    "Gemini 4 Hydrogen 的实际替代率：在 agent 产品中，多少原本调用前沿模型的请求会被路由到 Hydrogen——这直接决定 Carbon/Argon 的商业价值边界。",
-    "Claude Meetings 的合规接受度：企业是否接受 AI 常驻会议；「外部人员进入即自动离开」这一设计会不会成为同类产品的默认规范。",
-    "权重层安全三线并行：Lazarus 休眠神经元后门、稀释投毒反强化、二进制补丁武器化（CyberBinGym）——模型安全评估的重心正在从文本对齐转向权重与基础设施审计。"
+    "美联储报告的落地方式：AI 估值风险是否进入 FOMC 讨论与银行压力测试口径，数据中心相关债务是否被纳入监管统计——这是「表述」变成「约束」的关键一步。",
+    "Blackwell 指纹报告的独立复现：DeepSeek、Moonshot、MiniMax、蚂蚁是否回应；商务部与国会是否据此启动调查或重新审视 H200 许可。若被第三方复现，出口管制的举证方式会整体改变。",
+    "黄仁勋事件的性质重定义：WSJ 把主因从私德转向「投资 + 算力担保」绑定模式，英伟达同时作为最大出资方与最大供应商的双重身份，是否会成为反垄断与系统性风险审查的焦点。",
+    "英伟达治理的后续：首任董事长人选（据 36氪为前 Synopsys CEO Harvey Jones）与正式 CEO 遴选结果；临时 CEO Colette Kress 在下周二财报上的指引口径。",
+    "Agent 支付的监管接缝：ChatGPT Wallet「初期不抽成」能维持多久；争议退款与欺诈责任如何在模型方、卡组织与商户之间分配；国内是否会出现同类持牌路径。",
+    "端侧门槛的实质下降：llama.cpp v1.0.0 与 Edge0 145B 的组合效应，以及厂商「笔记本可跑」口径在量化与内存配置下的真实表现。",
+    "对齐评估的可靠性管理：OpenAI 公开「误停运行中评估」这类事故，是否会让「可解释中止」「评估审计」成为行业标准动作。",
+    "语音入口的竞争：腾讯 Hy Realtime 把实时语音与工具调用结合，若语音成为 agent 的主交互面，分发格局会否从 App 转向设备与通道。"
   ],
   "notes": [
-    "窗口 2026-11-10 ~ 11-13（今日 10:17 抓取），数据源 aihot.news 正常，共 64 条候选（11-12 25 条 / 11-11 16 条 / 11-10 23 条）。",
-    "黄仁勋离任的表述以英伟达官方公告为准：公告用词为「resigned（辞去）」，即刻生效；TechCrunch 同日报道使用「ousted（被赶下台）」，两种叙述对应同一事件，本报告采用官方措辞并注明媒体口径差异。此前 11-08 董事会公告称已就「黄仁勋成为外国情报行动目标」的报道启动独立调查，黄仁勋同日发表声明承认对妻子不忠——该声明与调查启动早于辞职，构成完整时间线。",
-    "股价数据存在盘中与收盘两种口径：盘前一度跌超 13%、开盘后一度跌 14%、收盘跌 4.34% 报 166.19 美元、市值蒸发约 1820 亿美元（约合人民币 1.2 万亿元）、总市值约 4.01 万亿美元。不同媒体对「蒸发」的时点定义不同（盘中低点或收盘），本报告采用收盘口径。",
-    "Anthropic IPO 数字口径：IPO 部分上限约 644 亿美元（8.25 亿股 × 78 美元），加 260 亿美元私募配售合计上限约 904 亿美元；6 倍认购为知情人士口径；估值约 1.4 万亿美元为媒体测算。上市日期口径不一致——36氪 11-11 报道称认购 11-17 结束、料 11-20 上市，早前媒体口径为 11-18 定价、11-19 交易，官方公告未载明日期，需以最终官方披露为准。",
-    "Gemini 4 Hydrogen 的「2.5 倍速度」「Terminal-Bench 4.1 从 18.2% 到 57%」「虚构陈述显著减少」为 Google 官方口径；「智能指数 54」「CursorBench 54.3%」分别来自 Artificial Analysis 与 Cursor 方的第三方评测，非 Google 官方数字。",
-    "Epoch AI 的华为和林格尔报告实际发布于 2026-11-06，超出本报告 3 天窗口，因数据价值高且首次于 11-12 进入可检索视野而纳入，已在条目 time 字段明确标注发布时间。其核心数字均为卫星影像加公开资料的估算值，非华为官方披露。",
-    "Claude Meetings 的 Beta 范围、定价与数据存放地官方均未说明；「外部人员在场自动离开」「只听不答」为官方与媒体对隐私设计的描述，具体行为边界以产品实际表现为准。",
-    "World Labs Atlas 与 Anthropic IPO 官方宣布两条的一手信源为官方账号与官方博客，缺少独立媒体交叉验证的量化细节，故摘要中不列具体性能或金额。",
-    "Grok 相关诉讼未单列：加州总检察长对 xAI 的调查启动于 2026 年 1 月，Jane Doe 集体诉讼（5:26-cv-00772）亦为更早事件，今日候选中的「面临多起集体诉讼」属旧闻重述，非本窗口新增。",
-    "未收录的 tip/opinion 类内容：Claude Code 模型选型指南、OpenRouter 的 MCP/CLI/Skills 上下文成本实测、fp8 与 fp4 量化对比、OpenRouter 自纠错网站本地化流水线（GPT-6.1 Sol 翻译 7 种语言约 460 美元）、六模型防无限循环四层防护、Claude Tag 创业公司指南、Anthropic 员工推荐的项目审查提示词、Lovable 平台安全机制、Claude Fable 5.2 吞噬审美的实测观察、a16z 的 B2A 经济论、Gary Marcus 对 1.4 万亿估值的质疑、PSI 的 AI 科研商业模式——多为技巧、观点或单方论述，无新增行业事实。",
-    "已在前几日报告覆盖、今日无实质新增的事项未重复：Gemini Decisions API（11-11 报告）、Runway Praxis-1 开源（11-12 报告）、百度 ERNIE 5.5 Flash Preview（11-12 报告）、Claroc 94.7% Grok 应用扫描（11-12 报告）、OpenAI Q3 营收 100 亿美元（11-12 报告）。"
+    "窗口 2026-11-11 ~ 11-14（今日 10:00 抓取），数据源 aihot.news 正常，共 61 条候选（11-13 20 条 / 11-12 30 条 / 11-11 11 条）。",
+    "美联储报告于 11-13 美东时间发布，中文媒体在 11-14 集中报道，故在窗口内。需要说明口径：「AI 是最高提及风险」指在报告所列风险中被受访者/引用次数最多，并非报告唯一结论；报告同时讨论了资产估值、企业资本支出与发债、以及对冲基金杠杆等。表述「超级智能」为报告原文引用特朗普的偏好用语。",
+    "ChatGPT Wallet 细节来自 OpenAI 官方发布与 CNBC、虎嗅等转述。卡组织合作方在不同信源列举略有差异：美国运通、Mastercard、Visa 见于多家报道，Chase 仅见于部分信源；「初期不抽成」为媒体口径，官方未作长期承诺。具体可用卡种与地域限制以官方说明为准。",
+    "Blackwell 指纹报告为第三方非营利机构（Unemployment Labs，作者 Will DePue，前 OpenAI 研究员）的法证分析，非监管或官方结论。其方法是从公开权重反推训练硬件特征，作者自称提供「首个技术证据」；报告发布后未见 DeepSeek、Moonshot、MiniMax、蚂蚁任何一方公开回应，亦未获美国监管机构确认。被点名型号清单以报告原始页面为准，本报告仅列媒体一致提到的范围。",
+    "WSJ 关于「主因是高风险业务而非私生活」的报道原文位于付费墙，本报告依据 The Decoder 的转述，未见英伟达官方回应。「首任董事长为前 Synopsys CEO Harvey Jones」仅见于 36氪一处报道，需以英伟达官方公告复核；英伟达官方 11-12 公告仅说明「史上首次设立董事会主席」而未具名。",
+    "Edge0 145B「可在笔记本本地运行」为厂商官方口径，实际可用性取决于量化方案、内存与显存配置，本报告未做独立验证。",
+    "未收录的 tip / 观点类内容：Claude Code 的 Stop hook exit code 2 技巧、Anthropic 常驻智能体五架构原语、OpenRouter 自纠错本地化流水线（7 语种约 460 美元）、OpenRouter 六模型四层防护、Claude Tag 创业指南、Claude Code 模型选型建议；a16z 的 B2A 经济论、Rohan Paul 的乔布斯类比、多位作者的复盘与评论——均为技巧、方法论或单方论述，无新增行业事实。",
+    "已在前几日报告覆盖、今日无实质新增事实、故未重复：黄仁勋辞任基本事实与市场反应、Gemini 4 Hydrogen 发布与全球推送、Anthropic IPO 定价与 6 倍认购、Epoch AI 华为和林格尔算力报告、Claude Meetings、Fable 5.2 的 Remote Labor Index 41.3%、Replit Agent 代购与广告投放、Grok 相关诉讼与 Claroc 扫描、OpenAI Q3 营收 100 亿美元、Anthropic 修订版 S1 的百亿美元级算力协议。",
+    "「Nvidia 领导层变动引发以色列科技界关注」「Jensen Huang 离任给 AI 创业融资留下缺口」「Cerebral Valley AI Summit 现场观察」属同一事件的评论与延伸解读，已并入 companies 首条，不单列。"
   ]
 }
